@@ -1,5 +1,5 @@
 //
-//  SBDBaseChannel+Manager.h
+//  SBDBaseMessage+SyncManager.h
 //  SendBird-iOS
 //
 //  Created by sendbird-young on 2018. 5. 17..
@@ -9,8 +9,6 @@
 #import <SendBirdSDK/SendBirdSDK.h>
 #import "SBSMObject.h"
 
-@interface SBDBaseChannel (Manager) <SBSMObject>
-
-- (SBDChannelType)channelType;
+@interface SBDBaseMessage (SyncManager) <SBSMObject>
 
 @end

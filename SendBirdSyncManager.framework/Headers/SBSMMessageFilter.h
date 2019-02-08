@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <SendBirdSDK/SendBirdSDK.h>
-#import "SBSMConstants+Internal.h"
+#import "SBSMConstants.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

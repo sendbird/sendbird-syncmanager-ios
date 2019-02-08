@@ -6,12 +6,16 @@
 //  Copyright © 2018년 SendBird. All rights reserved.
 //
 
-#import "SBDBaseChannel+Manager.h"
-#import "SBDBaseMessage+Manager.h"
-#import "SBDGroupChannelListQuery+Manager.h"
-#import "SBSMError.h"
+#import <SendBirdSDK/SendBirdSDK.h>
+#import "SBSMSyncManager.h"
 
+#import "SBDBaseChannel+SyncManager.h"
+#import "SBDGroupChannel+SyncManager.h"
+#import "SBDBaseMessage+SyncManager.h"
+#import "SBDGroupChannelListQuery+SyncManager.h"
+#import "SBSMObject.h"
 #import "SBSMChannelQuery.h"
+#import "SBSMError.h"
 
 #import "SBSMCollection.h"
 #import "SBSMChannelCollection.h"

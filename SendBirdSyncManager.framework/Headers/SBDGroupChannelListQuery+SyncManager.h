@@ -1,5 +1,5 @@
 //
-//  SBDGroupChannelListQuery+Manager.h
+//  SBDGroupChannelListQuery+SyncManager.h
 //  SyncManager
 //
 //  Created by sendbird-young on 2018. 6. 20..
@@ -9,6 +9,6 @@
 #import <SendBirdSDK/SendBirdSDK.h>
 #import "SBSMChannelQuery.h"
 
-@interface SBDGroupChannelListQuery (Manager) <SBSMChannelQuery>
+@interface SBDGroupChannelListQuery (SyncManager) <SBSMChannelQuery>
 
 @end

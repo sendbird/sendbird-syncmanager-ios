@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "SBDBaseChannel+Manager.h"
+#import "SBDBaseChannel+SyncManager.h"
 #import "SBSMObject.h"
 #import "SBSMCollection.h"
 #import "SBSMConstants.h"

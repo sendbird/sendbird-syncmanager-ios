@@ -16,6 +16,7 @@
 
 typedef void(^SBSMVoidHandler)(void);
 typedef void(^SBSMErrorHandler)(SBDError * _Nullable error);
+typedef void(^SBSMBoolHandler)(BOOL boolValue);
 
 #pragma mark - channel
 typedef void(^SBSMGetChannelsHandler)(NSArray <SBDGroupChannel *> * _Nonnull channels, SBDError * _Nullable error);
@@ -23,6 +24,7 @@ typedef void(^SBSMUpsertChannelsHandler)(NSArray <SBDGroupChannel *> * _Nonnull 
 typedef void(^SBSMGetChannelHandler)(SBDGroupChannel * _Nullable channel, SBDError * _Nullable error);
 
 typedef void(^SBSMChannelQueryCompletionHandler)(NSArray<SBDGroupChannel *> * _Nullable channels, SBDError * _Nullable error);
+typedef NSComparisonResult(^SBSMChannelComparison)(SBDGroupChannel * _Nonnull channel1, SBDGroupChannel * _Nonnull channel2);
 
 #pragma mark - message
 typedef void(^SBSMMessageCollectionHandler)(SBSMMessageCollection * _Nullable collection, SBDError * _Nullable error);
