@@ -44,7 +44,7 @@ Now you can see installed SendBird framework by inspecting YOUR_PROJECT.xcworksp
 3. Go to your Xcode project's "General" settings. Open `<YOUR_XCODE_PROJECT_DIRECTORY>/Carthage/Build/iOS` in Finder and drag `SendBirdSyncManager.framework` to the "Embedded Binaries" section in Xcode. Make sure `Copy items if needed` is selected and click `Finish`.
 
 ## Sample
-Check out [iOS Sample with SyncManager](https://github.com/smilefam/SendBird-iOS/syncmanager/) which is same as iOS Sample with SyncManager integrated.
+Check out [iOS Sample with SyncManager](https://github.com/smilefam/SendBird-iOS/tree/master/syncmanager) which is same as iOS Sample with SyncManager integrated.
 
 ## Usage
 
