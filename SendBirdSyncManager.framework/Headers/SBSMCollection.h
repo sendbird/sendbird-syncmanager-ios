@@ -10,12 +10,14 @@
 #define SBSMCollection_h
 
 #import <Foundation/Foundation.h>
+#import "SBSMConstants.h"
 
 @protocol SBSMObject;
 
 @protocol SBSMCollection <NSObject>
 
 - (NSComparisonResult)orderAscendingBetweenObject:(id<SBSMObject> _Nonnull)obj1 andObject:(id<SBSMObject> _Nonnull)obj2;
+- (nonnull SBSMObjectComparator)comparator;
 
 @end
 

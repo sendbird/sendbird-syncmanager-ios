@@ -3,7 +3,7 @@
 
 [![Platform](https://img.shields.io/badge/platform-iOS-orange.svg)](https://cocoapods.org/pods/SendBirdSyncManager)
 [![Languages](https://img.shields.io/badge/language-Objective--C%20%7C%20Swift-orange.svg)](https://github.com/smilefam/sendbird-syncmanager-ios)
-[![CocoaPods](https://img.shields.io/badge/pod-v1.0.0-green.svg)](https://cocoapods.org/pods/SendBirdSyncManager)
+[![CocoaPods](https://img.shields.io/badge/pod-v1.0.1-green.svg)](https://cocoapods.org/pods/SendBirdSyncManager)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Commercial License](https://img.shields.io/badge/license-Commercial-brightgreen.svg)](https://github.com/smilefam/sendbird-syncmanager-ios/blob/master/LICENSE.md)
 
@@ -37,6 +37,8 @@ pod update SendBirdSyncManager
 
 Now you can see installed SendBird framework by inspecting YOUR_PROJECT.xcworkspace.
 
+> Note: `SendBirdSyncManager` is dependent with `SendBird SDK`. If you install `SendBirdSyncManager`, Cocoapods automatically install `SendBird SDK` as well. And the minimum version of `SendBird SDK` is **3.0.130**.
+
 ## Install SendBird Framework from Carthage
 
 1. Add `github "smilefam/sendbird-syncmanager-ios"` to your `Cartfile`.
@@ -51,28 +53,19 @@ Check out [iOS Sample with SyncManager](https://github.com/smilefam/SendBird-iOS
 ### Initialization
 `SBSMSyncManager` is singlton class. And when `SBSMSyncManager` was initialized, a instance for `Database` is set up. So if you want to initialize `Database` as soon as possible, call `setup(_:)` first just after you get a user's ID. we recommend it is in `application(_:didFinishLaunchingWithOptions:)`.
 ```swift
-// AppDelegate.swift
-func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-
-    ... // get user's ID    
-    SBSMSyncManager.setup(withUserId: userId)
-    ...
-}
+// swift
+// after getting user's ID or login
+SBSMSyncManager.setup(withUserId: userId)
 ```
 ```objc
-// AppDelegate.m
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    ...
-
-    [SBSMSyncManager setupWithUserId:userId];
-
-    ...
-}
+// objective-c
+// after getting user's ID or login
+[SBSMSyncManager setupWithUserId:userId];
 ```
 
 ### Collection
 
-`Collection` is a container to manage objects(channels, messages) related to a view. `SBSMChannelCollection` is attached to channel list view contoller and `SBSMMessageCollection` is attached to message list view contoller accordingly. The main purpose of `Collection` is,
+`Collection` is a container to manage SendBird objects(`SBDGroupChannel`, `SBDBaseMessage`) related to a view. `SBSMChannelCollection` is attached to channel list view contoller and `SBSMMessageCollection` is attached to message list view contoller accordingly. The main purpose of `Collection` is,
 
 - To listen data event and deliver it as view event.
 - To fetch data from cache or SendBird server and deliver the data as view event.
@@ -114,7 +107,7 @@ channelCollection.remove()
 [channelCollection remove];
 ```
 
-As aforementioned, `SBSMChannelCollection` provides event handler with delegate. Event handler is named as `SBSMChannelCollectionDelegate` and it receives `SBSMChannelEventAction` and list of `channels` when an event has come. The `SBSMChannelEventAction` is a keyword to notify what happened to the channel list, and the `channel` is a kind of `SBDGroupChannel` instance. You can create an view controller instance and implement the event handler and add it to the collection.
+As aforementioned, `SBSMChannelCollection` provides event handler with delegate. Event handler is named as `SBSMChannelCollectionDelegate` and it receives `SBSMChannelEventAction` and list of `channels` when an event has come. The `SBSMChannelEventAction` is a keyword to notify what happened to the channel list, and the `channel` is one of `SBDGroupChannel` instance. You can create an view controller instance and implement the event handler and add it to the collection.
 
 ```swift
 // swift

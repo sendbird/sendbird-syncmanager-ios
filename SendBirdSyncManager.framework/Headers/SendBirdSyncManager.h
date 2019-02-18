@@ -26,8 +26,3 @@
 #import "SBSMOperationQueue.h"
 #import "SBSMOperation.h"
 
-//! Project version number for SendBirdSyncManager.
-FOUNDATION_EXPORT double SendBirdSyncManagerVersionNumber;
-
-//! Project version string for SendBirdSyncManager.
-FOUNDATION_EXPORT const unsigned char SendBirdSyncManagerVersionString[];

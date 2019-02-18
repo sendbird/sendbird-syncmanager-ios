@@ -24,8 +24,8 @@
 @property (weak, atomic, nullable) id<SBSMMessageCollectionDelegate> delegate;
 @property (strong, nonatomic, readonly, nonnull) NSArray <SBDBaseMessage *> *messages;
 @property (strong, nonatomic, readonly, nonnull) SBDGroupChannel *channel;
-@property (atomic) NSUInteger limit;
-@property (atomic) BOOL reverse;
+@property (nonatomic, readonly) NSUInteger limit;
+@property (nonatomic, readonly) BOOL reverse;
 
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wnullability"

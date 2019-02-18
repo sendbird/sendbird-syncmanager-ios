@@ -10,6 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+NSString * _Nonnull SBSMSyncManagerVersionString(void);
+NSInteger SBSMSyncManagerBuildNumber(void);
+
 @interface SBSMSyncManager : NSObject
 
 + (nonnull instancetype)setupWithUserId:(nonnull NSString *)userId;
