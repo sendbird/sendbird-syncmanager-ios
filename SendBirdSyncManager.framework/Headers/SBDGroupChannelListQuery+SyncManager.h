@@ -7,8 +7,8 @@
 //
 
 #import <SendBirdSDK/SendBirdSDK.h>
-#import "SBSMChannelQuery.h"
+#import "SBSMComparator.h"
 
-@interface SBDGroupChannelListQuery (SyncManager) <SBSMChannelQuery>
+@interface SBDGroupChannelListQuery (SyncManager) <NSObject, NSCopying, SBSMComparator>
 
 @end

@@ -3,7 +3,7 @@
 
 [![Platform](https://img.shields.io/badge/platform-iOS-orange.svg)](https://cocoapods.org/pods/SendBirdSyncManager)
 [![Languages](https://img.shields.io/badge/language-Objective--C%20%7C%20Swift-orange.svg)](https://github.com/smilefam/sendbird-syncmanager-ios)
-[![CocoaPods](https://img.shields.io/badge/pod-v1.0.1-green.svg)](https://cocoapods.org/pods/SendBirdSyncManager)
+[![CocoaPods](https://img.shields.io/badge/pod-v1.1.0-green.svg)](https://cocoapods.org/pods/SendBirdSyncManager)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Commercial License](https://img.shields.io/badge/license-Commercial-brightgreen.svg)](https://github.com/smilefam/sendbird-syncmanager-ios/blob/master/LICENSE.md)
 
@@ -37,7 +37,7 @@ pod update SendBirdSyncManager
 
 Now you can see installed SendBird framework by inspecting YOUR_PROJECT.xcworkspace.
 
-> Note: `SendBirdSyncManager` is dependent with `SendBird SDK`. If you install `SendBirdSyncManager`, Cocoapods automatically install `SendBird SDK` as well. And the minimum version of `SendBird SDK` is **3.0.130**.
+> Note: `SendBirdSyncManager` is dependent with `SendBird SDK`. If you install `SendBirdSyncManager`, Cocoapods automatically install `SendBird SDK` as well. And the minimum version of `SendBird SDK` is **3.0.132**.
 
 ## Install SendBird Framework from Carthage
 
@@ -95,6 +95,7 @@ SBDGroupChannelListQuery *query = [SBDGroupChannel createMyGroupChannelListQuery
 // ...setup your query here
 SBSMChannelCollection *channelCollection = [SBSMChannelCollection collectionWithQuery:query];
 ```
+> Note: Currently SyncManager supports `includeEmptyChannel` and `customTypesFilter` only. Technically other filters may work properly but SendBird doesn't guarantee them to work as expected.
 
 If the view is closed, which means the collection is obsolete and no longer used, remove collection explicitly.
 

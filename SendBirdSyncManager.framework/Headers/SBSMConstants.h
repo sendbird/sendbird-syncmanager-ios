@@ -25,9 +25,7 @@ typedef NSComparisonResult(^SBSMObjectComparator)(id<SBSMObject> _Nonnull object
 
 #pragma mark - channel
 typedef void(^SBSMGetChannelsHandler)(NSArray <SBDGroupChannel *> * _Nonnull channels, SBDError * _Nullable error);
-typedef void(^SBSMUpsertChannelsHandler)(NSArray <SBDGroupChannel *> * _Nonnull insertedChannels, NSArray <SBDGroupChannel *> * _Nonnull updatedChannels, SBDError * _Nullable error);
 typedef void(^SBSMGetChannelHandler)(SBDGroupChannel * _Nullable channel, SBDError * _Nullable error);
-
 typedef void(^SBSMChannelQueryCompletionHandler)(NSArray<SBDGroupChannel *> * _Nullable channels, SBDError * _Nullable error);
 typedef NSComparisonResult(^SBSMChannelComparison)(SBDGroupChannel * _Nonnull channel1, SBDGroupChannel * _Nonnull channel2) DEPRECATED_MSG_ATTRIBUTE("use `SBSMChannelComparator`");
 typedef NSComparisonResult(^SBSMChannelComparator)(SBDGroupChannel * _Nonnull channel1, SBDGroupChannel * _Nonnull channel2);

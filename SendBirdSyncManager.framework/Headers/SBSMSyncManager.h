@@ -21,7 +21,6 @@ NSInteger SBSMSyncManagerBuildNumber(void);
 - (void)resumeSynchronize;
 - (void)pauseSynchronize;
 
-- (void)clearCache;
 + (void)clearCache;
 
 @end

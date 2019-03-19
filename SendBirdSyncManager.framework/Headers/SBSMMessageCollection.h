@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "SBSMCollection.h"
+#import "SBSMComparator.h"
 #import "SBSMConstants.h"
 
 @class SBDBaseMessage, SBDGroupChannel;
@@ -19,7 +19,7 @@
 
 @end
 
-@interface SBSMMessageCollection : NSObject <SBSMCollection>
+@interface SBSMMessageCollection : NSObject <SBSMComparator>
 
 @property (weak, atomic, nullable) id<SBSMMessageCollectionDelegate> delegate;
 @property (strong, nonatomic, readonly, nonnull) NSArray <SBDBaseMessage *> *messages;

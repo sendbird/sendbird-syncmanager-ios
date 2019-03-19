@@ -17,7 +17,7 @@
 #import "SBSMChannelQuery.h"
 #import "SBSMError.h"
 
-#import "SBSMCollection.h"
+#import "SBSMComparator.h"
 #import "SBSMChannelCollection.h"
 #import "SBSMMessageCollection.h"
 #import "SBSMMessageFilter.h"

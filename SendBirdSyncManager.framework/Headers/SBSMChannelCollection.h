@@ -9,9 +9,8 @@
 #import <Foundation/Foundation.h>
 #import "SBDBaseChannel+SyncManager.h"
 #import "SBSMObject.h"
-#import "SBSMCollection.h"
+#import "SBSMComparator.h"
 #import "SBSMConstants.h"
-#import "SBSMChannelQuery.h"
 
 @protocol SBSMChannelQuery;
 @class SBSMChannelCollection;
@@ -22,10 +21,10 @@
 
 @end
 
-@interface SBSMChannelCollection : NSObject <SBSMCollection>
+@interface SBSMChannelCollection : NSObject <SBSMComparator>
 
 @property (weak, atomic, nullable) id<SBSMChannelCollectionDelegate> delegate;
-@property (strong, nonatomic, readonly, nonnull) id<SBSMChannelQuery> query;
+@property (strong, nonatomic, readonly, nonnull) SBDGroupChannelListQuery *query;
 @property (strong, nonatomic, readonly, nonnull) NSArray <SBDGroupChannel *> *channels;
 
 /**
@@ -36,8 +35,8 @@
 - (nullable instancetype)init NS_UNAVAILABLE;
 #pragma clang diagnostic pop
 
-+ (nullable instancetype)collectionWithQuery:(id<SBSMChannelQuery> _Nonnull)query;
-- (nullable instancetype)initWithQuery:(id<SBSMChannelQuery> _Nonnull)query
++ (nullable instancetype)collectionWithQuery:(nonnull SBDGroupChannelListQuery *)query;
+- (nullable instancetype)initWithQuery:(nonnull SBDGroupChannelListQuery *)query
 NS_DESIGNATED_INITIALIZER;
 - (void)remove;
 

@@ -10,15 +10,14 @@
 #define SBSMError_h
 
 typedef NS_ENUM(NSUInteger, SBSMErrorCode) {
-    SBSMErrorCodeDuplicatedFetch = 1000100,
-    SBSMErrorCodeUserIdDoesNotExist = 1000110,
+    SBSMErrorCodeDatabaseIOError                = 810001,
     
-    SBSMErrorCodeFailedInitializationDatabase = 1000200,
-    SBSMErrorCodeDatabaseIOError = 1000210,
+    SBSMErrorCodeSetupNotCalled                 = 810100,
     
-    SBSMErrorCodeInvalidParameter = 1000300,
-    SBSMErrorCodeNotEnoughParameter,
-    SBSMErrorCodeInvalidTimeRange,
+    SBSMErrorCodeDuplicatedFetch                = 810200,
+    
+    SBSMErrorCodeInvalidParameter               = 810300,
+    SBSMErrorCodeInvalidTimeRange               = 810305,
 };
 
 #endif /* SBSMError_h */
