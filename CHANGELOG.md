@@ -1,5 +1,8 @@
 # Change Log
 
+### v1.1.0 (Mar 23, 2019)
+* Remove `SBSMChannelQuery` from header.
+
 ### v1.1.0 (Mar 19, 2019)
 * Support full synchronization for channel.
 * **Changed minimum compatible version of `SendBirdSDK` into v3.0.132.**

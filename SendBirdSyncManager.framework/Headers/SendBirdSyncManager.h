@@ -14,7 +14,6 @@
 #import "SBDBaseMessage+SyncManager.h"
 #import "SBDGroupChannelListQuery+SyncManager.h"
 #import "SBSMObject.h"
-#import "SBSMChannelQuery.h"
 #import "SBSMError.h"
 
 #import "SBSMComparator.h"
