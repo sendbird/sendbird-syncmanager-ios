@@ -1,6 +1,6 @@
 # Change Log
 
-### v1.1.0 (Mar 23, 2019)
+### v1.1.1 (Mar 23, 2019)
 * Remove `SBSMChannelQuery` from header.
 
 ### v1.1.0 (Mar 19, 2019)
