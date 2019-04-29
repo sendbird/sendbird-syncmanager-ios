@@ -17,7 +17,9 @@
 
 @protocol SBSMChannelCollectionDelegate <NSObject>
 
-- (void)collection:(nonnull SBSMChannelCollection *)collection didReceiveEvent:(SBSMChannelEventAction)action channels:(nonnull NSArray <SBDGroupChannel *> *)channels;
+- (void)collection:(nonnull SBSMChannelCollection *)collection
+   didReceiveEvent:(SBSMChannelEventAction)action
+          channels:(nonnull NSArray <SBDGroupChannel *> *)channels;
 
 @end
 
@@ -30,10 +32,7 @@
 /**
  *  DO NOT USE this initializer. Use `initWithQuery:` instead.
  */
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wnullability"
-- (nullable instancetype)init NS_UNAVAILABLE;
-#pragma clang diagnostic pop
+- (nonnull instancetype)init NS_UNAVAILABLE;
 
 + (nullable instancetype)collectionWithQuery:(nonnull SBDGroupChannelListQuery *)query;
 - (nullable instancetype)initWithQuery:(nonnull SBDGroupChannelListQuery *)query

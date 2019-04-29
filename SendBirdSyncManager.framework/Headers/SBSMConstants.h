@@ -20,22 +20,35 @@ typedef void(^SBSMVoidHandler)(void);
 typedef void(^SBSMErrorHandler)(SBDError * _Nullable error);
 typedef void(^SBSMBoolHandler)(BOOL boolValue);
 
-#pragma mark - object
-typedef NSComparisonResult(^SBSMObjectComparator)(id<SBSMObject> _Nonnull object1, id<SBSMObject> _Nonnull object2);
+#pragma mark - comparator
+typedef NSComparisonResult(^SBSMObjectComparator)(id<SBSMObject> _Nonnull object1,
+                                                  id<SBSMObject> _Nonnull object2);
+typedef NSComparisonResult(^SBSMChannelComparator)(SBDGroupChannel * _Nonnull channel1,
+                                                   SBDGroupChannel * _Nonnull channel2);
+typedef NSComparisonResult(^SBSMMessageComparator)(SBDBaseMessage * _Nonnull message1,
+                                                   SBDBaseMessage * _Nonnull message2);
 
 #pragma mark - channel
-typedef void(^SBSMGetChannelsHandler)(NSArray <SBDGroupChannel *> * _Nonnull channels, SBDError * _Nullable error);
-typedef void(^SBSMGetChannelHandler)(SBDGroupChannel * _Nullable channel, SBDError * _Nullable error);
-typedef void(^SBSMChannelQueryCompletionHandler)(NSArray<SBDGroupChannel *> * _Nullable channels, SBDError * _Nullable error);
-typedef NSComparisonResult(^SBSMChannelComparison)(SBDGroupChannel * _Nonnull channel1, SBDGroupChannel * _Nonnull channel2) DEPRECATED_MSG_ATTRIBUTE("use `SBSMChannelComparator`");
-typedef NSComparisonResult(^SBSMChannelComparator)(SBDGroupChannel * _Nonnull channel1, SBDGroupChannel * _Nonnull channel2);
+typedef void(^SBSMGetChannelsHandler)(NSArray <SBDGroupChannel *> * _Nonnull channels,
+                                      SBDError * _Nullable error);
+typedef void(^SBSMGetChannelHandler)(SBDGroupChannel * _Nullable channel,
+                                     SBDError * _Nullable error);
+typedef void(^SBSMChannelQueryCompletionHandler)(NSArray<SBDGroupChannel *> * _Nullable channels,
+                                                 SBDError * _Nullable error);
+typedef NSComparisonResult(^SBSMChannelComparison)(SBDGroupChannel * _Nonnull channel1,
+                                                   SBDGroupChannel * _Nonnull channel2)
+DEPRECATED_MSG_ATTRIBUTE("use `SBSMChannelComparator`");
 
 #pragma mark - message
-typedef void(^SBSMMessageCollectionHandler)(SBSMMessageCollection * _Nullable collection, SBDError * _Nullable error);
-typedef void(^SBSMGetMessagesHandler)(NSArray <SBDBaseMessage *> * _Nonnull messages, SBDError * _Nullable error);
-typedef void(^SBSMUpdatedMessagesHandler)(NSArray <SBDBaseMessage *> * _Nonnull updatedMessages, SBDError * _Nullable error);
-typedef void(^SBSMUpsertMessagesHandler)(NSArray <SBDBaseMessage *> * _Nonnull newMessages, NSArray <SBDBaseMessage *> * _Nonnull updatedMessages, SBDError * _Nullable error);
-typedef NSComparisonResult(^SBSMMessageComparator)(SBDBaseMessage * _Nonnull message1, SBDBaseMessage * _Nonnull message2);
+typedef void(^SBSMMessageCollectionHandler)(SBSMMessageCollection * _Nullable collection,
+                                            SBDError * _Nullable error);
+typedef void(^SBSMGetMessagesHandler)(NSArray <SBDBaseMessage *> * _Nonnull messages,
+                                      SBDError * _Nullable error);
+typedef void(^SBSMUpdatedMessagesHandler)(NSArray <SBDBaseMessage *> * _Nonnull updatedMessages,
+                                          SBDError * _Nullable error);
+typedef void(^SBSMUpsertMessagesHandler)(NSArray <SBDBaseMessage *> * _Nonnull newMessages,
+                                         NSArray <SBDBaseMessage *> * _Nonnull updatedMessages,
+                                         SBDError * _Nullable error);
 
 #pragma mark - enum
 typedef NS_ENUM(NSUInteger, SBSMChannelEventAction) {

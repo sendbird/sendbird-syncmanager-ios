@@ -11,4 +11,6 @@
 
 @interface SBDBaseMessage (SyncManager) <SBSMObject>
 
+- (BOOL)isMyMessage;
+
 @end

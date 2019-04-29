@@ -16,7 +16,8 @@
 
 @protocol SBSMComparator <NSObject>
 
-- (NSComparisonResult)orderAscendingBetweenObject:(id<SBSMObject> _Nonnull)obj1 andObject:(id<SBSMObject> _Nonnull)obj2;
+- (NSComparisonResult)orderAscendingBetweenObject:(id<SBSMObject> _Nonnull)obj1
+                                        andObject:(id<SBSMObject> _Nonnull)obj2;
 - (nonnull SBSMObjectComparator)comparator;
 
 @end

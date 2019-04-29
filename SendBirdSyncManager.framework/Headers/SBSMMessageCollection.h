@@ -15,7 +15,9 @@
 
 @protocol SBSMMessageCollectionDelegate <NSObject>
 
-- (void)collection:(nonnull SBSMMessageCollection *)collection didReceiveEvent:(SBSMMessageEventAction)action messages:(nonnull NSArray <SBDBaseMessage *> *)messages;
+- (void)collection:(nonnull SBSMMessageCollection *)collection
+   didReceiveEvent:(SBSMMessageEventAction)action
+          messages:(nonnull NSArray <SBDBaseMessage *> *)messages;
 
 @end
 
@@ -27,21 +29,28 @@
 @property (nonatomic, readonly) NSUInteger limit;
 @property (nonatomic, readonly) BOOL reverse;
 
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wnullability"
-- (nullable instancetype)init NS_UNAVAILABLE;
-#pragma clang diagnostic pop
+- (nonnull instancetype)init NS_UNAVAILABLE;
 
 #pragma mark - initializer
-- (nonnull instancetype)initWithChannel:(nonnull SBDGroupChannel *)channel filter:(nullable SBSMMessageFilter *)filter viewpointTimestamp:(long long)viewpointTimestamp limit:(NSUInteger)limit reverse:(BOOL)reverse
+- (nonnull instancetype)initWithChannel:(nonnull SBDGroupChannel *)channel
+                                 filter:(nullable SBSMMessageFilter *)filter
+                     viewpointTimestamp:(long long)viewpointTimestamp
+                                  limit:(NSUInteger)limit
+                                reverse:(BOOL)reverse
 NS_DESIGNATED_INITIALIZER;
-+ (nonnull instancetype)collectionWithChannel:(nonnull SBDGroupChannel *)channel filter:(nullable SBSMMessageFilter *)filter viewpointTimestamp:(long long)viewpointTimestamp;
-+ (void)createWithChannelUrl:(nonnull NSString *)channelUrl filter:(nullable SBSMMessageFilter *)filter viewpointTimestamp:(long long)viewpointTimestamp completionHandler:(nonnull SBSMMessageCollectionHandler)completionHandler;
++ (nonnull instancetype)collectionWithChannel:(nonnull SBDGroupChannel *)channel
+                                       filter:(nullable SBSMMessageFilter *)filter
+                           viewpointTimestamp:(long long)viewpointTimestamp;
++ (void)createWithChannelUrl:(nonnull NSString *)channelUrl
+                      filter:(nullable SBSMMessageFilter *)filter
+          viewpointTimestamp:(long long)viewpointTimestamp
+           completionHandler:(nonnull SBSMMessageCollectionHandler)completionHandler;
 - (void)resetViewpointTimestamp:(long long)viewpointTimestamp;
 - (void)remove;
 
 #pragma mark - load
-- (void)fetchInDirection:(SBSMMessageDirection)direction completionHandler:(nullable SBSMErrorHandler)completionHandler;
+- (void)fetchInDirection:(SBSMMessageDirection)direction
+       completionHandler:(nullable SBSMErrorHandler)completionHandler;
 
 #pragma mark - current user's message
 - (void)appendMessage:(nonnull SBDBaseMessage *)message;

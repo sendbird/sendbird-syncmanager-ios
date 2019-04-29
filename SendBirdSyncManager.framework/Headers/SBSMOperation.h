@@ -12,10 +12,7 @@
 
 @interface SBSMOperation : NSOperation
 
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wnullability"
-- (nullable instancetype)init NS_UNAVAILABLE;
-#pragma clang diagnostic pop
+- (nonnull instancetype)init NS_UNAVAILABLE;
 
 - (void)complete;
 

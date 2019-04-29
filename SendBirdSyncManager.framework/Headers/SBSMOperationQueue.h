@@ -11,9 +11,12 @@
 
 @interface SBSMOperationQueue : NSObject
 
-+ (nullable instancetype)queue;
+@property (strong, nullable) dispatch_queue_t thread;
+
++ (nonnull instancetype)queue;
 - (void)setMaxConcurrentOperationCount:(NSUInteger)count;
-- (nonnull SBSMOperation *)enqueue:(nonnull void(^)(void))taskBlock synchronous:(BOOL)synchronous;
+- (nonnull SBSMOperation *)enqueue:(nonnull void(^)(void))taskBlock
+                       synchronous:(BOOL)synchronous;
 - (nonnull SBSMOperation *)enqueue:(nonnull void(^)(void))taskBlock;
 - (void)resume;
 - (void)pause;

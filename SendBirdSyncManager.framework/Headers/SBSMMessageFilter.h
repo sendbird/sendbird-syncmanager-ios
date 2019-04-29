@@ -19,20 +19,20 @@ NS_ASSUME_NONNULL_BEGIN
 @property (copy, atomic, readonly, nullable) NSString *customType;
 @property (copy, atomic, readonly, nullable) NSArray <NSString *> *senderUserIds;
 
-// TODO: not completed filter
 + (nonnull instancetype)filter;
-+ (nonnull instancetype)filterWithMessageType:(SBDMessageTypeFilter)messageType customType:(nullable NSString *)customType senderUserIds:(nullable NSArray <NSString *> *)senderUserIds;
-- (nonnull instancetype)initWithChannelUrl:(nullable NSString *)channelUrl messageType:(SBDMessageTypeFilter)messageType customType:(nullable NSString *)customType senderUserIds:(nullable NSArray <NSString *> *)senderUserIds
++ (nonnull instancetype)filterWithMessageType:(SBDMessageTypeFilter)messageType
+                                   customType:(nullable NSString *)customType
+                                senderUserIds:(nullable NSArray <NSString *> *)senderUserIds;
+- (nonnull instancetype)initWithChannelUrl:(nullable NSString *)channelUrl
+                               messageType:(SBDMessageTypeFilter)messageType
+                                customType:(nullable NSString *)customType
+                             senderUserIds:(nullable NSArray <NSString *> *)senderUserIds
 NS_DESIGNATED_INITIALIZER;
 
 /**
  *  DO NOT USE this initializer. Use `initWithChannelUrl:messageType:customType:senderUserIds:` instead.
  */
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wnullability"
-- (nullable instancetype)init NS_UNAVAILABLE;
-#pragma clang diagnostic pop
-
+- (nonnull instancetype)init NS_UNAVAILABLE;
 
 - (nonnull NSPredicate *)predicate;
 - (BOOL)isSubFilterOfFilter:(nonnull SBSMMessageFilter *)filter;

@@ -1,5 +1,12 @@
 # Change Log
 
+### v1.1.2 (Apr 29, 2019)
+* Auto retry when failed to request SendBird SDK
+* Deletion serialized data of message when got a deleting event.
+* Fixed nullability of initializer.
+* Stabilized and improved performance. 
+* Arranged code convention.
+
 ### v1.1.1 (Mar 23, 2019)
 * Remove `SBSMChannelQuery` from header.
 
