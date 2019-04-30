@@ -1,5 +1,8 @@
 # Change Log
 
+### v1.1.3 (Apr 30, 2019)
+* Improved thread stability.
+
 ### v1.1.2 (Apr 29, 2019)
 * Auto retry when failed to request SendBird SDK
 * Deletion serialized data of message when got a deleting event.
