@@ -18,8 +18,11 @@ NSInteger SBSMSyncManagerBuildNumber(void);
 + (nonnull instancetype)setupWithUserId:(nonnull NSString *)userId;
 + (nonnull instancetype)manager;
 
-- (void)resumeSynchronize;
-- (void)pauseSynchronize;
+- (void)resumeSynchronize DEPRECATED_ATTRIBUTE;
+- (void)pauseSynchronize DEPRECATED_ATTRIBUTE;
+
++ (void)resumeSynchronize;
++ (void)pauseSynchronize;
 
 + (void)clearCache;
 

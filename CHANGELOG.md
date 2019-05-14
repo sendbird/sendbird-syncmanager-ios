@@ -1,5 +1,10 @@
 # Change Log
 
+### v1.1.4 (May 14, 2019)
+* Changed `resumeSynchronize` and `pauseSynchronize` as a class method.
+* Fixed bug that give events as many as members when creating group channel at first.
+* Improved thread stability.
+
 ### v1.1.3 (Apr 30, 2019)
 * Improved thread stability.
 
