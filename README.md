@@ -1,11 +1,11 @@
 # [SendBird](https://sendbird.com) SyncManager for iOS
-[SendBird](https://sendbird.com) SyncManager is a framework that caches and manages channels and messages of [SendBird SDK](https://github.com/smilefam/sendbird-ios-framework). The SyncManager offers an event-based data management so that each view would see a single method by subscribing data event. And it stores the data into database(sqlite) which implements local caching for faster loading.
+[SendBird](https://sendbird.com) SyncManager is a framework that caches and manages channels and messages of [SendBird SDK](https://github.com/sendbird/sendbird-ios-framework). The SyncManager offers an event-based data management so that each view would see a single method by subscribing data event. And it stores the data into database(sqlite) which implements local caching for faster loading.
 
 [![Platform](https://img.shields.io/badge/platform-iOS-orange.svg)](https://cocoapods.org/pods/SendBirdSyncManager)
-[![Languages](https://img.shields.io/badge/language-Objective--C%20%7C%20Swift-orange.svg)](https://github.com/smilefam/sendbird-syncmanager-ios)
+[![Languages](https://img.shields.io/badge/language-Objective--C%20%7C%20Swift-orange.svg)](https://github.com/sendbird/sendbird-syncmanager-ios)
 [![CocoaPods](https://img.shields.io/badge/CocoaPods-compatible-green.svg)](https://cocoapods.org/pods/SendBirdSyncManager)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![Commercial License](https://img.shields.io/badge/license-Commercial-brightgreen.svg)](https://github.com/smilefam/sendbird-syncmanager-ios/blob/master/LICENSE.md)
+[![Commercial License](https://img.shields.io/badge/license-Commercial-brightgreen.svg)](https://github.com/sendbird/sendbird-syncmanager-ios/blob/master/LICENSE.md)
 
 ## Documentation
 https://docs.sendbird.com/ios
@@ -37,16 +37,16 @@ pod update SendBirdSyncManager
 
 Now you can see installed SendBird framework by inspecting YOUR_PROJECT.xcworkspace.
 
-> Note: `SendBirdSyncManager` is dependent with `SendBird SDK`. If you install `SendBirdSyncManager`, Cocoapods automatically install `SendBird SDK` as well. And the minimum version of `SendBird SDK` is **3.0.132**.
+> Note: `SendBirdSyncManager` is dependent with `SendBird SDK`. If you install `SendBirdSyncManager`, Cocoapods automatically install `SendBird SDK` as well. And the minimum version of `SendBird SDK` is **3.0.140**.
 
 ## Install SendBird Framework from Carthage
 
-1. Add `github "smilefam/sendbird-syncmanager-ios"` to your `Cartfile`.
+1. Add `github "sendbird/sendbird-syncmanager-ios"` to your `Cartfile`.
 2. Run `carthage update`.
 3. Go to your Xcode project's "General" settings. Open `<YOUR_XCODE_PROJECT_DIRECTORY>/Carthage/Build/iOS` in Finder and drag `SendBirdSyncManager.framework` to the "Embedded Binaries" section in Xcode. Make sure `Copy items if needed` is selected and click `Finish`.
 
 ## Sample
-Check out [iOS Sample with SyncManager](https://github.com/smilefam/SendBird-iOS/tree/master/syncmanager) which is same as iOS Sample with SyncManager integrated.
+Check out [iOS Sample with SyncManager](https://github.com/sendbird/SendBird-iOS/tree/master/syncmanager) which is same as iOS Sample with SyncManager integrated.
 
 ## Usage
 
@@ -81,7 +81,7 @@ Channel is quite mutable data where chat is actively going - channel's last mess
 
 > Note: Channel data sync mechanism could change later.
 
-`SBSMChannelCollection` requires `SBDGroupChannelListQuery` instance of [SendBirdSDK](https://github.com/smilefam/sendbird-ios-framework) as it binds the query into the collection. Then the collection filters data with the query. Here's the code to create new `SBSMChannelCollection` instance.
+`SBSMChannelCollection` requires `SBDGroupChannelListQuery` instance of [SendBirdSDK](https://github.com/sendbird/sendbird-ios-framework) as it binds the query into the collection. Then the collection filters data with the query. Here's the code to create new `SBSMChannelCollection` instance.
 
 ```swift
 // swift
@@ -229,7 +229,7 @@ messageCollection.remove()
 [messageCollection remove];
 ```
 
-`SBSMMessageCollection` has event handler for delegate that you can implement and add to the collection. Event handler is named as `SBSMMessageCollectionDelegate` and it receives `SBSMMessageEventAction` and list of `messages` when an event has come. The `SBSMMessageEventAction` is a keyword to notify what happened to the message, and the `message` is a kind of `SBDBaseMessage` instance of [SendBird SDK](https://github.com/smilefam/sendbird-ios-framework).
+`SBSMMessageCollection` has event handler for delegate that you can implement and add to the collection. Event handler is named as `SBSMMessageCollectionDelegate` and it receives `SBSMMessageEventAction` and list of `messages` when an event has come. The `SBSMMessageEventAction` is a keyword to notify what happened to the message, and the `message` is a kind of `SBDBaseMessage` instance of [SendBird SDK](https://github.com/sendbird/sendbird-ios-framework).
 
 ```swift
 // swift
