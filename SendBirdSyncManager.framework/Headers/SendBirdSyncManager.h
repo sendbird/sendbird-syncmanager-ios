@@ -24,4 +24,5 @@
 #import "SBSMConstants.h"
 #import "SBSMOperationQueue.h"
 #import "SBSMOperation.h"
+#import "SBSMSyncManagerOptions.h"
 

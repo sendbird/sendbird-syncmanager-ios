@@ -10,12 +10,16 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@class SBSMSyncManagerOptions;
+
 NSString * _Nonnull SBSMSyncManagerVersionString(void);
 NSInteger SBSMSyncManagerBuildNumber(void);
 
 @interface SBSMSyncManager : NSObject
 
 + (nonnull instancetype)setupWithUserId:(nonnull NSString *)userId;
++ (nonnull instancetype)setupWithUserId:(nonnull NSString *)userId
+                                options:(nullable SBSMSyncManagerOptions *)options;
 + (nonnull instancetype)manager;
 
 - (void)resumeSynchronize DEPRECATED_ATTRIBUTE;

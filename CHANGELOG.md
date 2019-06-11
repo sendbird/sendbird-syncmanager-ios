@@ -1,5 +1,11 @@
 # Change Log
 
+### v1.1.5 (Jun 11, 2019)
+* Fixed a bug that can't fetch messages continuously in message collection.
+* New class `SBSMSyncManagerOptions` to set optional values for syncmanager
+* New enum type `SBSMMessageResendPolicy` to be used for resending a messages.
+* Improved stability.
+
 ### v1.1.4 (May 14, 2019)
 * Changed `resumeSynchronize` and `pauseSynchronize` as a class method.
 * Fixed bug that give events as many as members when creating group channel at first.

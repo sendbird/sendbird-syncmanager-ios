@@ -73,4 +73,10 @@ typedef NS_ENUM(NSUInteger, SBSMMessageDirection) {
     SBSMMessageDirectionNext,
 };
 
+typedef NS_ENUM(NSUInteger, SBSMMessageResendPolicy) {
+    SBSMMessageResendPolicyNone = 0,
+    SBSMMessageResendPolicyManual = 1,
+};
+
+
 #endif /* SBSMConstants_h */
