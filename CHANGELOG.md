@@ -1,5 +1,8 @@
 # Change Log
 
+### v1.1.6 (Jun 13, 2019)
+* Bitcode enabled in archiving build.
+
 ### v1.1.5 (Jun 11, 2019)
 * Fixed a bug that can't fetch messages continuously in message collection.
 * New class `SBSMSyncManagerOptions` to set optional values for syncmanager
