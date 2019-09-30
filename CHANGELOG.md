@@ -1,5 +1,8 @@
 # Change Log
 
+### v1.1.7 (Oct 1, 2019)
+* Hot fix a bug of fetching channels.
+
 ### v1.1.6 (Jun 13, 2019)
 * Bitcode enabled in archiving build.
 
