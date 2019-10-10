@@ -1,5 +1,22 @@
 # Change Log
 
+### v1.1.8 (Oct 10, 2019)
+* Added features that supports storing and resending messages which `SBDMessageRequestState` is `.Failed`.
+  * New method `fetchFailedMessages()` in `SBSMMessageCollection` to fetch FailedMessage in local database.
+  * New protocol `collection:didReceiveEventAction:succeededMessages:` of `SBSMMessageCollectionDelegate` to notify events of messages which `SBDMessageRequestState` is `.Succeeded`.
+  * New protocol `collection:didReceiveEventAction:failedMessages:reason:` of `SBSMMessageCollectionDelegate` to notify events of messages which `SBDMessageRequestState` is `.Failed`.
+  * New protocol `collection:didReceiveEventAction:pendingMessages:` of `SBSMMessageCollectionDelegate` to notify events of messages which `SBDMessageRequestState` is `.Pending`.
+  * Deprecated `collection:didReceiveEvent:messages:` of `SBSMMessageCollectionDelegate` prorocol. It is replaced by `collection:didReceiveEventAction:succeededMessages:` and `collection:didReceiveEventAction:pendingMessages:`.
+* Added new properties in `SBSMSyncManagerOptions` to configure options of `SBSMSyncManager`.
+  * New property of  `messageCollectionCapacity` that configures message count limit of `SBSMMessageCollection` and message resend policy.
+  * New property of `maxFailedMessageCountPerChannel` that configures maximum count of `failed messages` that one `SBDGroupChannel` can store.
+  * New property of `failedMessageRetentionDays` that configures retention days of `failed messages`.
+  * New property of `automaticResendMessageRetryCount` that configures the number of `failed message` retries.
+* Added setters that configure thread where they want to receive `completion handler`, `event delegate`.
+* Added ENUM `.Automatic` to `SBSMMessageResendPolicy` to support resending failed messages automatically.
+* `SBSMOperationQueue`, `SBSMOperation` were deprecated.
+* Improved stability.
+
 ### v1.1.7 (Oct 1, 2019)
 * Hot fix a bug of fetching channels.
 

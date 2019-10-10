@@ -12,5 +12,7 @@
 @interface SBDBaseMessage (SyncManager) <SBSMObject>
 
 - (BOOL)isMyMessage;
+- (SBDMessageRequestState)requestState;
+- (nullable NSString *)requestId;
 
 @end

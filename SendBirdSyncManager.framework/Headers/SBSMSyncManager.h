@@ -8,9 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
-@class SBSMSyncManagerOptions;
+ @class SBSMSyncManagerOptions;
 
 NSString * _Nonnull SBSMSyncManagerVersionString(void);
 NSInteger SBSMSyncManagerBuildNumber(void);
@@ -19,17 +17,20 @@ NSInteger SBSMSyncManagerBuildNumber(void);
 
 + (nonnull instancetype)setupWithUserId:(nonnull NSString *)userId;
 + (nonnull instancetype)setupWithUserId:(nonnull NSString *)userId
-                                options:(nullable SBSMSyncManagerOptions *)options;
+                                options:(nonnull SBSMSyncManagerOptions *)options;
 + (nonnull instancetype)manager;
 
-- (void)resumeSynchronize DEPRECATED_ATTRIBUTE;
-- (void)pauseSynchronize DEPRECATED_ATTRIBUTE;
+- (void)resumeSynchronize DEPRECATED_MSG_ATTRIBUTE("Use +resumeSynchronize instead");
+- (void)pauseSynchronize DEPRECATED_MSG_ATTRIBUTE("Use +pauseSynchronize instead");
 
 + (void)resumeSynchronize;
 + (void)pauseSynchronize;
 
 + (void)clearCache;
 
+#pragma mark - thread management
++ (void)setCompletionQueue:(dispatch_queue_t _Nullable)queue;
++ (void)setDelegateQueue:(dispatch_queue_t _Nullable)queue;
+
 @end
 
-NS_ASSUME_NONNULL_END

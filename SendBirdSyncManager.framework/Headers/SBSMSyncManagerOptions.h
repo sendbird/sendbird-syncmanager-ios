@@ -9,14 +9,17 @@
 #import <Foundation/Foundation.h>
 #import "SBSMConstants.h"
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface SBSMSyncManagerOptions : NSObject
 
+@property (class, readonly) NSInteger infinity;
+
 @property (nonatomic) SBSMMessageResendPolicy messageResendPolicy;
+@property (nonatomic, setter=setMessageCollectionCapacity:) NSUInteger messageCollectionCapacity;
+@property (nonatomic, setter=setAutomaticResendMessageRetryCount:) NSInteger automaticResendMessageRetryCount;
+@property (atomic) NSInteger maxFailedMessageCountPerChannel;
+@property (atomic) NSInteger failedMessageRetentionDays;
 
 + (nonnull instancetype)options;
 
 @end
 
-NS_ASSUME_NONNULL_END

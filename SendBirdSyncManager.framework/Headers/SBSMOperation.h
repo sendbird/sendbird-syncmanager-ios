@@ -1,19 +1,20 @@
 //
 //  SBSMOperation.h
-//  SyncManager
+//  SendBirdSyncManager
 //
-//  Created by sendbird-young on 2018. 8. 9..
-//  Copyright © 2018년 SendBird. All rights reserved.
+//  Created by sendbird-young on 10/10/2019.
+//  Copyright © 2019 SendBird. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
 @protocol SBSMCommand;
 
+__attribute__((unavailable("This class is unavailable. Please use NSOperation or GCD instead")))
 @interface SBSMOperation : NSOperation
 
 - (nonnull instancetype)init NS_UNAVAILABLE;
 
-- (void)complete;
+- (void)complete DEPRECATED_ATTRIBUTE;
 
 @end

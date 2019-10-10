@@ -15,19 +15,36 @@
 
 @protocol SBSMMessageCollectionDelegate <NSObject>
 
+@optional
 - (void)collection:(nonnull SBSMMessageCollection *)collection
    didReceiveEvent:(SBSMMessageEventAction)action
-          messages:(nonnull NSArray <SBDBaseMessage *> *)messages;
+          messages:(nonnull NSArray <SBDBaseMessage *> *)messages
+DEPRECATED_MSG_ATTRIBUTE("Use `collection:didReceiveEvent:succeededMessages:` instead");
+
+- (void)collection:(nonnull SBSMMessageCollection *)collection didReceiveEventAction:(SBSMMessageEventAction)action
+ succeededMessages:(nonnull NSArray<SBDBaseMessage *> *)succeededMessages;
+
+- (void)collection:(nonnull SBSMMessageCollection *)collection didReceiveEventAction:(SBSMMessageEventAction)action
+   pendingMessages:(nonnull NSArray<SBDBaseMessage *> *)pendingMessages;
+
+- (void)collection:(nonnull SBSMMessageCollection *)collection didReceiveEventAction:(SBSMMessageEventAction)action
+    failedMessages:(nonnull NSArray<SBDBaseMessage *> *)failedMessages reason:(SBSMFailedMessageEventActionReason)reason;
 
 @end
 
 @interface SBSMMessageCollection : NSObject <SBSMComparator>
 
 @property (weak, atomic, nullable) id<SBSMMessageCollectionDelegate> delegate;
-@property (strong, nonatomic, readonly, nonnull) NSArray <SBDBaseMessage *> *messages;
+@property (strong, nonatomic, readonly, nonnull) NSArray <SBDBaseMessage *> *messages
+DEPRECATED_MSG_ATTRIBUTE("Use `succeededMessages` instead");
+@property (strong, nonatomic, readonly, nonnull) NSArray <SBDBaseMessage *> *pendingMessages;
+@property (strong, nonatomic, readonly, nonnull) NSArray <SBDBaseMessage *> *failedMessages;
+@property (strong, nonatomic, readonly, nonnull) NSArray <SBDBaseMessage *> *succeededMessages;
 @property (strong, nonatomic, readonly, nonnull) SBDGroupChannel *channel;
 @property (nonatomic, readonly) NSUInteger limit;
 @property (nonatomic, readonly) BOOL reverse;
+
+@property (copy, atomic, nonnull, readonly) SBSMMessageHandler handleSendMessageResponse;
 
 - (nonnull instancetype)init NS_UNAVAILABLE;
 
@@ -51,10 +68,14 @@ NS_DESIGNATED_INITIALIZER;
 #pragma mark - load
 - (void)fetchInDirection:(SBSMMessageDirection)direction
        completionHandler:(nullable SBSMErrorHandler)completionHandler;
+- (void)fetchFailedMessages:(nullable SBSMErrorHandler)completionHandler;
 
 #pragma mark - current user's message
 - (void)appendMessage:(nonnull SBDBaseMessage *)message;
 - (void)updateMessage:(nonnull SBDBaseMessage *)message;
 - (void)deleteMessage:(nonnull SBDBaseMessage *)message;
+
+#pragma mark - Message capacity
+- (NSUInteger)messageCount;
 
 @end

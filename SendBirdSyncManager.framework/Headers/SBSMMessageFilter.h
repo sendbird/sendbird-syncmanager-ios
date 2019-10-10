@@ -10,8 +10,6 @@
 #import <SendBirdSDK/SendBirdSDK.h>
 #import "SBSMConstants.h"
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface SBSMMessageFilter : NSObject <NSCopying, NSSecureCoding>
 
 @property (copy, atomic, readonly, nullable) NSString *channelUrl;
@@ -41,8 +39,7 @@ NS_DESIGNATED_INITIALIZER;
 - (BOOL)isEqualToFilter:(nonnull SBSMMessageFilter *)filter;
 
 #pragma mark - NSSecureCoding
-- (nonnull instancetype)initWithCoder:(NSCoder *)aDecoder NS_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithCoder:(nullable NSCoder *)aDecoder NS_DESIGNATED_INITIALIZER;
 
 @end
 
-NS_ASSUME_NONNULL_END

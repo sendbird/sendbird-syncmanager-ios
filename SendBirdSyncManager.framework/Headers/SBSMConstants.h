@@ -31,6 +31,7 @@ typedef NSComparisonResult(^SBSMMessageComparator)(SBDBaseMessage * _Nonnull mes
 #pragma mark - channel
 typedef void(^SBSMGetChannelsHandler)(NSArray <SBDGroupChannel *> * _Nonnull channels,
                                       SBDError * _Nullable error);
+typedef void(^SBSMMessageHandler)(SBDBaseMessage * _Nullable message, SBDError * _Nullable error);
 typedef void(^SBSMGetChannelHandler)(SBDGroupChannel * _Nullable channel,
                                      SBDError * _Nullable error);
 typedef void(^SBSMChannelQueryCompletionHandler)(NSArray<SBDGroupChannel *> * _Nullable channels,
@@ -46,7 +47,7 @@ typedef void(^SBSMGetMessagesHandler)(NSArray <SBDBaseMessage *> * _Nonnull mess
                                       SBDError * _Nullable error);
 typedef void(^SBSMUpdatedMessagesHandler)(NSArray <SBDBaseMessage *> * _Nonnull updatedMessages,
                                           SBDError * _Nullable error);
-typedef void(^SBSMUpsertMessagesHandler)(NSArray <SBDBaseMessage *> * _Nonnull newMessages,
+typedef void(^SBSMUpsertMessagesHandler)(NSArray <SBDBaseMessage *> * _Nonnull insertedMessages,
                                          NSArray <SBDBaseMessage *> * _Nonnull updatedMessages,
                                          SBDError * _Nullable error);
 
@@ -76,7 +77,17 @@ typedef NS_ENUM(NSUInteger, SBSMMessageDirection) {
 typedef NS_ENUM(NSUInteger, SBSMMessageResendPolicy) {
     SBSMMessageResendPolicyNone = 0,
     SBSMMessageResendPolicyManual = 1,
+    SBSMMessageResendPolicyAutomatic = 2,
 };
 
+typedef NS_ENUM(NSUInteger, SBSMFailedMessageEventActionReason) {
+    SBSMFailedMessageEventActionReasonNone = 0,
+    SBSMFailedMessageEventActionReasonUpdateResendFailed,
+    SBSMFailedMessageEventActionReasonRemoveResendSucceeded,
+    SBSMFailedMessageEventActionReasonRemoveRetentionExpired,
+    SBSMFailedMessageEventActionReasonRemoveExceededMaxCount,
+    SBSMFailedMessageEventActionReasonRemoveManualAction,
+    SBSMFailedMessageEventActionReasonRemoveUnknown,
+};
 
 #endif /* SBSMConstants_h */

@@ -8,10 +8,6 @@
 
 #import "SBDBaseChannel+SyncManager.h"
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface SBDGroupChannel (SyncManager) <SBSMObject>
 
 @end
-
-NS_ASSUME_NONNULL_END
