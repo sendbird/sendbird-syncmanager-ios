@@ -1,5 +1,11 @@
 # Change Log
 
+### v1.1.9 (Oct 14, 2019)
+* Fixed a bug that doesn't give a message event after coming back foreground.
+* Fixed a bug that channel collection doesn't receive a real time event.
+* Fixed a bug that message collection doesn't give a message event when called `fetch(.previous)`.
+* Improved stability.
+
 ### v1.1.8 (Oct 10, 2019)
 * Added features that supports storing and resending messages which `SBDMessageRequestState` is `.Failed`.
   * New method `fetchFailedMessages()` in `SBSMMessageCollection` to fetch FailedMessage in local database.

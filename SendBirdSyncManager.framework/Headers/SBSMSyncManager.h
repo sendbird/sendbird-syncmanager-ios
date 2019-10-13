@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
- @class SBSMSyncManagerOptions;
+@class SBSMSyncManagerOptions;
 
 NSString * _Nonnull SBSMSyncManagerVersionString(void);
 NSInteger SBSMSyncManagerBuildNumber(void);
