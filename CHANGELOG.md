@@ -1,5 +1,11 @@
 # Change Log
 
+### v1.1.10 (Oct 17, 2019)
+* Clearing messages when the channel of the messages was removed.
+* Fixed a bug of ordering channels chronologically.
+* Fixed a bug that give a duplicated file message event.
+* Improved stability.
+
 ### v1.1.9 (Oct 14, 2019)
 * Fixed a bug that doesn't give a message event after coming back foreground.
 * Fixed a bug that channel collection doesn't receive a real time event.

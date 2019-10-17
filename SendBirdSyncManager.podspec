@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SendBirdSyncManager"
-  s.version      = "1.1.9"
+  s.version      = "1.1.10"
   s.summary      = "Local cache framework based on SendBirdSDK"
   s.description  = "SendBirdSyncManager caches and manages channels and messages of SendBirdSDK"
   s.homepage     = "https://sendbird.com"
@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = "SendBirdSyncManager.framework"
   s.ios.frameworks = ["UIKit", "Foundation", "CoreData", "SendBirdSDK"]
   s.requires_arc = true
-  s.dependency "SendBirdSDK", "~> 3.0.142"
+  s.dependency "SendBirdSDK", "~> 3.0.155"
   s.ios.library = "icucore"
 end
