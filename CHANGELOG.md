@@ -1,5 +1,9 @@
 # Change Log
 
+### v1.1.11 (Oct 20, 2019)
+* Fixed a bug of fetching to next after coming back foreground.
+* Improved stability.
+
 ### v1.1.10 (Oct 17, 2019)
 * Clearing messages when the channel of the messages was removed.
 * Fixed a bug of ordering channels chronologically.
