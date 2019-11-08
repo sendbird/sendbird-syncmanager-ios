@@ -1,5 +1,8 @@
 # Change Log
 
+### v1.1.12 (Nov 8, 2019)
+* Failed message resend is operating only after the background sync succeeds at the first request.
+
 ### v1.1.11 (Oct 20, 2019)
 * Fixed a bug of fetching to next after coming back foreground.
 * Improved stability.
