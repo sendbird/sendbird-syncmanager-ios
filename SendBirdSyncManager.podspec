@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SendBirdSyncManager"
-  s.version      = "1.1.13"
+  s.version      = "1.1.14"
   s.summary      = "Local cache framework based on SendBirdSDK"
   s.description  = "SendBirdSyncManager caches and manages channels and messages of SendBirdSDK"
   s.homepage     = "https://sendbird.com"

@@ -1,6 +1,6 @@
 # Change Log
 
-### v1.1.13 (Nov 25, 2019)
+### v1.1.14 (Nov 25, 2019)
 * Fixed minor bug.
 
 ### v1.1.12 (Nov 8, 2019)
