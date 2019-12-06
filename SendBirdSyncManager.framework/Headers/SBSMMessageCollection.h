@@ -30,6 +30,14 @@ DEPRECATED_MSG_ATTRIBUTE("Use `collection:didReceiveEvent:succeededMessages:` in
 - (void)collection:(nonnull SBSMMessageCollection *)collection didReceiveEventAction:(SBSMMessageEventAction)action
     failedMessages:(nonnull NSArray<SBDBaseMessage *> *)failedMessages reason:(SBSMFailedMessageEventActionReason)reason;
 
+- (void)collection:(nonnull SBSMMessageCollection *)collection didReceiveNewMessage:(nonnull SBDBaseMessage *)message;
+
+- (void)collection:(nonnull SBSMMessageCollection *)collection
+  didUpdateChannel:(nonnull SBDGroupChannel *)channel;
+
+- (void)collection:(nonnull SBSMMessageCollection *)collection
+  didRemoveChannel:(nonnull SBDGroupChannel *)channel;
+
 @end
 
 @interface SBSMMessageCollection : NSObject <SBSMComparator>
@@ -77,5 +85,8 @@ NS_DESIGNATED_INITIALIZER;
 
 #pragma mark - Message capacity
 - (NSUInteger)messageCount;
+
+#pragma mark - message offset
+- (void)removeMessagesBeforeOffset:(long long)offset;
 
 @end

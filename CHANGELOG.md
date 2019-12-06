@@ -1,5 +1,9 @@
 # Change Log
 
+### v1.1.15 (Dec 6, 2019)
+* Added delegates to receive the channel updated and removed event.
+* Improved stability.
+
 ### v1.1.14 (Nov 25, 2019)
 * Fixed minor bug.
 

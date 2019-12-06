@@ -19,6 +19,7 @@
 typedef void(^SBSMVoidHandler)(void);
 typedef void(^SBSMErrorHandler)(SBDError * _Nullable error);
 typedef void(^SBSMBoolHandler)(BOOL boolValue);
+typedef void(^SBSMLongLongHandler)(long long value);
 
 #pragma mark - comparator
 typedef NSComparisonResult(^SBSMObjectComparator)(id<SBSMObject> _Nonnull object1,
