@@ -1,5 +1,10 @@
 # Change Log
 
+### v1.1.16 (Dec 12, 2019)
+* Added `fetchAllNextMessages:` in `SBSMMessageCollection` to fetch all new SucceededMessage in local database.
+* Added `SBSMFetchResultHandler(BOOL hasMore, SBDError * _Nullable error)` to use in `fetchInDirection:completionHandler:`, `fetchAllNextMessages:`, with flag whether there's more data to fetch.
+* Improved stability.
+
 ### v1.1.15 (Dec 6, 2019)
 * Added delegates to receive the channel updated and removed event.
 * Improved stability.

@@ -75,7 +75,8 @@ NS_DESIGNATED_INITIALIZER;
 
 #pragma mark - load
 - (void)fetchInDirection:(SBSMMessageDirection)direction
-       completionHandler:(nullable SBSMErrorHandler)completionHandler;
+       completionHandler:(nonnull SBSMFetchResultHandler)completionHandler;
+- (void)fetchAllNextMessages:(nonnull SBSMFetchResultHandler)completionHandler;
 - (void)fetchFailedMessages:(nullable SBSMErrorHandler)completionHandler;
 
 #pragma mark - current user's message

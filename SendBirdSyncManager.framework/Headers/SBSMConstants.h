@@ -17,6 +17,7 @@
 @class SBSMMessageCollection;
 
 typedef void(^SBSMVoidHandler)(void);
+typedef void(^SBSMFetchResultHandler)(BOOL hasMore, SBDError * _Nullable error);
 typedef void(^SBSMErrorHandler)(SBDError * _Nullable error);
 typedef void(^SBSMBoolHandler)(BOOL boolValue);
 typedef void(^SBSMLongLongHandler)(long long value);
