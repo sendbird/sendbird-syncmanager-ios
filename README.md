@@ -295,20 +295,26 @@ messageCollection.delegate = self;
 
 ```swift
 // swift
-messageCollection.fetch(in: SBSMMessageDirection.previous, completionHandler: { (error) in
+messageCollection.fetch(in: SBSMMessageDirection.previous, completionHandler: { (hasMore, error) in
   // Fetching from cache is done
 })
-messageCollection.fetch(in: SBSMMessageDirection.next, completionHandler: { (error) in
+messageCollection.fetch(in: SBSMMessageDirection.next, completionHandler: { (hasMore, error) in
   // Fetching from cache is done
+})
+messageCollection.fetchAllNextMessages({ (hasMore, error) in
+  // Fetching from cache and server are done
 })
 ```
 ```objc
 // objective-c
-[messageCollection fetchInDirection:SBSMMessageDirectionPrevious completionHandler:^(SBDError * _Nullable error) {
+[messageCollection fetchInDirection:SBSMMessageDirectionPrevious completionHandler:^(BOOL hasMore, SBDError * _Nullable error) {
   // Fetching from cache is done
 }];
-[messageCollection fetchInDirection:SBSMMessageDirectionNext completionHandler:^(SBDError * _Nullable error) {
+[messageCollection fetchInDirection:SBSMMessageDirectionNext completionHandler:^(BOOL hasMore, SBDError * _Nullable error) {
   // Fetching from cache is done
+}];
+[messageCollection fetchAllNextMessages:^(BOOL hasMore, SBDError * _Nullable error) {
+  // Fetching from cache and server are done
 }];
 ```
 

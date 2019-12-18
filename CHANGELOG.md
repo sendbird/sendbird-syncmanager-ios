@@ -1,5 +1,8 @@
 # Change Log
 
+### v1.1.17 (Dec 18, 2019)
+* Fixed a bug of fetching to next after coming back foreground.
+
 ### v1.1.16 (Dec 12, 2019)
 * Added `fetchAllNextMessages:` in `SBSMMessageCollection` to fetch all new SucceededMessage in local database.
 * Added `SBSMFetchResultHandler(BOOL hasMore, SBDError * _Nullable error)` to use in `fetchInDirection:completionHandler:`, `fetchAllNextMessages:`, with flag whether there's more data to fetch.
