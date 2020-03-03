@@ -1,5 +1,8 @@
 # Change Log
 
+### v1.1.18 (Mar 3, 2020)
+* Fixed minor bug.
+
 ### v1.1.17 (Dec 18, 2019)
 * Fixed a bug of fetching to next after coming back foreground.
 
