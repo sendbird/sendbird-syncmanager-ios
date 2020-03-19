@@ -1,5 +1,8 @@
 # Change Log
 
+### v1.1.19 (Mar 19, 2020)
+* Resolved compatibility issue with Chat SDK v3.0.173 and v3.0.174.
+
 ### v1.1.18 (Mar 3, 2020)
 * Fixed minor bug.
 
