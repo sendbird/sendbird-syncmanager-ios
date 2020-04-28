@@ -1,5 +1,10 @@
 # Change Log
 
+### v1.1.20 (Apr 28, 2020)
+* Added defense handling when accessing MOC 
+* Changed automatic resend count default to 10 and max to 50
+* Fixed bundle class initialize logic
+
 ### v1.1.19 (Mar 19, 2020)
 * Resolved compatibility issue with Chat SDK v3.0.173 and v3.0.174.
 
