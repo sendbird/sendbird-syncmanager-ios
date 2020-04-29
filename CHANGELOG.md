@@ -1,5 +1,8 @@
 # Change Log
 
+### v1.1.21 (Apr 29, 2020)
+* Fixed coredata issue 
+
 ### v1.1.20 (Apr 28, 2020)
 * Added defense handling when accessing MOC 
 * Changed automatic resend count default to 10 and max to 50
