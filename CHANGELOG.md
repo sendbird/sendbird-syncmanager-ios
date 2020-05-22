@@ -1,5 +1,9 @@
 # Change Log
 
+### v1.1.22 (May 22, 2020)
+* Added SyncManager version information to User-Agent
+* Fixed automatic resend by saving message error code
+
 ### v1.1.21 (Apr 29, 2020)
 * Fixed coredata issue 
 
