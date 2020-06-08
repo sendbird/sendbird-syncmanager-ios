@@ -1,5 +1,9 @@
 # Change Log
 
+### v1.1.23 (June  8, 2020)
+* Fixed to add admin message properly when fetch
+* Removed canceled message from automatic resend
+
 ### v1.1.22 (May 22, 2020)
 * Added SyncManager version information to User-Agent
 * Fixed automatic resend by saving message error code
