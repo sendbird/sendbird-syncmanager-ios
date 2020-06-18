@@ -1,5 +1,8 @@
 # Change Log
 
+### v1.1.24 (June 18, 2020)
+* Reverted to support legacy for `requestStatus`
+
 ### v1.1.23 (June  8, 2020)
 * Fixed to add admin message properly when fetch
 * Removed canceled message from automatic resend

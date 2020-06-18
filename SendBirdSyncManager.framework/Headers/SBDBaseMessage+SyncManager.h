@@ -13,6 +13,7 @@
 
 - (BOOL)isMyMessage;
 - (SBDMessageSendingStatus)sendingStatus;
+- (SBDMessageRequestState)requestStatus;
 - (nullable NSString *)requestId;
 
 @end
