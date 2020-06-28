@@ -1,5 +1,9 @@
 # Change Log
 
+### v1.1.25 (June 27, 2020)
+* Fixed typo 
+* Fixed infinite recursion bug
+
 ### v1.1.24 (June 18, 2020)
 * Reverted to support legacy for `requestStatus`
 
