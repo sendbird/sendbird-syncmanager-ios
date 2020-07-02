@@ -1,5 +1,8 @@
 # Change Log
 
+### v1.1.26 (July 1, 2020)
+* Fixed viewpoint comparison bug
+
 ### v1.1.25 (June 27, 2020)
 * Fixed typo 
 * Fixed infinite recursion bug
