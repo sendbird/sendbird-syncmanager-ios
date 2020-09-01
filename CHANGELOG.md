@@ -1,5 +1,8 @@
 # Change Log
 
+### v1.1.29 (Sep 1, 2020)
+* Improved stability
+
 ### v1.1.27 (Aug 5, 2020)
 * Fixed sent message not cache issue
 * Fixed failed messages not deleted properly after they sent successfully
