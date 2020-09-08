@@ -426,7 +426,7 @@ class GroupChannelChattingViewController: UIViewController, UITableViewDelegate,
 
 `SBSMMessageCollection` has data fetcher by direction: `SBSMMessageDirection.previous` and `SBSMMessageDirection.next`. It fetches data from cache only and never request to server directly. If no more data is available in a certain direction, it wait for the background synchronization internally and fetches the synced messages right after the synchronization progresses. Generally call `fetch(_:_:)` when view was created, user requests previous/next page of message list and user wants to refresh message list, and received an event of reconnection success.
 
->> NOTE: You can get as many messages as your calling of `fetch(_:_:)` method if your device stores enough messages. So you should make sure that you do not call `fetch(_:_:)` more than you intended. We control it with `loading` flag in sample project.
+> NOTE: You can get as many messages as your calling of `fetch(_:_:)` method if your device stores enough messages. So you should make sure that you do not call `fetch(_:_:)` more than you intended. We control it with `loading` flag in sample project.
 
 ```swift
 // swift
