@@ -1,5 +1,8 @@
 # Change Log
 
+### v1.1.30 (Sep 9, 2020)
+* Improved stability 
+
 ### v1.1.29 (Sep 1, 2020)
 * Improved stability
 
