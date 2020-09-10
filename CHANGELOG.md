@@ -1,5 +1,8 @@
 # Change Log
 
+### v1.1.31 (Sep 10, 2020)
+* Fixed bug array off by one
+
 ### v1.1.30 (Sep 9, 2020)
 * Improved stability 
 
