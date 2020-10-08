@@ -1,5 +1,8 @@
 # Change Log
 
+### v1.1.32 (Oct 8, 2020)
+* Added `fetchPendingMessages:`
+
 ### v1.1.31 (Sep 10, 2020)
 * Fixed bug array off by one
 

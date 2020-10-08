@@ -38,7 +38,7 @@ pod update SyncManager
 
 Now you can see installed Sendbird framework by inspecting YOUR_PROJECT.xcworkspace.
 
-> Note: `SendBirdSyncManager` is dependent with `SendBird SDK`. If you install `SendBirdSyncManager`, Cocoapods automatically install `SendBird SDK` as well. And the minimum version of `SendBird SDK` is **3.0.178**.
+> Note: `SendBirdSyncManager` is dependent with `SendBird SDK`. If you install `SendBirdSyncManager`, Cocoapods automatically install `SendBird SDK` as well. And the minimum version of `SendBird SDK` is **3.0.203**.
 
 ## Install Sendbird Framework from Carthage
 

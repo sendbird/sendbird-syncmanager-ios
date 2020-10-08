@@ -78,6 +78,7 @@ NS_DESIGNATED_INITIALIZER;
        completionHandler:(nonnull SBSMFetchResultHandler)completionHandler;
 - (void)fetchAllNextMessages:(nonnull SBSMFetchResultHandler)completionHandler;
 - (void)fetchFailedMessages:(nullable SBSMErrorHandler)completionHandler;
+- (void)fetchPendingMessages:(nullable SBSMErrorHandler)completionHandler;
 
 #pragma mark - current user's message
 - (void)appendMessage:(nonnull SBDBaseMessage *)message;
