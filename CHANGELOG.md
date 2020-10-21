@@ -1,5 +1,8 @@
 # Change Log
 
+### v1.1.33 (Oct 21, 2020)
+* Fixed wrong reasons for a failed message.
+
 ### v1.1.32 (Oct 8, 2020)
 * Added `fetchPendingMessages:`
 
