@@ -84,6 +84,9 @@ NS_DESIGNATED_INITIALIZER;
 - (void)appendMessage:(nonnull SBDBaseMessage *)message;
 - (void)updateMessage:(nonnull SBDBaseMessage *)message;
 - (void)deleteMessage:(nonnull SBDBaseMessage *)message;
+- (void)deleteSucceededMessageWithMessageId:(long long)messageId;
+- (void)deleteFailedMessageWithRequestId:(nonnull NSString *)requestId;
+- (void)deletePendingMessageWithRequestId:(nonnull NSString *)requestId;
 
 #pragma mark - Message capacity
 - (NSUInteger)messageCount;

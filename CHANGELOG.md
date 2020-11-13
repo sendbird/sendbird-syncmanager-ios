@@ -1,5 +1,12 @@
 # Change Log
 
+### v1.1.34 (Nov 13, 2020)
+* Added methods of `SBSMMessageCollection` to delete messages with message ID or request ID.
+  * `deleteSucceededMessageWithMessageId:`
+  * `deleteFailedMessageWithRequestId:`
+  * `deletePendingMessageWithRequestId:`
+* Fixed bug of handling the pending message.
+
 ### v1.1.33 (Oct 21, 2020)
 * Fixed wrong reasons for a failed message.
 
