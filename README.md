@@ -1,17 +1,66 @@
 # [Sendbird](https://sendbird.com) SyncManager for iOS
 
-[Sendbird](https://sendbird.com) SyncManager is a framework that caches and manages channels and messages of [Sendbird SDK](https://github.com/sendbird/sendbird-ios-framework). The SyncManager offers an event-based data management so that each view would see a single method by subscribing data event. And it stores the data into database(sqlite) which implements local caching for faster loading.
-
 [![Platform](https://img.shields.io/badge/platform-iOS-orange.svg)](https://cocoapods.org/pods/SendBirdSyncManager)
 [![Languages](https://img.shields.io/badge/language-Objective--C%20%7C%20Swift-orange.svg)](https://github.com/sendbird/sendbird-syncmanager-ios)
 [![CocoaPods](https://img.shields.io/badge/CocoaPods-compatible-green.svg)](https://cocoapods.org/pods/SendBirdSyncManager)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Commercial License](https://img.shields.io/badge/license-Commercial-brightgreen.svg)](https://github.com/sendbird/sendbird-syncmanager-ios/blob/master/LICENSE.md)
 
-## Documentation
-[SyncManager for iOS](https://docs.sendbird.com/ios/sync_manager_getting_started)
+## Table of contents
 
-## Install Sendbird SyncManager Framework from CocoaPods
+  1. [Introduction](#introduction)
+  1. [Before getting started](#before-getting-started)
+  1. [Getting started](#getting-started)
+  1. [Implementation guide](#implementation-guide)
+
+<br />
+
+## Introduction
+
+SyncManager for iOS is a [Chat SDK](https://github.com/sendbird/sendbird-ios-framework) add-on that optimizes the user caching experience by interlinking the synchronization of the local data storage with the chat data in Sendbird server through an event-driven structure.
+
+### How it works
+
+SyncManager leverages local caching and synchronizes the chat data between the local storage and Sendbird server. By handling the operations in an event-driven structure, the add-on provides a simplified Chat SDK integration and a better user experience. 
+
+#### - Operations
+
+- **Background sync** occurs whenever there is a connection and automatically stores data fetched from Sendbird server into the local cache. 
+- **Real time sync** occurs all the time; it identifies, stores, and delivers the real-time events received from WebSocket connection. 
+- **Offline mode** ensures your client app is operational during offline mode, meaning that even without background sync, the view can display cached data. 
+
+### More about Sendbird SyncManager for iOS
+
+Find out more about Sendbird SyncManager for iOS on [SyncManager for iOS doc](https://sendbird.com/docs/syncmanager/v1/ios/getting-started/about-syncmanager). If you have any comments or questions regarding bugs and feature requests, visit [Sendbird community](https://community.sendbird.com). 
+
+<br />
+
+## Before getting started
+
+This section shows the prerequisites you need to check to use Sendbird SyncManager for iOS.
+
+### Requirements 
+
+The minimum requirements for SyncManager for iOS are:
+
+- iOS 8.0+
+- Sendbird Chat SDK for iOS v3.0.178+
+
+<br />
+
+## Getting started
+
+This section gives you information you need to get started with Sendbird SyncManager for iOS. 
+
+### Try the sample app
+
+Download the sample app to test the core features of SyncManager for iOS. 
+
+- https://github.com/sendbird/SyncManager-iOS-Swift
+
+> **Note**: The fastest way to test our SyncManageris to build your chat app on top of our sample app. Make sure to change the application ID of the sample app to your own. Go to the [Create a Sendbird application from your dashboard](https://sendbird.com/docs/chat/v3/ios/getting-started/install-chat-sdk#2-step-1-create-a-sendbird-application-from-your-dashboard) section to learn more.
+
+### Install Sendbird SyncManager Framework from CocoaPods
 
 Add below into your Podfile on Xcode.
 
@@ -40,16 +89,20 @@ Now you can see installed Sendbird framework by inspecting YOUR_PROJECT.xcworksp
 
 > Note: `SendBirdSyncManager` is dependent with `SendBird SDK`. If you install `SendBirdSyncManager`, Cocoapods automatically install `SendBird SDK` as well. And the minimum version of `SendBird SDK` is **3.0.203**.
 
-## Install Sendbird Framework from Carthage
+### Install Sendbird Framework from Carthage
 
 1. Add `github "sendbird/sendbird-syncmanager-ios"` to your `Cartfile`.
 2. Run `carthage update`.
 3. Go to your Xcode project's "General" settings. Open `<YOUR_XCODE_PROJECT_DIRECTORY>/Carthage/Build/iOS` in Finder and drag `SendBirdSyncManager.framework` to the "Embedded Binaries" section in Xcode. Make sure `Copy items if needed` is selected and click `Finish`.
 
-## Usage
+<br />
+
+## Implementation guide
 
 ### Initialization
+
 `SBSMSyncManager` is singlton class. And when `SBSMSyncManager` was initialized, a instance for `Database` is set up. So if you want to initialize `Database` as soon as possible, call `setup(_:)` first just after you get a user's ID. we recommend it is in `application(_:didFinishLaunchingWithOptions:)`.
+
 ```swift
 // swift
 // AppDelegate.swift
@@ -78,7 +131,8 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 To meet the purpose, each collection has event subscriber and data fetcher. Event subscriber listens data event so that it could apply data update into view, and data fetcher loads data from cache or server and sends the data to event handler.
 
-#### Channel Collection
+#### - Channel collection
+
 Channel is quite mutable data where chat is actively going - channel's last message and unread message count may update very often. Even the position of each channel is changing drastically since many apps sort channels by the most recent message. For that reason, `SBSMChannelCollection` depends mostly on server sync. Here's the process `SBSMChannelCollection` synchronizes data:
 
 1. It loads channels from cache and the view shows them.
@@ -283,7 +337,8 @@ func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> U
 
 ```
 
-#### Message Collection
+#### - Message collection
+
 Message is relatively static data and SyncManager supports full-caching for messages. `SBSMMessageCollection` conducts background synchronization so that it synchronizes all the messages until it reaches to the first message. Background synchronization does NOT affect view directly but store for local cache. For view update, explicitly call `fetch(_:_:)` with direction which fetches data from cache and sends the data into collection handler. 
 
 Background synchronization ceases if the synchronization is done or synchronization request is failed.
@@ -508,7 +563,7 @@ func didSucceedReconnection() {
 
 Fetched messages would be delivered to delegate. fetcher determines the `SBSMMessageEventAction` automatically so you don't have to consider duplicated data in view.
 
-#### Handling uncaught messages
+### Handle uncaught messages
 
 SyncManager listens message event such as `channel(_:didReceive:)` and `channel(_:didUpdate:)`, and applies the change automatically. But they would not be called if the message is sent by `currentUser`. You can keep track of the message by calling related function when the `currentUser` sends or updates message. `SBSMMessageCollection` provides methods to apply the message event to collections.
 
