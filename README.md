@@ -93,7 +93,7 @@ Now you can see installed `SendBirdSyncManager` framework by inspecting `YOUR_PR
 
 1. Add `github "sendbird/sendbird-syncmanager-ios"` to your `Cartfile`.
 2. Run `carthage update`.
-3. Go to your Xcode project's "General" settings. Open `<YOUR_XCODE_PROJECT_DIRECTORY>/Carthage/Build/iOS` in Finder and drag `SendBirdSyncManager.framework` to the "Embedded Binaries" section in Xcode. Make sure `Copy items if needed` is selected and click `Finish`.
+3. Go to your Xcode project's **General** settings. Open `<YOUR_XCODE_PROJECT_DIRECTORY>/Carthage/Build/iOS` in Finder and drag `SendBirdSyncManager.framework` to the **Embedded Binaries** section in Xcode. Make sure `Copy items if needed` is selected and click `Finish`.
 
 <br />
 
