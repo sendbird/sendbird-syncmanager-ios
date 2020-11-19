@@ -73,19 +73,19 @@ target YOUR_PROJECT_TARGET do
 end
 ```
 
-Install Sendbird SyncManager Framework through CocoaPods.
+Install `SendBirdSyncManager` framework through `CocoaPods`.
 
 ```bash
 pod install
 ```
 
-Update Sendbird SyncManager Framework through CocoaPods.
+Update `SendBirdSyncManager` framework through `CocoaPods`.
 
 ```bash
 pod update SyncManager
 ```
 
-Now you can see installed Sendbird framework by inspecting YOUR_PROJECT.xcworkspace.
+Now you can see installed `SendBirdSyncManager` framework by inspecting `YOUR_PROJECT.xcworkspace`.
 
 > **Note**: `SendBirdSyncManager` is dependent with `SendBird SDK`. If you install `SendBirdSyncManager`, Cocoapods automatically install `SendBird SDK` as well. And the minimum version of `SendBird SDK` is **3.0.203**.
 
