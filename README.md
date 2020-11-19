@@ -139,7 +139,7 @@ Channel is quite mutable data where chat is actively going - channel's last mess
 2. Then it fetches the most recent channels from Sendbird server and merges with the channels in view.
 3. It fetches from Sendbird server every time `fetch(_:)` is called in order to view previous channels.
 
-> Note: Channel data sync mechanism could change later.
+> **Note**: Channel data sync mechanism could change later.
 
 `SBSMChannelCollection` requires `SBDGroupChannelListQuery` instance of [Sendbird SDK](https://github.com/sendbird/sendbird-ios-framework) as it binds the query into the collection. Then the collection filters data with the query. Here's the code to create new `SBSMChannelCollection` instance. The creation of channel collection is usually in `viewDidLoad()` of group channel list view controller.
 
@@ -343,7 +343,7 @@ Message is relatively static data and SyncManager supports full-caching for mess
 
 Background synchronization ceases if the synchronization is done or synchronization request is failed.
 
-> Note: Background synchronization run in background thread.
+> **Note**: Background synchronization run in background thread.
 
 For various viewpoint(`viewpointTimestamp`) support, `SBSMMessageCollection` sets a timestamp when to fetch messages. The `viewpointTimestamp` is a timestamp to start background synchronization in both previous and next direction (and also the point where a user sees at first). Here's the code to create `SBSMMessageCollection`.
 
@@ -481,7 +481,7 @@ class GroupChannelChattingViewController: UIViewController, UITableViewDelegate,
 
 `SBSMMessageCollection` has data fetcher by direction: `SBSMMessageDirection.previous` and `SBSMMessageDirection.next`. It fetches data from cache only and never request to server directly. If no more data is available in a certain direction, it wait for the background synchronization internally and fetches the synced messages right after the synchronization progresses. Generally call `fetch(_:_:)` when view was created, user requests previous/next page of message list and user wants to refresh message list, and received an event of reconnection success.
 
-> NOTE: You can get as many messages as your calling of `fetch(_:_:)` method if your device stores enough messages. So you should make sure that you do not call `fetch(_:_:)` more than you intended. We control it with `loading` flag in sample project.
+> **NOTE**: You can get as many messages as your calling of `fetch(_:_:)` method if your device stores enough messages. So you should make sure that you do not call `fetch(_:_:)` more than you intended. We control it with `loading` flag in sample project.
 
 ```swift
 // swift
@@ -622,7 +622,7 @@ if (previewMessage.requestId != nil) {
 
 It works only for messages sent by `currentUser` which means the message sender should be `currentUser`.
 
-### Connection Lifecycle
+### Connection lifecycle
 
 You should let SyncManager start synchronization after connect to Sendbird. Call `resumeSynchronization()` on connection, and `pauseSynchronization()` on disconnection. Here's the code:
 
