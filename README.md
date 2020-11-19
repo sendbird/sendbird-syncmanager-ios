@@ -23,7 +23,7 @@ SyncManager for iOS is a [Chat SDK](https://github.com/sendbird/sendbird-ios-fra
 
 SyncManager leverages local caching and synchronizes the chat data between the local storage and Sendbird server. By handling the operations in an event-driven structure, the add-on provides a simplified Chat SDK integration and a better user experience. 
 
-#### - Operations
+### Operations
 
 - **Background sync** occurs whenever there is a connection and automatically stores data fetched from Sendbird server into the local cache. 
 - **Real time sync** occurs all the time; it identifies, stores, and delivers the real-time events received from WebSocket connection. 
@@ -64,7 +64,7 @@ Download the sample app to test the core features of SyncManager for iOS.
 
 Add below into your Podfile on Xcode.
 
-```
+```bash
 platform :ios, '8.0'
 use_frameworks!
 
@@ -75,19 +75,19 @@ end
 
 Install Sendbird SyncManager Framework through CocoaPods.
 
-```
+```bash
 pod install
 ```
 
 Update Sendbird SyncManager Framework through CocoaPods.
 
-```
+```bash
 pod update SyncManager
 ```
 
 Now you can see installed Sendbird framework by inspecting YOUR_PROJECT.xcworkspace.
 
-> Note: `SendBirdSyncManager` is dependent with `SendBird SDK`. If you install `SendBirdSyncManager`, Cocoapods automatically install `SendBird SDK` as well. And the minimum version of `SendBird SDK` is **3.0.203**.
+> **Note**: `SendBirdSyncManager` is dependent with `SendBird SDK`. If you install `SendBirdSyncManager`, Cocoapods automatically install `SendBird SDK` as well. And the minimum version of `SendBird SDK` is **3.0.203**.
 
 ### Install Sendbird Framework from Carthage
 
