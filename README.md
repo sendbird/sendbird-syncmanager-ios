@@ -60,7 +60,7 @@ Download the sample app to test the core features of SyncManager for iOS.
 
 > **Note**: The fastest way to test our SyncManager is to build your chat app on top of our sample app. Make sure to change the application ID of the sample app to your own. Go to the [Create a Sendbird application from your dashboard](https://sendbird.com/docs/chat/v3/ios/getting-started/install-chat-sdk#2-step-1-create-a-sendbird-application-from-your-dashboard) section to learn more.
 
-### Install Sendbird SyncManager Framework from CocoaPods
+### Install SendBirdSyncManager framework from CocoaPods
 
 Add below into your Podfile on Xcode.
 
@@ -89,7 +89,7 @@ Now you can see installed `SendBirdSyncManager` framework by inspecting `YOUR_PR
 
 > **Note**: `SendBirdSyncManager` is dependent with `SendBird SDK`. If you install `SendBirdSyncManager`, `Cocoapods` automatically install `SendBird SDK` as well. And the minimum version of `SendBird SDK` is **3.0.203**.
 
-### Install Sendbird Framework from Carthage
+### Install SendBirdSyncManager framework from Carthage
 
 1. Add `github "sendbird/sendbird-syncmanager-ios"` to your `Cartfile`.
 2. Run `carthage update`.
@@ -133,7 +133,7 @@ Each collection has event subscriber and data fetcher. Event subscriber listens 
 
 #### - Channel collection
 
-Channel is a mutable data where chat is active. There are frequent updates on the channel's last message unread message count and also drastic changes in the position of each channe since many apps sort channels by the most recent message. For that reason, `SBSMChannelCollection` depends mostly on server sync. Here's the process `SBSMChannelCollection` synchronizes data:
+Channel is a mutable data where chat is active. There are frequent updates on the channel's last message unread message count and also drastic changes in the position of each channel since many apps sort channels by the most recent message. For that reason, `SBSMChannelCollection` depends mostly on server sync. Here's the process `SBSMChannelCollection` synchronizes data:
 
 1. It loads channels from cache and the view shows them.
 2. Then it fetches the most recent channels from Sendbird server and merges with the channels in view.
@@ -182,7 +182,7 @@ deinit {
 }
 ```
 
-`SBSMChannelCollection` provides event handlers with delegates. An event handler is named as `SBSMChannelCollectionDelegate` and it receives `SBSMChannelEventAction` and list of `channels` with the arrival of an event. The `SBSMChannelEventAction` is a keyword to notify what happened to the channel list, and the `channel` is a type of `SBDGroupChannel` instance . You can create an view controller instance and implement the event handler and add it to the collection.
+`SBSMChannelCollection` provides event handlers with delegates. An event handler is named as `SBSMChannelCollectionDelegate` and it receives `SBSMChannelEventAction` and list of `channels` with the arrival of an event. The `SBSMChannelEventAction` is a keyword to notify what happened to the channel list, and the `channel` is a type of `SBDGroupChannel` instance. You can create an view controller instance and implement the event handler and add it to the collection.
 
 ```swift
 // swift
@@ -275,7 +275,7 @@ class GroupChannelListViewController: UIViewController, UITableViewDelegate, UIT
 
 **- Data fetcher**
 
-Fetched channels would be delivered to the delegate method. The fetcher determines the `SBSMChannelEventAction` automatically so you don't have to consider duplicated data in view. Generally `fetch(_:)` is called when view was created and the user requests the next page of tbhe channel list and also wants to refresh the channel list.
+Fetched channels would be delivered to the delegate method. The fetcher determines the `SBSMChannelEventAction` automatically so you don't have to consider duplicated data in view. Generally `fetch(_:)` is called when view was created and the user requests the next page of the channel list and also wants to refresh the channel list.
 
 ```swift
 // swift
@@ -376,7 +376,7 @@ override viewDidLoad() {
 }
 ```
 
-You can dismiss the collection when the collection is obsolete and no longer used. It is recommanded for `remove()` to be in `deinit` of the message view contorller.
+You can dismiss the collection when the collection is obsolete and no longer used. It is recommended for `remove()` to be in `deinit` of the message view contorller.
 
 ```swift
 // swift
