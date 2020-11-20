@@ -17,7 +17,7 @@
 
 ## Introduction
 
-SyncManager for iOS is a [Chat SDK](https://github.com/sendbird/sendbird-ios-framework) add-on that optimizes the user caching experience by interlinking the synchronization of the local data storage with the chat data in Sendbird server through an event-driven structure.
+**Sendbird SyncManager** for iOS is a [Chat SDK](https://github.com/sendbird/sendbird-ios-framework) add-on that optimizes the user caching experience by interlinking the synchronization of the local data storage with the chat data in Sendbird server through an event-driven structure.
 
 ### How it works
 
