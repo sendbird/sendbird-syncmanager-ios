@@ -58,7 +58,7 @@ Download the sample app to test the core features of SyncManager for iOS.
 
 - https://github.com/sendbird/SyncManager-iOS-Swift
 
-> **Note**: The fastest way to test our SyncManageris to build your chat app on top of our sample app. Make sure to change the application ID of the sample app to your own. Go to the [Create a Sendbird application from your dashboard](https://sendbird.com/docs/chat/v3/ios/getting-started/install-chat-sdk#2-step-1-create-a-sendbird-application-from-your-dashboard) section to learn more.
+> **Note**: The fastest way to test our SyncManager is to build your chat app on top of our sample app. Make sure to change the application ID of the sample app to your own. Go to the [Create a Sendbird application from your dashboard](https://sendbird.com/docs/chat/v3/ios/getting-started/install-chat-sdk#2-step-1-create-a-sendbird-application-from-your-dashboard) section to learn more.
 
 ### Install Sendbird SyncManager Framework from CocoaPods
 
@@ -87,7 +87,7 @@ pod update SyncManager
 
 Now you can see installed `SendBirdSyncManager` framework by inspecting `YOUR_PROJECT.xcworkspace`.
 
-> **Note**: `SendBirdSyncManager` is dependent with `SendBird SDK`. If you install `SendBirdSyncManager`, Cocoapods automatically install `SendBird SDK` as well. And the minimum version of `SendBird SDK` is **3.0.203**.
+> **Note**: `SendBirdSyncManager` is dependent with `SendBird SDK`. If you install `SendBirdSyncManager`, `Cocoapods` automatically install `SendBird SDK` as well. And the minimum version of `SendBird SDK` is **3.0.203**.
 
 ### Install Sendbird Framework from Carthage
 
@@ -101,7 +101,7 @@ Now you can see installed `SendBirdSyncManager` framework by inspecting `YOUR_PR
 
 ### Initialization
 
-`SBSMSyncManager` is singlton class. And when `SBSMSyncManager` was initialized, a instance for `Database` is set up. So if you want to initialize `Database` as soon as possible, call `setup(_:)` first just after you get a user's ID. we recommend it is in `application(_:didFinishLaunchingWithOptions:)`.
+`SBSMSyncManager` is a singlton class. And when `SBSMSyncManager` was initialized, a instance for `Database` is set up. So if you want to initialize `Database` as soon as possible, call `setup(_:)` first just after you get a user's ID. we recommend it is in `application(_:didFinishLaunchingWithOptions:)`.
 
 ```swift
 // swift
@@ -129,11 +129,11 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 - To listen data event and deliver it as view event.
 - To fetch data from cache or Sendbird server and deliver the data as view event.
 
-To meet the purpose, each collection has event subscriber and data fetcher. Event subscriber listens data event so that it could apply data update into view, and data fetcher loads data from cache or server and sends the data to event handler.
+Each collection has event subscriber and data fetcher. Event subscriber listens to data events so that it could apply these data updates into view, while data fetcher loads data from cache or server and sends the data to an event handler.
 
 #### - Channel collection
 
-Channel is quite mutable data where chat is actively going - channel's last message and unread message count may update very often. Even the position of each channel is changing drastically since many apps sort channels by the most recent message. For that reason, `SBSMChannelCollection` depends mostly on server sync. Here's the process `SBSMChannelCollection` synchronizes data:
+Channel is a mutable data where chat is active. There are frequent updates on the channel's last message unread message count and also drastic changes in the position of each channe since many apps sort channels by the most recent message. For that reason, `SBSMChannelCollection` depends mostly on server sync. Here's the process `SBSMChannelCollection` synchronizes data:
 
 1. It loads channels from cache and the view shows them.
 2. Then it fetches the most recent channels from Sendbird server and merges with the channels in view.
@@ -182,7 +182,7 @@ deinit {
 }
 ```
 
-As aforementioned, `SBSMChannelCollection` provides event handler with delegate. Event handler is named as `SBSMChannelCollectionDelegate` and it receives `SBSMChannelEventAction` and list of `channels` when an event has come. The `SBSMChannelEventAction` is a keyword to notify what happened to the channel list, and the `channel` is a kind of `SBDGroupChannel` instance. You can create an view controller instance and implement the event handler and add it to the collection.
+`SBSMChannelCollection` provides event handlers with delegates. An event handler is named as `SBSMChannelCollectionDelegate` and it receives `SBSMChannelEventAction` and list of `channels` with the arrival of an event. The `SBSMChannelEventAction` is a keyword to notify what happened to the channel list, and the `channel` is a type of `SBDGroupChannel` instance . You can create an view controller instance and implement the event handler and add it to the collection.
 
 ```swift
 // swift
@@ -273,7 +273,9 @@ class GroupChannelListViewController: UIViewController, UITableViewDelegate, UIT
 
 ```
 
-And data fetcher. Fetched channels would be delivered to delegate method. fetcher determines the `SBSMChannelEventAction` automatically so you don't have to consider duplicated data in view. Generally `fetch(_:)` is called when view was created, user requests next page of channel list and user wants to refresh channel list.
+**- Data fetcher**
+
+Fetched channels would be delivered to the delegate method. The fetcher determines the `SBSMChannelEventAction` automatically so you don't have to consider duplicated data in view. Generally `fetch(_:)` is called when view was created and the user requests the next page of tbhe channel list and also wants to refresh the channel list.
 
 ```swift
 // swift
@@ -339,15 +341,15 @@ func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> U
 
 #### - Message collection
 
-Message is relatively static data and SyncManager supports full-caching for messages. `SBSMMessageCollection` conducts background synchronization so that it synchronizes all the messages until it reaches to the first message. Background synchronization does NOT affect view directly but store for local cache. For view update, explicitly call `fetch(_:_:)` with direction which fetches data from cache and sends the data into collection handler. 
+Message is relatively static data and SyncManager supports **full-caching** for messages. `SBSMMessageCollection` conducts background synchronization so that it synchronizes all the messages until it reaches to the first message. Background synchronization **DOES NOT** affect view directly but store it for local cache. For view update, explicitly call `fetch(_:_:)` with direction, which fetches data from cache and sends the data into collection handler. 
 
-Background synchronization ceases if the synchronization is done or synchronization request is failed.
+If the synchronization is done or a synchronization request is failed, background synchronization ceases. 
 
 > **Note**: Background synchronization run in background thread.
 
-For various viewpoint(`viewpointTimestamp`) support, `SBSMMessageCollection` sets a timestamp when to fetch messages. The `viewpointTimestamp` is a timestamp to start background synchronization in both previous and next direction (and also the point where a user sees at first). Here's the code to create `SBSMMessageCollection`.
+For various viewpoint(`viewpointTimestamp`) support, `SBSMMessageCollection` sets a timestamp for when to fetch messages. The `viewpointTimestamp` is a timestamp to start background synchronization in both previous and next direction (and also the point where a user sees at first). Here's the code to create `SBSMMessageCollection`.
 
-The creation of message collection is usually in `viewDidLoad()` of message list view controller as well as channel collection.
+The creation of message collection is usually in `viewDidLoad()` of message list view controller as well as in the channel collection.
 
 ```swift
 // swift
@@ -374,7 +376,7 @@ override viewDidLoad() {
 }
 ```
 
-You can dismiss collection when the collection is obsolete and no longer used. It is recommanded for `remove()` to be in `deinit` of message view contorller.
+You can dismiss the collection when the collection is obsolete and no longer used. It is recommanded for `remove()` to be in `deinit` of the message view contorller.
 
 ```swift
 // swift
@@ -393,7 +395,7 @@ deinit {
 }
 ```
 
-`SBSMMessageCollection` has event handler for delegate that you can implement and add to the collection. Event handler is named as `SBSMMessageCollectionDelegate` and it receives `SBSMMessageEventAction` and list of `messages` when an event has come. The `SBSMMessageEventAction` is a keyword to notify what happened to the message, and the `message` is a kind of `SBDBaseMessage` instance of [Sendbird SDK](https://github.com/sendbird/sendbird-ios-framework).
+`SBSMMessageCollection` has an event handler for delegates, which can be implemented and added to the collection. An event handler is named as `SBSMMessageCollectionDelegate` and it receives `SBSMMessageEventAction` and list of `messages` with the arrival of an event. The `SBSMMessageEventAction` is a keyword to notify what happened to the message, and the `message` is a kind of `SBDBaseMessage` instance of [Sendbird SDK](https://github.com/sendbird/sendbird-ios-framework).
 
 ```swift
 // swift
@@ -479,9 +481,9 @@ class GroupChannelChattingViewController: UIViewController, UITableViewDelegate,
 }
 ```
 
-`SBSMMessageCollection` has data fetcher by direction: `SBSMMessageDirection.previous` and `SBSMMessageDirection.next`. It fetches data from cache only and never request to server directly. If no more data is available in a certain direction, it wait for the background synchronization internally and fetches the synced messages right after the synchronization progresses. Generally call `fetch(_:_:)` when view was created, user requests previous/next page of message list and user wants to refresh message list, and received an event of reconnection success.
+`SBSMMessageCollection` has a data fetcher by direction: `SBSMMessageDirection.previous` and `SBSMMessageDirection.next`. It only fetches data from cache and never directly requests to Sendbird server. If no more data is available in a certain direction, it internally waits for the background synchronization and fetches the synced messages right after the progression of the synchronization. When view is created, generally call `fetch(_:_:)` to make users request the previous/next page of the message list, refresh the message list, and receive an event of reconnection success.
 
-> **NOTE**: You can get as many messages as your calling of `fetch(_:_:)` method if your device stores enough messages. So you should make sure that you do not call `fetch(_:_:)` more than you intended. We control it with `loading` flag in sample project.
+> **NOTE**: You can get as many messages as your calling of `fetch(_:_:)` method if your device stores enough messages. So you should make sure that you do not call `fetch(_:_:)` more than you intended. We control it with `loading` flag in our sample project.
 
 ```swift
 // swift
@@ -561,11 +563,11 @@ func didSucceedReconnection() {
 
 ```
 
-Fetched messages would be delivered to delegate. fetcher determines the `SBSMMessageEventAction` automatically so you don't have to consider duplicated data in view.
+Fetched messages would be delivered to a delegate. The fetcher determines the `SBSMMessageEventAction` automatically, so you don't have to consider duplicated data in view.
 
 ### Handle uncaught messages
 
-SyncManager listens message event such as `channel(_:didReceive:)` and `channel(_:didUpdate:)`, and applies the change automatically. But they would not be called if the message is sent by `currentUser`. You can keep track of the message by calling related function when the `currentUser` sends or updates message. `SBSMMessageCollection` provides methods to apply the message event to collections.
+SyncManager listens to message event such as `channel(_:didReceive:)` and `channel(_:didUpdate:)`, and applies the change automatically. But they would not be called if the message is sent by `currentUser`. You can keep track of the message by calling related function when the `currentUser` sends or updates the message. `SBSMMessageCollection` provides methods to apply the message event to the collections.
 
 ```swift
 // swift 
@@ -620,11 +622,11 @@ if (previewMessage.requestId != nil) {
 }];
 ```
 
-It works only for messages sent by `currentUser` which means the message sender should be `currentUser`.
+It works only for messages sent by `currentUser`, which means the message sender should be `currentUser`.
 
 ### Connection lifecycle
 
-You should let SyncManager start synchronization after connect to Sendbird. Call `resumeSynchronization()` on connection, and `pauseSynchronization()` on disconnection. Here's the code:
+You should let SyncManager start synchronization after being connected to Sendbird server. Call `resumeSynchronization()` on connection, and `pauseSynchronization()` on disconnection. Here's the code:
 
 ```swift
 // swift
