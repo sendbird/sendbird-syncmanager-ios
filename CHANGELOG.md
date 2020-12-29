@@ -1,5 +1,8 @@
 # Change Log
 
+### v1.1.35 (Dec 29, 2020)
+* Improved stability
+
 ### v1.1.34 (Nov 13, 2020)
 * Added methods of `SBSMMessageCollection` to delete messages with message ID or request ID.
   * `deleteSucceededMessageWithMessageId:`
