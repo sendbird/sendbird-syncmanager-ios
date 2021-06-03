@@ -1,9 +1,9 @@
 # Change Log
 
-### v1.1.38 (Jun 3, 2020)
+### v1.1.38 (Jun 3, 2021)
 * Fixed nested dispatch_sync deadlock 
 
-### v1.1.37 (May 5, 2020)
+### v1.1.37 (May 5, 2021)
 * Fixed to send out failed message removal for file message after resent
 
 ### v1.1.36 (Dec 30, 2020)
