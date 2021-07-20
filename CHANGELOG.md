@@ -1,5 +1,8 @@
 # Change Log
 
+### v1.1.39 (Jul 20, 2021)
+* Improved stability 
+
 ### v1.1.38 (Jun 3, 2021)
 * Fixed nested dispatch_sync deadlock 
 

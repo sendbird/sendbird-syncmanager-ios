@@ -18,6 +18,7 @@
 @property (nonatomic, setter=setAutomaticResendMessageRetryCount:) NSInteger automaticResendMessageRetryCount;
 @property (atomic) NSInteger maxFailedMessageCountPerChannel;
 @property (atomic) NSInteger failedMessageRetentionDays;
+@property (atomic) BOOL forceResumeSync;
 
 + (nonnull instancetype)options;
 
