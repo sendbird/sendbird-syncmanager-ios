@@ -1,5 +1,8 @@
 # Change Log
 
+### v1.1.40 (Oct 11, 2021)
+* Improved stability 
+
 ### v1.1.39 (Jul 20, 2021)
 * Improved stability 
 
