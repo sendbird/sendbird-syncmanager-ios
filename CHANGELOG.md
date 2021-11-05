@@ -1,5 +1,8 @@
 # Change Log
 
+### v1.1.41 (Nov 5, 2021)
+* Fixed a bug when the channel is hidden.
+
 ### v1.1.40 (Oct 11, 2021)
 * Improved stability 
 
