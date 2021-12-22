@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.authors      		 = { "Jed Gyeong" => "jed.gyeong@sendbird.com", "Woo" => "wooyoung.chung@sendbird.com" }
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/sendbird/sendbird-syncmanager-ios.git", :tag => "v#{s.version}" }
-  s.ios.vendored_frameworks = "SendBirdSyncManager.framework"
+  s.ios.vendored_frameworks = "SendBirdSyncManager.xcframework"
   s.ios.frameworks = ["UIKit", "Foundation", "CoreData", "SendBirdSDK"]
   s.requires_arc = true
   s.dependency "SendBirdSDK", "~> 3.1.1"

@@ -1,0 +1,2951 @@
+BCSymbolMap Version: 2.0
++[SBSMRetryCommander execute:]
+_OBJC_CLASSLIST_REFERENCES_$_
+_OBJC_SELECTOR_REFERENCES_
+_OBJC_SELECTOR_REFERENCES_.2
+__OBJC_$_CLASS_METHODS_SBSMRetryCommander
+__OBJC_METACLASS_RO_$_SBSMRetryCommander
+__OBJC_CLASS_RO_$_SBSMRetryCommander
+Apple clang version 13.0.0 (clang-1300.0.29.3)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk
+iPhoneOS15.0.sdk
+/Users/jedgyeong/git/syncmanager-ios/SyncManager/Client/Command/SBSMRetryCommander.m
+/Users/jedgyeong/git/syncmanager-ios
+SyncManager/Client/Command/SBSMRetryCommander.m
++[SBSMDatabaseController controllerWithCompletionHandler:]
+___58+[SBSMDatabaseController controllerWithCompletionHandler:]_block_invoke
+___copy_helper_block_e4_20b
+___destroy_helper_block_e4_20s
+___58+[SBSMDatabaseController controllerWithCompletionHandler:]_block_invoke.2
++[SBSMDatabaseController controller]
++[SBSMDatabaseController databaseModelUrl]
+___42+[SBSMDatabaseController databaseModelUrl]_block_invoke
+-[SBSMDatabaseController initWithCompletionHandler:]
+___52-[SBSMDatabaseController initWithCompletionHandler:]_block_invoke
+___copy_helper_block_e4_20s24b
+___destroy_helper_block_e4_20s24s
+-[SBSMDatabaseController managedObjectContext]
+-[SBSMDatabaseController .cxx_destruct]
+___block_descriptor_24_e4_20bs_e31_v8?0"SBSMDatabaseController"4l
+__gDatabaseController
+_OBJC_SELECTOR_REFERENCES_.4
+_databaseModelUrl.modelUrl
+_databaseModelUrl.onceToken
+___block_descriptor_20_e5_v4?0l
+___block_literal_global
+_OBJC_CLASSLIST_REFERENCES_$_.6
+_OBJC_SELECTOR_REFERENCES_.8
+_OBJC_SELECTOR_REFERENCES_.10
+_OBJC_SELECTOR_REFERENCES_.14
+_OBJC_SELECTOR_REFERENCES_.16
+_OBJC_SELECTOR_REFERENCES_.18
+_OBJC_CLASSLIST_REFERENCES_$_.19
+_OBJC_SELECTOR_REFERENCES_.21
+_OBJC_CLASSLIST_REFERENCES_$_.22
+_OBJC_SELECTOR_REFERENCES_.24
+_OBJC_CLASSLIST_REFERENCES_$_.25
+_OBJC_SELECTOR_REFERENCES_.27
+_OBJC_SELECTOR_REFERENCES_.29
+_OBJC_SELECTOR_REFERENCES_.31
+_OBJC_SELECTOR_REFERENCES_.33
+_OBJC_CLASSLIST_REFERENCES_$_.34
+_OBJC_SELECTOR_REFERENCES_.36
+_OBJC_SELECTOR_REFERENCES_.38
+_OBJC_CLASSLIST_REFERENCES_$_.39
+_OBJC_SELECTOR_REFERENCES_.43
+_OBJC_SELECTOR_REFERENCES_.45
+_OBJC_CLASSLIST_REFERENCES_$_.46
+_OBJC_SELECTOR_REFERENCES_.48
+_OBJC_CLASSLIST_REFERENCES_$_.49
+_OBJC_SELECTOR_REFERENCES_.51
+_OBJC_SELECTOR_REFERENCES_.53
+___block_descriptor_28_e4_20s24bs_e5_v4?0l
+__OBJC_$_CLASS_METHODS_SBSMDatabaseController
+__OBJC_METACLASS_RO_$_SBSMDatabaseController
+__OBJC_$_INSTANCE_METHODS_SBSMDatabaseController
+_OBJC_IVAR_$_SBSMDatabaseController._managedObjectContext
+__OBJC_$_INSTANCE_VARIABLES_SBSMDatabaseController
+__OBJC_$_PROP_LIST_SBSMDatabaseController
+__OBJC_CLASS_RO_$_SBSMDatabaseController
+/Users/jedgyeong/git/syncmanager-ios/SyncManager/DataProvider/SBSMDatabaseController.m
+SyncManager/DataProvider/SBSMDatabaseController.m
+SyncManager/DataProvider/SBSMDatabaseController.h
+__destroy_helper_block_e4_20s24s
+__copy_helper_block_e4_20s24b
+__52-[SBSMDatabaseController initWithCompletionHandler:]_block_invoke
+__42+[SBSMDatabaseController databaseModelUrl]_block_invoke
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/usr/include/dispatch/once.h
+__58+[SBSMDatabaseController controllerWithCompletionHandler:]_block_invoke.2
+__destroy_helper_block_e4_20s
+__copy_helper_block_e4_20b
+__58+[SBSMDatabaseController controllerWithCompletionHandler:]_block_invoke
+-[SBDError(SBSMMessageCollection) isResendable]
+-[SBSMMessageCollection initWithChannel:filter:viewpointTimestamp:limit:reverse:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___81-[SBSMMessageCollection initWithChannel:filter:viewpointTimestamp:limit:reverse:]_block_invoke
+___81-[SBSMMessageCollection initWithChannel:filter:viewpointTimestamp:limit:reverse:]_block_invoke_2
+___copy_helper_block_e4_20r
+___destroy_helper_block_e4_20r
+___copy_helper_block_e4_20s24r
+___destroy_helper_block_e4_20s24r
+___81-[SBSMMessageCollection initWithChannel:filter:viewpointTimestamp:limit:reverse:]_block_invoke.65
+___81-[SBSMMessageCollection initWithChannel:filter:viewpointTimestamp:limit:reverse:]_block_invoke_2.68
+___copy_helper_block_e8_20s36r
+___destroy_helper_block_e8_20s36r
++[SBSMMessageCollection collectionWithChannel:filter:viewpointTimestamp:]
++[SBSMMessageCollection createWithChannelUrl:filter:viewpointTimestamp:completionHandler:]
+___90+[SBSMMessageCollection createWithChannelUrl:filter:viewpointTimestamp:completionHandler:]_block_invoke
+___90+[SBSMMessageCollection createWithChannelUrl:filter:viewpointTimestamp:completionHandler:]_block_invoke_2
+___copy_helper_block_e4_20b24s
+___90+[SBSMMessageCollection createWithChannelUrl:filter:viewpointTimestamp:completionHandler:]_block_invoke.98
+___copy_helper_block_e8_20b36s
+___destroy_helper_block_e8_20s36s
+-[SBSMMessageCollection resetViewpointTimestamp:]
+___49-[SBSMMessageCollection resetViewpointTimestamp:]_block_invoke
+___49-[SBSMMessageCollection resetViewpointTimestamp:]_block_invoke_2
+___49-[SBSMMessageCollection resetViewpointTimestamp:]_block_invoke_3
+___copy_helper_block_e8_20s
+___destroy_helper_block_e8_20s
+-[SBSMMessageCollection remove]
+___31-[SBSMMessageCollection remove]_block_invoke
+___copy_helper_block_e4_20s
+-[SBSMMessageCollection sendMessageResponseHandler]
+___51-[SBSMMessageCollection sendMessageResponseHandler]_block_invoke
+-[SBSMMessageCollection collectionQueueInDirection:]
+-[SBSMMessageCollection messages]
+___33-[SBSMMessageCollection messages]_block_invoke
+-[SBSMMessageCollection succeededMessages]
+___42-[SBSMMessageCollection succeededMessages]_block_invoke
+-[SBSMMessageCollection failedMessages]
+___39-[SBSMMessageCollection failedMessages]_block_invoke
+-[SBSMMessageCollection pendingMessages]
+___40-[SBSMMessageCollection pendingMessages]_block_invoke
+-[SBSMMessageCollection hasPendingMessageWithRequestId:]
+___56-[SBSMMessageCollection hasPendingMessageWithRequestId:]_block_invoke
+___copy_helper_block_e4_20s24s28r
+___destroy_helper_block_e4_20s24s28r
+-[SBSMMessageCollection hasFailedMessageWithRequestId:]
+___55-[SBSMMessageCollection hasFailedMessageWithRequestId:]_block_invoke
+-[SBSMMessageCollection upsertFailedMessage:]
+___45-[SBSMMessageCollection upsertFailedMessage:]_block_invoke
+___copy_helper_block_e4_20s24s
+-[SBSMMessageCollection removeFailedMessage:]
+___45-[SBSMMessageCollection removeFailedMessage:]_block_invoke
+-[SBSMMessageCollection addPendingMessage:store:]
+___49-[SBSMMessageCollection addPendingMessage:store:]_block_invoke
+-[SBSMMessageCollection removePendingMessage:]
+-[SBSMMessageCollection removePendingMessageWithRequestId:]
+___59-[SBSMMessageCollection removePendingMessageWithRequestId:]_block_invoke
+-[SBSMMessageCollection removeNotSucceededMessageWithRequestId:]
+___64-[SBSMMessageCollection removeNotSucceededMessageWithRequestId:]_block_invoke
+___64-[SBSMMessageCollection removeNotSucceededMessageWithRequestId:]_block_invoke_2
+___64-[SBSMMessageCollection removeNotSucceededMessageWithRequestId:]_block_invoke.186
+-[SBSMMessageCollection setChunk:]
+-[SBSMMessageCollection fetchInDirection:completionHandler:]
+___60-[SBSMMessageCollection fetchInDirection:completionHandler:]_block_invoke
+___60-[SBSMMessageCollection fetchInDirection:completionHandler:]_block_invoke_2
+___60-[SBSMMessageCollection fetchInDirection:completionHandler:]_block_invoke_3
+-[SBSMMessageCollection fetchAllNextMessages:]
+___46-[SBSMMessageCollection fetchAllNextMessages:]_block_invoke
+___46-[SBSMMessageCollection fetchAllNextMessages:]_block_invoke_2
+___46-[SBSMMessageCollection fetchAllNextMessages:]_block_invoke_3
+-[SBSMMessageCollection fetchAllNextMessagesLoop:]
+___50-[SBSMMessageCollection fetchAllNextMessagesLoop:]_block_invoke
+-[SBSMMessageCollection fetchSucceededMessagesInDirection:completionHandler:]
+___77-[SBSMMessageCollection fetchSucceededMessagesInDirection:completionHandler:]_block_invoke
+___77-[SBSMMessageCollection fetchSucceededMessagesInDirection:completionHandler:]_block_invoke_2
+___copy_helper_block_e4_20s24b28r
+___77-[SBSMMessageCollection fetchSucceededMessagesInDirection:completionHandler:]_block_invoke.216
+___77-[SBSMMessageCollection fetchSucceededMessagesInDirection:completionHandler:]_block_invoke_2.221
+___77-[SBSMMessageCollection fetchSucceededMessagesInDirection:completionHandler:]_block_invoke_3
+___copy_helper_block_e4_20b24r
+___77-[SBSMMessageCollection fetchSucceededMessagesInDirection:completionHandler:]_block_invoke.230
+-[SBSMMessageCollection fetchFailedMessages:]
+___45-[SBSMMessageCollection fetchFailedMessages:]_block_invoke
+___45-[SBSMMessageCollection fetchFailedMessages:]_block_invoke_2
+___45-[SBSMMessageCollection fetchFailedMessages:]_block_invoke_3
+___45-[SBSMMessageCollection fetchFailedMessages:]_block_invoke_4
+-[SBSMMessageCollection fetchPendingMessages:]
+___46-[SBSMMessageCollection fetchPendingMessages:]_block_invoke
+-[SBSMMessageCollection fetchInDirection:chunk:bySynchronizer:completionHandler:]
+___81-[SBSMMessageCollection fetchInDirection:chunk:bySynchronizer:completionHandler:]_block_invoke
+___81-[SBSMMessageCollection fetchInDirection:chunk:bySynchronizer:completionHandler:]_block_invoke_2
+___81-[SBSMMessageCollection fetchInDirection:chunk:bySynchronizer:completionHandler:]_block_invoke.269
+___81-[SBSMMessageCollection fetchInDirection:chunk:bySynchronizer:completionHandler:]_block_invoke_2.270
+___81-[SBSMMessageCollection fetchInDirection:chunk:bySynchronizer:completionHandler:]_block_invoke.284
+___81-[SBSMMessageCollection fetchInDirection:chunk:bySynchronizer:completionHandler:]_block_invoke_2.287
+___copy_helper_block_e8_20s36b40s44b48r52r56r
+___destroy_helper_block_e8_20s36s40s44s48r52r56r
+___copy_helper_block_e8_20s36s40s44b48b52r56r60r
+___destroy_helper_block_e8_20s36s40s44s48s52r56r60r
+___copy_helper_block_e8_20b36s40s44b48r52r56r
+___copy_helper_block_e4_20b24s28s32r
+___destroy_helper_block_e4_20s24s28s32r
+-[SBSMMessageCollection limit]
+-[SBSMMessageCollection reverse]
+-[SBSMMessageCollection appendMessage:]
+___39-[SBSMMessageCollection appendMessage:]_block_invoke
+-[SBSMMessageCollection updateMessage:]
+-[SBSMMessageCollection deleteMessage:]
+-[SBSMMessageCollection deleteSucceededMessageWithMessageId:]
+-[SBSMMessageCollection deleteFailedMessageWithRequestId:]
+-[SBSMMessageCollection deletePendingMessageWithRequestId:]
+-[SBSMMessageCollection appendEventMessage:]
+___44-[SBSMMessageCollection appendEventMessage:]_block_invoke
+___44-[SBSMMessageCollection appendEventMessage:]_block_invoke_2
+___44-[SBSMMessageCollection appendEventMessage:]_block_invoke_3
+___44-[SBSMMessageCollection appendEventMessage:]_block_invoke.348
+___copy_helper_block_e4_20s24s28b
+___destroy_helper_block_e4_20s24s28s
+___44-[SBSMMessageCollection appendEventMessage:]_block_invoke.349
+___44-[SBSMMessageCollection appendEventMessage:]_block_invoke_2.352
+-[SBSMMessageCollection updateEventMessage:]
+-[SBSMMessageCollection deleteEventMessageWithMessageId:]
+-[SBSMMessageCollection removeChannelEvent]
+___43-[SBSMMessageCollection removeChannelEvent]_block_invoke
+-[SBSMMessageCollection updateChannelEvent:]
+___44-[SBSMMessageCollection updateChannelEvent:]_block_invoke
+-[SBSMMessageCollection upsertEventFailedMessage:]
+-[SBSMMessageCollection deleteEventFailedMessages:reason:]
+-[SBSMMessageCollection updateMessagesWithMessages:]
+___52-[SBSMMessageCollection updateMessagesWithMessages:]_block_invoke
+-[SBSMMessageCollection deleteSucceededMessagesWithMessageIds:]
+___63-[SBSMMessageCollection deleteSucceededMessagesWithMessageIds:]_block_invoke
+___63-[SBSMMessageCollection deleteSucceededMessagesWithMessageIds:]_block_invoke_2
+___63-[SBSMMessageCollection deleteSucceededMessagesWithMessageIds:]_block_invoke_3
+___63-[SBSMMessageCollection deleteSucceededMessagesWithMessageIds:]_block_invoke_4
+-[SBSMMessageCollection changeSynchronizingIncompleted]
+-[SBSMMessageCollection predicate]
+-[SBSMMessageCollection orderAscendingBetweenObject:andObject:]
+-[SBSMMessageCollection comparator]
+-[SBSMMessageCollection didCompleteToLoadToTheEndOfCurrentChunkInDirection:]
+-[SBSMMessageCollection upsertMessages:direction:completionHandler:]
+___68-[SBSMMessageCollection upsertMessages:direction:completionHandler:]_block_invoke
+___68-[SBSMMessageCollection upsertMessages:direction:completionHandler:]_block_invoke_2
+___68-[SBSMMessageCollection upsertMessages:direction:completionHandler:]_block_invoke_3
+___68-[SBSMMessageCollection upsertMessages:direction:completionHandler:]_block_invoke_4
+___copy_helper_block_e4_20b24s28s
+-[SBSMMessageCollection upsertIncompleteMessages:direction:completionHandler:]
+___78-[SBSMMessageCollection upsertIncompleteMessages:direction:completionHandler:]_block_invoke
+___78-[SBSMMessageCollection upsertIncompleteMessages:direction:completionHandler:]_block_invoke_2
+___78-[SBSMMessageCollection upsertIncompleteMessages:direction:completionHandler:]_block_invoke_3
+-[SBSMMessageCollection scheduleSynchronizationForNextIfNeeded]
+___63-[SBSMMessageCollection scheduleSynchronizationForNextIfNeeded]_block_invoke
+-[SBSMMessageCollection offsetOfIncompleteMessagesInDirection:]
+___63-[SBSMMessageCollection offsetOfIncompleteMessagesInDirection:]_block_invoke
+-[SBSMMessageCollection setLoading:direction:]
+-[SBSMMessageCollection isLoadingInDirection:]
+-[SBSMMessageCollection clearAllMessagesCompletionHandler:]
+___59-[SBSMMessageCollection clearAllMessagesCompletionHandler:]_block_invoke
+___59-[SBSMMessageCollection clearAllMessagesCompletionHandler:]_block_invoke_2
+-[SBSMMessageCollection propagateSucceededMessages:action:]
+-[SBSMMessageCollection propagatePendingMessages:action:]
+-[SBSMMessageCollection propagateFailedMessages:action:reason:]
+___63-[SBSMMessageCollection propagateFailedMessages:action:reason:]_block_invoke
+-[SBSMMessageCollection propagateMessages:action:sendingStatus:]
+___64-[SBSMMessageCollection propagateMessages:action:sendingStatus:]_block_invoke
+-[SBSMMessageCollection propagateNewMessage:]
+___45-[SBSMMessageCollection propagateNewMessage:]_block_invoke
+___45-[SBSMMessageCollection propagateNewMessage:]_block_invoke_2
+___copy_helper_block_e4_20s24s28s
+-[SBSMMessageCollection didSynchronizeChunk:direction:]
+___55-[SBSMMessageCollection didSynchronizeChunk:direction:]_block_invoke
+___55-[SBSMMessageCollection didSynchronizeChunk:direction:]_block_invoke_2
+-[SBSMMessageCollection observerId]
+-[SBSMMessageCollection numberOfExtendingMessagesInDirection:]
+-[SBSMMessageCollection setNumberOfExtendingMessages:inDirection:]
+-[SBSMMessageCollection mergeTempMessages:resultHandler:]
+-[SBSMMessageCollection shouldInsertSucceededMessage:]
+-[SBSMMessageCollection mergeMessages:resultHandler:]
+-[SBSMMessageCollection mergeSyncedMessages:direction:resultHandler:]
+-[SBSMMessageCollection mergePreviousSyncedMessages:resultHandler:]
+___67-[SBSMMessageCollection mergePreviousSyncedMessages:resultHandler:]_block_invoke
+___67-[SBSMMessageCollection mergePreviousSyncedMessages:resultHandler:]_block_invoke_2
+___67-[SBSMMessageCollection mergePreviousSyncedMessages:resultHandler:]_block_invoke_3
+___copy_helper_block_e8_20s36s
+___67-[SBSMMessageCollection mergePreviousSyncedMessages:resultHandler:]_block_invoke.476
+___copy_helper_block_e4_20b24s28s32s
+___destroy_helper_block_e4_20s24s28s32s
+-[SBSMMessageCollection mergeNextSyncedMessages:resultHandler:]
+___63-[SBSMMessageCollection mergeNextSyncedMessages:resultHandler:]_block_invoke
+___63-[SBSMMessageCollection mergeNextSyncedMessages:resultHandler:]_block_invoke_2
+___63-[SBSMMessageCollection mergeNextSyncedMessages:resultHandler:]_block_invoke_3
+___63-[SBSMMessageCollection mergeNextSyncedMessages:resultHandler:]_block_invoke_4
+-[SBSMMessageCollection checkCapacityWithDirection:]
+-[SBSMMessageCollection messageCount]
+___37-[SBSMMessageCollection messageCount]_block_invoke
+-[SBSMMessageCollection removeMessagesBeforeOffset:]
+___52-[SBSMMessageCollection removeMessagesBeforeOffset:]_block_invoke
+___52-[SBSMMessageCollection removeMessagesBeforeOffset:]_block_invoke_2
+___52-[SBSMMessageCollection removeMessagesBeforeOffset:]_block_invoke_3
+___52-[SBSMMessageCollection removeMessagesBeforeOffset:]_block_invoke_4
+-[SBSMMessageCollection delegate]
+-[SBSMMessageCollection setDelegate:]
+-[SBSMMessageCollection channel]
+-[SBSMMessageCollection setChannel:]
+-[SBSMMessageCollection handleSendMessageResponse]
+-[SBSMMessageCollection setHandleSendMessageResponse:]
+-[SBSMMessageCollection identifier]
+-[SBSMMessageCollection setIdentifier:]
+-[SBSMMessageCollection previousFetchQueue]
+-[SBSMMessageCollection setPreviousFetchQueue:]
+-[SBSMMessageCollection nextFetchQueue]
+-[SBSMMessageCollection setNextFetchQueue:]
+-[SBSMMessageCollection chunkQueue]
+-[SBSMMessageCollection setChunkQueue:]
+-[SBSMMessageCollection nextFetchFailedMessageQueue]
+-[SBSMMessageCollection setNextFetchFailedMessageQueue:]
+-[SBSMMessageCollection messageQueue]
+-[SBSMMessageCollection setMessageQueue:]
+-[SBSMMessageCollection propagateQueue]
+-[SBSMMessageCollection setPropagateQueue:]
+-[SBSMMessageCollection chunk]
+-[SBSMMessageCollection chunkMessages]
+-[SBSMMessageCollection setChunkMessages:]
+-[SBSMMessageCollection prevTempMessages]
+-[SBSMMessageCollection setPrevTempMessages:]
+-[SBSMMessageCollection nextTempMessages]
+-[SBSMMessageCollection setNextTempMessages:]
+-[SBSMMessageCollection mutableFailedMessages]
+-[SBSMMessageCollection setMutableFailedMessages:]
+-[SBSMMessageCollection mutablePendingMessages]
+-[SBSMMessageCollection setMutablePendingMessages:]
+-[SBSMMessageCollection handledRequestIds]
+-[SBSMMessageCollection setHandledRequestIds:]
+-[SBSMMessageCollection syncedMessageStartOffset]
+-[SBSMMessageCollection setSyncedMessageStartOffset:]
+-[SBSMMessageCollection syncedMessageEndOffset]
+-[SBSMMessageCollection setSyncedMessageEndOffset:]
+-[SBSMMessageCollection options]
+-[SBSMMessageCollection setOptions:]
+-[SBSMMessageCollection viewpoint]
+-[SBSMMessageCollection setViewpoint:]
+-[SBSMMessageCollection numberOfPrependingMessages]
+-[SBSMMessageCollection setNumberOfPrependingMessages:]
+-[SBSMMessageCollection numberOfAppendingMessages]
+-[SBSMMessageCollection setNumberOfAppendingMessages:]
+-[SBSMMessageCollection isPreviousLoading]
+-[SBSMMessageCollection setPreviousLoading:]
+-[SBSMMessageCollection isNextLoading]
+-[SBSMMessageCollection setNextLoading:]
+-[SBSMMessageCollection hasFetched]
+-[SBSMMessageCollection setFetched:]
+-[SBSMMessageCollection hasFailedMessagesFetched]
+-[SBSMMessageCollection setFetchedFailedMessages:]
+-[SBSMMessageCollection filter]
+-[SBSMMessageCollection setFilter:]
+-[SBSMMessageCollection handleFetchPrevResultResponse]
+-[SBSMMessageCollection setHandleFetchPrevResultResponse:]
+-[SBSMMessageCollection handleFetchNextResultResponse]
+-[SBSMMessageCollection setHandleFetchNextResultResponse:]
+-[SBSMMessageCollection .cxx_destruct]
+__OBJC_$_CATEGORY_INSTANCE_METHODS_SBDError_$_SBSMMessageCollection
+__OBJC_$_CATEGORY_SBDError_$_SBSMMessageCollection
+_OBJC_SELECTOR_REFERENCES_.3
+_OBJC_SELECTOR_REFERENCES_.5
+_OBJC_SELECTOR_REFERENCES_.7
+_OBJC_CLASSLIST_REFERENCES_$_.8
+_OBJC_CLASSLIST_REFERENCES_$_.11
+_OBJC_SELECTOR_REFERENCES_.13
+_OBJC_CLASSLIST_REFERENCES_$_.14
+_OBJC_CLASSLIST_REFERENCES_$_.17
+_OBJC_SELECTOR_REFERENCES_.23
+_OBJC_SELECTOR_REFERENCES_.25
+_OBJC_CLASSLIST_REFERENCES_$_.28
+_OBJC_SELECTOR_REFERENCES_.30
+_OBJC_SELECTOR_REFERENCES_.32
+_OBJC_SELECTOR_REFERENCES_.34
+_OBJC_SELECTOR_REFERENCES_.40
+_OBJC_SELECTOR_REFERENCES_.42
+_OBJC_SELECTOR_REFERENCES_.44
+_OBJC_SELECTOR_REFERENCES_.46
+_OBJC_CLASSLIST_REFERENCES_$_.47
+_OBJC_CLASSLIST_REFERENCES_$_.48
+_OBJC_SELECTOR_REFERENCES_.50
+_OBJC_SELECTOR_REFERENCES_.52
+_OBJC_SELECTOR_REFERENCES_.54
+___block_descriptor_24_e4_20r_e17_v8?0"SBDError"4l
+_OBJC_SELECTOR_REFERENCES_.57
+___block_descriptor_28_e4_20s24r_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.60
+_OBJC_SELECTOR_REFERENCES_.62
+_OBJC_SELECTOR_REFERENCES_.64
+_OBJC_SELECTOR_REFERENCES_.67
+_OBJC_SELECTOR_REFERENCES_.70
+_OBJC_SELECTOR_REFERENCES_.72
+_OBJC_CLASSLIST_REFERENCES_$_.73
+_OBJC_SELECTOR_REFERENCES_.75
+_OBJC_SELECTOR_REFERENCES_.77
+_OBJC_SELECTOR_REFERENCES_.79
+___block_descriptor_40_e8_20s36r_e38_v12?0"SBSMMessageChunk"4"SBDError"8l
+_OBJC_SELECTOR_REFERENCES_.83
+___block_descriptor_40_e8_20s36r_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.86
+_OBJC_SELECTOR_REFERENCES_.88
+_OBJC_CLASSLIST_REFERENCES_$_.89
+_OBJC_SELECTOR_REFERENCES_.91
+_OBJC_CLASSLIST_REFERENCES_$_.92
+_OBJC_SELECTOR_REFERENCES_.94
+_OBJC_CLASSLIST_REFERENCES_$_.95
+___block_descriptor_28_e4_20bs24s_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.97
+___block_descriptor_40_e8_20bs36s_e37_v12?0"SBDGroupChannel"4"SBDError"8l
+_OBJC_SELECTOR_REFERENCES_.102
+_OBJC_SELECTOR_REFERENCES_.104
+_OBJC_SELECTOR_REFERENCES_.106
+_OBJC_SELECTOR_REFERENCES_.108
+_OBJC_SELECTOR_REFERENCES_.110
+_OBJC_SELECTOR_REFERENCES_.112
+_OBJC_SELECTOR_REFERENCES_.114
+___block_descriptor_36_e8_20s_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.116
+_OBJC_SELECTOR_REFERENCES_.118
+_OBJC_SELECTOR_REFERENCES_.120
+_OBJC_SELECTOR_REFERENCES_.122
+___block_descriptor_24_e4_20s_e5_v4?0l
+_OBJC_CLASSLIST_REFERENCES_$_.123
+_OBJC_SELECTOR_REFERENCES_.125
+_OBJC_SELECTOR_REFERENCES_.127
+_OBJC_SELECTOR_REFERENCES_.129
+_OBJC_CLASSLIST_REFERENCES_$_.130
+_OBJC_SELECTOR_REFERENCES_.132
+_OBJC_SELECTOR_REFERENCES_.134
+_OBJC_CLASSLIST_REFERENCES_$_.135
+_OBJC_SELECTOR_REFERENCES_.136
+_OBJC_SELECTOR_REFERENCES_.138
+___block_descriptor_24_e4_20s_e36_v12?0"SBDBaseMessage"4"SBDError"8l
+_OBJC_SELECTOR_REFERENCES_.141
+_OBJC_SELECTOR_REFERENCES_.143
+_OBJC_SELECTOR_REFERENCES_.145
+_OBJC_SELECTOR_REFERENCES_.147
+_OBJC_SELECTOR_REFERENCES_.149
+_OBJC_SELECTOR_REFERENCES_.151
+_OBJC_SELECTOR_REFERENCES_.153
+_OBJC_SELECTOR_REFERENCES_.155
+_OBJC_SELECTOR_REFERENCES_.157
+_OBJC_SELECTOR_REFERENCES_.159
+___block_descriptor_32_e4_20s24s28r_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.161
+_OBJC_SELECTOR_REFERENCES_.163
+_OBJC_SELECTOR_REFERENCES_.165
+___block_descriptor_28_e4_20s24s_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.167
+_OBJC_CLASSLIST_REFERENCES_$_.168
+_OBJC_SELECTOR_REFERENCES_.170
+_OBJC_SELECTOR_REFERENCES_.172
+_OBJC_SELECTOR_REFERENCES_.174
+___block_descriptor_29_e4_20s24s_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.176
+_OBJC_SELECTOR_REFERENCES_.178
+_OBJC_SELECTOR_REFERENCES_.180
+___block_descriptor_24_e4_20s_e30_c16?0"SBDBaseMessage"4I8^c12l
+_OBJC_SELECTOR_REFERENCES_.183
+_OBJC_SELECTOR_REFERENCES_.185
+_OBJC_SELECTOR_REFERENCES_.188
+_OBJC_CLASSLIST_REFERENCES_$_.189
+_OBJC_SELECTOR_REFERENCES_.191
+_OBJC_SELECTOR_REFERENCES_.193
+_OBJC_SELECTOR_REFERENCES_.195
+_OBJC_CLASSLIST_REFERENCES_$_.196
+_OBJC_SELECTOR_REFERENCES_.200
+_OBJC_SELECTOR_REFERENCES_.202
+_OBJC_SELECTOR_REFERENCES_.204
+___block_descriptor_29_e4_20bs24s_e5_v4?0l
+___block_descriptor_24_e4_20bs_e20_v12?0c4"SBDError"8l
+_OBJC_SELECTOR_REFERENCES_.207
+_OBJC_SELECTOR_REFERENCES_.209
+___block_descriptor_28_e4_20s24bs_e20_v12?0c4"SBDError"8l
+_OBJC_SELECTOR_REFERENCES_.211
+_OBJC_SELECTOR_REFERENCES_.213
+___block_descriptor_36_e4_20s24bs28r_e20_v12?0c4"SBDError"8l
+_OBJC_SELECTOR_REFERENCES_.215
+_OBJC_SELECTOR_REFERENCES_.218
+_OBJC_SELECTOR_REFERENCES_.220
+_OBJC_SELECTOR_REFERENCES_.223
+___block_descriptor_28_e4_20bs24r_e41_v16?0"NSArray"4"NSArray"8"SBDError"12l
+_OBJC_SELECTOR_REFERENCES_.226
+___block_descriptor_36_e4_20s24bs28r_e29_v12?0"NSArray"4"SBDError"8l
+_OBJC_SELECTOR_REFERENCES_.229
+___block_descriptor_36_e4_20s24bs28r_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.232
+_OBJC_SELECTOR_REFERENCES_.234
+_OBJC_SELECTOR_REFERENCES_.236
+_OBJC_SELECTOR_REFERENCES_.238
+_OBJC_SELECTOR_REFERENCES_.240
+_OBJC_SELECTOR_REFERENCES_.242
+___block_descriptor_32_e4_20s24bs28r_e29_v12?0"NSArray"4"SBDError"8l
+_OBJC_SELECTOR_REFERENCES_.244
+___block_descriptor_32_e4_20s24bs28r_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.246
+_OBJC_SELECTOR_REFERENCES_.248
+_OBJC_SELECTOR_REFERENCES_.250
+___block_descriptor_28_e4_20bs24s_e29_v12?0"NSArray"4"SBDError"8l
+_OBJC_SELECTOR_REFERENCES_.252
+___block_descriptor_28_e4_20bs24r_e20_v12?0c4"SBDError"8l
+_OBJC_SELECTOR_REFERENCES_.254
+_OBJC_SELECTOR_REFERENCES_.256
+_OBJC_SELECTOR_REFERENCES_.258
+_OBJC_SELECTOR_REFERENCES_.260
+_OBJC_SELECTOR_REFERENCES_.262
+_OBJC_SELECTOR_REFERENCES_.264
+_OBJC_SELECTOR_REFERENCES_.266
+_OBJC_SELECTOR_REFERENCES_.268
+_OBJC_CLASSLIST_REFERENCES_$_.271
+_OBJC_SELECTOR_REFERENCES_.273
+_OBJC_SELECTOR_REFERENCES_.275
+_OBJC_SELECTOR_REFERENCES_.277
+_OBJC_SELECTOR_REFERENCES_.279
+_OBJC_SELECTOR_REFERENCES_.281
+___block_descriptor_24_e4_20s_e41_v16?0"NSArray"4"NSArray"8"SBDError"12l
+_OBJC_SELECTOR_REFERENCES_.283
+_OBJC_SELECTOR_REFERENCES_.286
+_OBJC_SELECTOR_REFERENCES_.289
+_OBJC_SELECTOR_REFERENCES_.291
+_OBJC_SELECTOR_REFERENCES_.293
+_OBJC_SELECTOR_REFERENCES_.295
+_OBJC_SELECTOR_REFERENCES_.297
+_OBJC_SELECTOR_REFERENCES_.299
+_OBJC_SELECTOR_REFERENCES_.301
+___block_descriptor_66_e8_20s36bs40s44bs48r52r56r_e41_v16?0"NSArray"4"NSArray"8"SBDError"12l
+_OBJC_SELECTOR_REFERENCES_.304
+___block_descriptor_70_e8_20s36s40s44bs48bs52r56r60r_e40_v16?0"NSArray"4"NSArray"8"NSArray"12l
+_OBJC_SELECTOR_REFERENCES_.308
+___block_descriptor_66_e8_20bs36s40s44bs48r52r56r_e41_v16?0"NSArray"4"NSArray"8"SBDError"12l
+_OBJC_SELECTOR_REFERENCES_.311
+___block_descriptor_41_e4_20bs24s28s32r_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.313
+_OBJC_SELECTOR_REFERENCES_.315
+_OBJC_SELECTOR_REFERENCES_.317
+_OBJC_SELECTOR_REFERENCES_.319
+_OBJC_SELECTOR_REFERENCES_.321
+_OBJC_SELECTOR_REFERENCES_.323
+_OBJC_SELECTOR_REFERENCES_.325
+_OBJC_SELECTOR_REFERENCES_.327
+_OBJC_SELECTOR_REFERENCES_.329
+_OBJC_SELECTOR_REFERENCES_.331
+_OBJC_SELECTOR_REFERENCES_.333
+_OBJC_SELECTOR_REFERENCES_.335
+_OBJC_SELECTOR_REFERENCES_.337
+_OBJC_SELECTOR_REFERENCES_.339
+_OBJC_SELECTOR_REFERENCES_.341
+_OBJC_SELECTOR_REFERENCES_.343
+_OBJC_SELECTOR_REFERENCES_.345
+___block_descriptor_24_e4_20r_e41_v16?0"NSArray"4"NSArray"8"SBDError"12l
+_OBJC_SELECTOR_REFERENCES_.347
+___block_descriptor_32_e4_20s24s28bs_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.351
+_OBJC_SELECTOR_REFERENCES_.354
+_OBJC_CLASSLIST_REFERENCES_$_.355
+_OBJC_SELECTOR_REFERENCES_.357
+_OBJC_SELECTOR_REFERENCES_.359
+_OBJC_SELECTOR_REFERENCES_.361
+_OBJC_SELECTOR_REFERENCES_.363
+_OBJC_SELECTOR_REFERENCES_.365
+_OBJC_SELECTOR_REFERENCES_.367
+_OBJC_SELECTOR_REFERENCES_.369
+_OBJC_SELECTOR_REFERENCES_.371
+_OBJC_SELECTOR_REFERENCES_.373
+_OBJC_SELECTOR_REFERENCES_.375
+_OBJC_SELECTOR_REFERENCES_.377
+_OBJC_SELECTOR_REFERENCES_.381
+_OBJC_SELECTOR_REFERENCES_.383
+_OBJC_SELECTOR_REFERENCES_.385
+_OBJC_SELECTOR_REFERENCES_.387
+_OBJC_SELECTOR_REFERENCES_.389
+_OBJC_SELECTOR_REFERENCES_.391
+_OBJC_SELECTOR_REFERENCES_.393
+_OBJC_SELECTOR_REFERENCES_.395
+_OBJC_SELECTOR_REFERENCES_.397
+_OBJC_CLASSLIST_REFERENCES_$_.398
+_OBJC_SELECTOR_REFERENCES_.402
+_OBJC_CLASSLIST_REFERENCES_$_.403
+_OBJC_SELECTOR_REFERENCES_.405
+_OBJC_SELECTOR_REFERENCES_.407
+_OBJC_SELECTOR_REFERENCES_.409
+_OBJC_SELECTOR_REFERENCES_.411
+_OBJC_SELECTOR_REFERENCES_.413
+___block_descriptor_32_e4_20bs24s28s_e5_v4?0l
+___block_descriptor_32_e4_20s24bs_e28_v12?0"NSArray"4"NSArray"8l
+_OBJC_SELECTOR_REFERENCES_.416
+___block_descriptor_36_e4_20s24s28bs_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.418
+_OBJC_SELECTOR_REFERENCES_.420
+___block_descriptor_32_e4_20s24r_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.422
+_OBJC_SELECTOR_REFERENCES_.424
+_OBJC_SELECTOR_REFERENCES_.426
+_OBJC_SELECTOR_REFERENCES_.428
+_OBJC_SELECTOR_REFERENCES_.430
+___block_descriptor_24_e4_20bs_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.432
+_OBJC_SELECTOR_REFERENCES_.434
+_OBJC_SELECTOR_REFERENCES_.436
+_OBJC_SELECTOR_REFERENCES_.438
+___block_descriptor_36_e4_20s24s_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.440
+_OBJC_SELECTOR_REFERENCES_.442
+_OBJC_SELECTOR_REFERENCES_.444
+_OBJC_SELECTOR_REFERENCES_.446
+___block_descriptor_32_e4_20s24s28s_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.448
+___block_descriptor_36_e4_20s24s28r_e20_v12?0c4"SBDError"8l
+___block_descriptor_36_e4_20s24s28r_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.450
+_OBJC_SELECTOR_REFERENCES_.452
+_OBJC_SELECTOR_REFERENCES_.454
+_OBJC_SELECTOR_REFERENCES_.456
+_OBJC_SELECTOR_REFERENCES_.458
+_OBJC_SELECTOR_REFERENCES_.460
+_OBJC_SELECTOR_REFERENCES_.462
+_OBJC_SELECTOR_REFERENCES_.464
+_OBJC_SELECTOR_REFERENCES_.466
+_OBJC_SELECTOR_REFERENCES_.468
+_OBJC_SELECTOR_REFERENCES_.470
+_OBJC_SELECTOR_REFERENCES_.472
+_OBJC_SELECTOR_REFERENCES_.474
+___block_descriptor_40_e8_20s36s_e30_c16?0"SBDBaseMessage"4I8^c12l
+___block_descriptor_36_e4_20bs24s28s32s_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.478
+_OBJC_CLASSLIST_REFERENCES_$_.479
+_OBJC_SELECTOR_REFERENCES_.481
+_OBJC_SELECTOR_REFERENCES_.483
+___block_descriptor_32_e30_c16?0"SBDBaseMessage"4I8^c12l
+_OBJC_SELECTOR_REFERENCES_.486
+_OBJC_SELECTOR_REFERENCES_.488
+__OBJC_$_CLASS_METHODS_SBSMMessageCollection
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+__OBJC_$_PROP_LIST_NSObject
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+__OBJC_PROTOCOL_$_NSObject
+__OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_$_PROTOCOL_REFS_SBDConnectionDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SBDConnectionDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_SBDConnectionDelegate
+__OBJC_PROTOCOL_$_SBDConnectionDelegate
+__OBJC_LABEL_PROTOCOL_$_SBDConnectionDelegate
+__OBJC_$_PROTOCOL_REFS_SBSMMessageSynchronizeObserver
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_SBSMMessageSynchronizeObserver
+__OBJC_$_PROTOCOL_METHOD_TYPES_SBSMMessageSynchronizeObserver
+__OBJC_PROTOCOL_$_SBSMMessageSynchronizeObserver
+__OBJC_LABEL_PROTOCOL_$_SBSMMessageSynchronizeObserver
+__OBJC_$_PROTOCOL_REFS_SBSMComparator
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_SBSMComparator
+__OBJC_$_PROTOCOL_METHOD_TYPES_SBSMComparator
+__OBJC_PROTOCOL_$_SBSMComparator
+__OBJC_LABEL_PROTOCOL_$_SBSMComparator
+__OBJC_CLASS_PROTOCOLS_$_SBSMMessageCollection
+__OBJC_METACLASS_RO_$_SBSMMessageCollection
+__OBJC_$_INSTANCE_METHODS_SBSMMessageCollection
+_OBJC_IVAR_$_SBSMMessageCollection._previousLoading
+_OBJC_IVAR_$_SBSMMessageCollection._nextLoading
+_OBJC_IVAR_$_SBSMMessageCollection._fetched
+_OBJC_IVAR_$_SBSMMessageCollection._fetchedFailedMessages
+_OBJC_IVAR_$_SBSMMessageCollection._delegate
+_OBJC_IVAR_$_SBSMMessageCollection._channel
+_OBJC_IVAR_$_SBSMMessageCollection._handleSendMessageResponse
+_OBJC_IVAR_$_SBSMMessageCollection._identifier
+_OBJC_IVAR_$_SBSMMessageCollection._previousFetchQueue
+_OBJC_IVAR_$_SBSMMessageCollection._nextFetchQueue
+_OBJC_IVAR_$_SBSMMessageCollection._chunkQueue
+_OBJC_IVAR_$_SBSMMessageCollection._nextFetchFailedMessageQueue
+_OBJC_IVAR_$_SBSMMessageCollection._messageQueue
+_OBJC_IVAR_$_SBSMMessageCollection._propagateQueue
+_OBJC_IVAR_$_SBSMMessageCollection._chunk
+_OBJC_IVAR_$_SBSMMessageCollection._chunkMessages
+_OBJC_IVAR_$_SBSMMessageCollection._prevTempMessages
+_OBJC_IVAR_$_SBSMMessageCollection._nextTempMessages
+_OBJC_IVAR_$_SBSMMessageCollection._mutableFailedMessages
+_OBJC_IVAR_$_SBSMMessageCollection._mutablePendingMessages
+_OBJC_IVAR_$_SBSMMessageCollection._handledRequestIds
+_OBJC_IVAR_$_SBSMMessageCollection._options
+_OBJC_IVAR_$_SBSMMessageCollection._numberOfPrependingMessages
+_OBJC_IVAR_$_SBSMMessageCollection._numberOfAppendingMessages
+_OBJC_IVAR_$_SBSMMessageCollection._filter
+_OBJC_IVAR_$_SBSMMessageCollection._handleFetchPrevResultResponse
+_OBJC_IVAR_$_SBSMMessageCollection._handleFetchNextResultResponse
+_OBJC_IVAR_$_SBSMMessageCollection._syncedMessageStartOffset
+_OBJC_IVAR_$_SBSMMessageCollection._syncedMessageEndOffset
+_OBJC_IVAR_$_SBSMMessageCollection._viewpoint
+__OBJC_$_INSTANCE_VARIABLES_SBSMMessageCollection
+__OBJC_$_PROP_LIST_SBSMMessageCollection
+__OBJC_CLASS_RO_$_SBSMMessageCollection
+/Users/jedgyeong/git/syncmanager-ios/SyncManager/Message/SBSMMessageCollection.m
+SyncManager/Message/SBSMMessageCollection.m
+SyncManager/Message/SBSMMessageCollection.h
+__52-[SBSMMessageCollection removeMessagesBeforeOffset:]_block_invoke_4
+__52-[SBSMMessageCollection removeMessagesBeforeOffset:]_block_invoke_3
+__52-[SBSMMessageCollection removeMessagesBeforeOffset:]_block_invoke_2
+__52-[SBSMMessageCollection removeMessagesBeforeOffset:]_block_invoke
+__37-[SBSMMessageCollection messageCount]_block_invoke
+__63-[SBSMMessageCollection mergeNextSyncedMessages:resultHandler:]_block_invoke_4
+__63-[SBSMMessageCollection mergeNextSyncedMessages:resultHandler:]_block_invoke_3
+__63-[SBSMMessageCollection mergeNextSyncedMessages:resultHandler:]_block_invoke_2
+__63-[SBSMMessageCollection mergeNextSyncedMessages:resultHandler:]_block_invoke
+__destroy_helper_block_e4_20s24s28s32s
+__copy_helper_block_e4_20b24s28s32s
+__67-[SBSMMessageCollection mergePreviousSyncedMessages:resultHandler:]_block_invoke.476
+__copy_helper_block_e8_20s36s
+__67-[SBSMMessageCollection mergePreviousSyncedMessages:resultHandler:]_block_invoke_3
+__67-[SBSMMessageCollection mergePreviousSyncedMessages:resultHandler:]_block_invoke_2
+__67-[SBSMMessageCollection mergePreviousSyncedMessages:resultHandler:]_block_invoke
+llvm.loop.mustprogress
+__55-[SBSMMessageCollection didSynchronizeChunk:direction:]_block_invoke_2
+__55-[SBSMMessageCollection didSynchronizeChunk:direction:]_block_invoke
+__copy_helper_block_e4_20s24s28s
+__45-[SBSMMessageCollection propagateNewMessage:]_block_invoke_2
+__45-[SBSMMessageCollection propagateNewMessage:]_block_invoke
+__64-[SBSMMessageCollection propagateMessages:action:sendingStatus:]_block_invoke
+__63-[SBSMMessageCollection propagateFailedMessages:action:reason:]_block_invoke
+__59-[SBSMMessageCollection clearAllMessagesCompletionHandler:]_block_invoke_2
+__59-[SBSMMessageCollection clearAllMessagesCompletionHandler:]_block_invoke
+__63-[SBSMMessageCollection offsetOfIncompleteMessagesInDirection:]_block_invoke
+__63-[SBSMMessageCollection scheduleSynchronizationForNextIfNeeded]_block_invoke
+__78-[SBSMMessageCollection upsertIncompleteMessages:direction:completionHandler:]_block_invoke_3
+__78-[SBSMMessageCollection upsertIncompleteMessages:direction:completionHandler:]_block_invoke_2
+__78-[SBSMMessageCollection upsertIncompleteMessages:direction:completionHandler:]_block_invoke
+__copy_helper_block_e4_20b24s28s
+__68-[SBSMMessageCollection upsertMessages:direction:completionHandler:]_block_invoke_4
+__68-[SBSMMessageCollection upsertMessages:direction:completionHandler:]_block_invoke_3
+__68-[SBSMMessageCollection upsertMessages:direction:completionHandler:]_block_invoke_2
+__68-[SBSMMessageCollection upsertMessages:direction:completionHandler:]_block_invoke
+__63-[SBSMMessageCollection deleteSucceededMessagesWithMessageIds:]_block_invoke_4
+__63-[SBSMMessageCollection deleteSucceededMessagesWithMessageIds:]_block_invoke_3
+__63-[SBSMMessageCollection deleteSucceededMessagesWithMessageIds:]_block_invoke_2
+__63-[SBSMMessageCollection deleteSucceededMessagesWithMessageIds:]_block_invoke
+__52-[SBSMMessageCollection updateMessagesWithMessages:]_block_invoke
+__44-[SBSMMessageCollection updateChannelEvent:]_block_invoke
+__43-[SBSMMessageCollection removeChannelEvent]_block_invoke
+__44-[SBSMMessageCollection appendEventMessage:]_block_invoke_2.352
+__44-[SBSMMessageCollection appendEventMessage:]_block_invoke.349
+__destroy_helper_block_e4_20s24s28s
+__copy_helper_block_e4_20s24s28b
+__44-[SBSMMessageCollection appendEventMessage:]_block_invoke.348
+__44-[SBSMMessageCollection appendEventMessage:]_block_invoke_3
+__44-[SBSMMessageCollection appendEventMessage:]_block_invoke_2
+__44-[SBSMMessageCollection appendEventMessage:]_block_invoke
+__39-[SBSMMessageCollection appendMessage:]_block_invoke
+__destroy_helper_block_e4_20s24s28s32r
+__copy_helper_block_e4_20b24s28s32r
+__copy_helper_block_e8_20b36s40s44b48r52r56r
+__destroy_helper_block_e8_20s36s40s44s48s52r56r60r
+__copy_helper_block_e8_20s36s40s44b48b52r56r60r
+__destroy_helper_block_e8_20s36s40s44s48r52r56r
+__copy_helper_block_e8_20s36b40s44b48r52r56r
+__81-[SBSMMessageCollection fetchInDirection:chunk:bySynchronizer:completionHandler:]_block_invoke_2.287
+__81-[SBSMMessageCollection fetchInDirection:chunk:bySynchronizer:completionHandler:]_block_invoke.284
+__81-[SBSMMessageCollection fetchInDirection:chunk:bySynchronizer:completionHandler:]_block_invoke_2.270
+__81-[SBSMMessageCollection fetchInDirection:chunk:bySynchronizer:completionHandler:]_block_invoke.269
+__81-[SBSMMessageCollection fetchInDirection:chunk:bySynchronizer:completionHandler:]_block_invoke_2
+__81-[SBSMMessageCollection fetchInDirection:chunk:bySynchronizer:completionHandler:]_block_invoke
+__46-[SBSMMessageCollection fetchPendingMessages:]_block_invoke
+__45-[SBSMMessageCollection fetchFailedMessages:]_block_invoke_4
+__45-[SBSMMessageCollection fetchFailedMessages:]_block_invoke_3
+__45-[SBSMMessageCollection fetchFailedMessages:]_block_invoke_2
+__45-[SBSMMessageCollection fetchFailedMessages:]_block_invoke
+__77-[SBSMMessageCollection fetchSucceededMessagesInDirection:completionHandler:]_block_invoke.230
+__copy_helper_block_e4_20b24r
+__77-[SBSMMessageCollection fetchSucceededMessagesInDirection:completionHandler:]_block_invoke_3
+__77-[SBSMMessageCollection fetchSucceededMessagesInDirection:completionHandler:]_block_invoke_2.221
+__77-[SBSMMessageCollection fetchSucceededMessagesInDirection:completionHandler:]_block_invoke.216
+__copy_helper_block_e4_20s24b28r
+__77-[SBSMMessageCollection fetchSucceededMessagesInDirection:completionHandler:]_block_invoke_2
+__77-[SBSMMessageCollection fetchSucceededMessagesInDirection:completionHandler:]_block_invoke
+__50-[SBSMMessageCollection fetchAllNextMessagesLoop:]_block_invoke
+__46-[SBSMMessageCollection fetchAllNextMessages:]_block_invoke_3
+__46-[SBSMMessageCollection fetchAllNextMessages:]_block_invoke_2
+__46-[SBSMMessageCollection fetchAllNextMessages:]_block_invoke
+__60-[SBSMMessageCollection fetchInDirection:completionHandler:]_block_invoke_3
+__60-[SBSMMessageCollection fetchInDirection:completionHandler:]_block_invoke_2
+__60-[SBSMMessageCollection fetchInDirection:completionHandler:]_block_invoke
+__64-[SBSMMessageCollection removeNotSucceededMessageWithRequestId:]_block_invoke.186
+__64-[SBSMMessageCollection removeNotSucceededMessageWithRequestId:]_block_invoke_2
+__64-[SBSMMessageCollection removeNotSucceededMessageWithRequestId:]_block_invoke
+__59-[SBSMMessageCollection removePendingMessageWithRequestId:]_block_invoke
+__49-[SBSMMessageCollection addPendingMessage:store:]_block_invoke
+__45-[SBSMMessageCollection removeFailedMessage:]_block_invoke
+__copy_helper_block_e4_20s24s
+__45-[SBSMMessageCollection upsertFailedMessage:]_block_invoke
+__55-[SBSMMessageCollection hasFailedMessageWithRequestId:]_block_invoke
+__destroy_helper_block_e4_20s24s28r
+__copy_helper_block_e4_20s24s28r
+__56-[SBSMMessageCollection hasPendingMessageWithRequestId:]_block_invoke
+__40-[SBSMMessageCollection pendingMessages]_block_invoke
+__39-[SBSMMessageCollection failedMessages]_block_invoke
+__42-[SBSMMessageCollection succeededMessages]_block_invoke
+__33-[SBSMMessageCollection messages]_block_invoke
+__51-[SBSMMessageCollection sendMessageResponseHandler]_block_invoke
+__copy_helper_block_e4_20s
+__31-[SBSMMessageCollection remove]_block_invoke
+__destroy_helper_block_e8_20s
+__copy_helper_block_e8_20s
+__49-[SBSMMessageCollection resetViewpointTimestamp:]_block_invoke_3
+__49-[SBSMMessageCollection resetViewpointTimestamp:]_block_invoke_2
+__49-[SBSMMessageCollection resetViewpointTimestamp:]_block_invoke
+__destroy_helper_block_e8_20s36s
+__copy_helper_block_e8_20b36s
+__90+[SBSMMessageCollection createWithChannelUrl:filter:viewpointTimestamp:completionHandler:]_block_invoke.98
+__copy_helper_block_e4_20b24s
+__90+[SBSMMessageCollection createWithChannelUrl:filter:viewpointTimestamp:completionHandler:]_block_invoke_2
+__90+[SBSMMessageCollection createWithChannelUrl:filter:viewpointTimestamp:completionHandler:]_block_invoke
+__destroy_helper_block_e8_20s36r
+__copy_helper_block_e8_20s36r
+__81-[SBSMMessageCollection initWithChannel:filter:viewpointTimestamp:limit:reverse:]_block_invoke_2.68
+__81-[SBSMMessageCollection initWithChannel:filter:viewpointTimestamp:limit:reverse:]_block_invoke.65
+__destroy_helper_block_e4_20s24r
+__copy_helper_block_e4_20s24r
+__destroy_helper_block_e4_20r
+__copy_helper_block_e4_20r
+__81-[SBSMMessageCollection initWithChannel:filter:viewpointTimestamp:limit:reverse:]_block_invoke_2
+__81-[SBSMMessageCollection initWithChannel:filter:viewpointTimestamp:limit:reverse:]_block_invoke
+__Block_byref_object_dispose_
+__Block_byref_object_copy_
+-[SBSMMessageChunkContainer requestChunkWithChannel:filter:viewpoint:completionHandler:]
+___88-[SBSMMessageChunkContainer requestChunkWithChannel:filter:viewpoint:completionHandler:]_block_invoke
+-[SBSMMessageChunkContainer createChunkWithMessages:channel:filter:]
+-[SBSMMessageChunkContainer mergeChunks:intoChunk:]
+-[SBSMMessageChunkContainer fetchChunksOfChannel:filter:includeTimestamp:completionHandler:]
+___92-[SBSMMessageChunkContainer fetchChunksOfChannel:filter:includeTimestamp:completionHandler:]_block_invoke
+-[SBSMMessageChunkContainer deleteChunks:completionHandler:]
+-[SBSMMessageChunkContainer fetchChunksIncludeOffset:channelUrl:completionHandler:]
+___83-[SBSMMessageChunkContainer fetchChunksIncludeOffset:channelUrl:completionHandler:]_block_invoke
+___83-[SBSMMessageChunkContainer fetchChunksIncludeOffset:channelUrl:completionHandler:]_block_invoke_2
+___copy_helper_block_e8_20b
+-[SBSMMessageChunkContainer fetchChunksEndAtBeforeOffset:channelUrl:completionHandler:]
+___87-[SBSMMessageChunkContainer fetchChunksEndAtBeforeOffset:channelUrl:completionHandler:]_block_invoke
+___87-[SBSMMessageChunkContainer fetchChunksEndAtBeforeOffset:channelUrl:completionHandler:]_block_invoke_2
+-[SBSMMessageChunkContainer updateChunk:completionHandler:]
+-[SBSMMessageChunkContainer removeAllChunks]
+_OBJC_SELECTOR_REFERENCES_.6
+_OBJC_SELECTOR_REFERENCES_.12
+_OBJC_CLASSLIST_REFERENCES_$_.13
+_OBJC_SELECTOR_REFERENCES_.15
+_OBJC_CLASSLIST_REFERENCES_$_.16
+_OBJC_SELECTOR_REFERENCES_.20
+_OBJC_SELECTOR_REFERENCES_.22
+_OBJC_SELECTOR_REFERENCES_.26
+_OBJC_SELECTOR_REFERENCES_.28
+_OBJC_CLASSLIST_REFERENCES_$_.45
+___block_descriptor_24_e4_20bs_e29_v12?0"NSArray"4"SBDError"8l
+___block_descriptor_36_e8_20bs_e37_v12?0"SBDGroupChannel"4"SBDError"8l
+__OBJC_METACLASS_RO_$_SBSMMessageChunkContainer
+__OBJC_$_INSTANCE_METHODS_SBSMMessageChunkContainer
+__OBJC_CLASS_RO_$_SBSMMessageChunkContainer
+/Users/jedgyeong/git/syncmanager-ios/SyncManager/Message/Chunk/SBSMMessageChunkContainer.m
+SyncManager/Message/Chunk/SBSMMessageChunkContainer.m
+__87-[SBSMMessageChunkContainer fetchChunksEndAtBeforeOffset:channelUrl:completionHandler:]_block_invoke_2
+__87-[SBSMMessageChunkContainer fetchChunksEndAtBeforeOffset:channelUrl:completionHandler:]_block_invoke
+__copy_helper_block_e8_20b
+__83-[SBSMMessageChunkContainer fetchChunksIncludeOffset:channelUrl:completionHandler:]_block_invoke_2
+__83-[SBSMMessageChunkContainer fetchChunksIncludeOffset:channelUrl:completionHandler:]_block_invoke
+__92-[SBSMMessageChunkContainer fetchChunksOfChannel:filter:includeTimestamp:completionHandler:]_block_invoke
+__88-[SBSMMessageChunkContainer requestChunkWithChannel:filter:viewpoint:completionHandler:]_block_invoke
++[SBSMChannelSyncSet setWithObserver:query:]
+-[SBSMChannelSyncSet initWithObserver:query:]
+-[SBSMChannelSyncSet addObserver:]
+-[SBSMChannelSyncSet removeObserver:]
+-[SBSMChannelSyncSet observers]
+-[SBSMChannelSyncSet setObservers:]
+-[SBSMChannelSyncSet query]
+-[SBSMChannelSyncSet setQuery:]
+-[SBSMChannelSyncSet .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.3
+_OBJC_SELECTOR_REFERENCES_.9
+_OBJC_SELECTOR_REFERENCES_.11
+__OBJC_$_CLASS_METHODS_SBSMChannelSyncSet
+__OBJC_METACLASS_RO_$_SBSMChannelSyncSet
+__OBJC_$_INSTANCE_METHODS_SBSMChannelSyncSet
+_OBJC_IVAR_$_SBSMChannelSyncSet._observers
+_OBJC_IVAR_$_SBSMChannelSyncSet._query
+__OBJC_$_INSTANCE_VARIABLES_SBSMChannelSyncSet
+__OBJC_$_PROP_LIST_SBSMChannelSyncSet
+__OBJC_CLASS_RO_$_SBSMChannelSyncSet
+/Users/jedgyeong/git/syncmanager-ios/SyncManager/Channel/SBSMChannelSyncSet.m
+SyncManager/Channel/SBSMChannelSyncSet.m
+SyncManager/Channel/SBSMChannelSyncSet.h
++[SBSMChannelSynchronizer sharedInstance]
+___41+[SBSMChannelSynchronizer sharedInstance]_block_invoke
+-[SBSMChannelSynchronizer init]
++[SBSMChannelSynchronizer setDelegate:]
++[SBSMChannelSynchronizer startSynchronizingWithQuery:observer:]
++[SBSMChannelSynchronizer stopSynchronizingWithQuery:]
++[SBSMChannelSynchronizer requestSynchronizingChannelsWithQuery:]
+___65+[SBSMChannelSynchronizer requestSynchronizingChannelsWithQuery:]_block_invoke
+___65+[SBSMChannelSynchronizer requestSynchronizingChannelsWithQuery:]_block_invoke_2
+___65+[SBSMChannelSynchronizer requestSynchronizingChannelsWithQuery:]_block_invoke_3
+___65+[SBSMChannelSynchronizer requestSynchronizingChannelsWithQuery:]_block_invoke_4
+___copy_helper_block_e4_20s24s28s32r
+___copy_helper_block_e4_20s28r
+___destroy_helper_block_e4_20s28r
++[SBSMChannelSynchronizer resume]
++[SBSMChannelSynchronizer pause]
++[SBSMChannelSynchronizer isSynchronizingWithQuery:]
++[SBSMChannelSynchronizer addQuery:]
++[SBSMChannelSynchronizer removeQuery:]
++[SBSMChannelSynchronizer addObserver:query:]
++[SBSMChannelSynchronizer stopObservingWithObserver:]
++[SBSMChannelSynchronizer popSynchronizerSetWithQuery:]
++[SBSMChannelSynchronizer refreshChannelChangeLogs]
+___51+[SBSMChannelSynchronizer refreshChannelChangeLogs]_block_invoke
+___51+[SBSMChannelSynchronizer refreshChannelChangeLogs]_block_invoke_2
+___51+[SBSMChannelSynchronizer refreshChannelChangeLogs]_block_invoke_3
+-[SBSMChannelSynchronizer requestChannelChangeLogsWithTimestamp:completionHandler:]
+___83-[SBSMChannelSynchronizer requestChannelChangeLogsWithTimestamp:completionHandler:]_block_invoke
+-[SBSMChannelSynchronizer requestChannelChangeLogsWithToken:completionHandler:]
+___79-[SBSMChannelSynchronizer requestChannelChangeLogsWithToken:completionHandler:]_block_invoke
+-[SBSMChannelSynchronizer reflectChannelChangeLogsWithUpdatedChannels:deletedChannelUrls:token:hasMore:complectionHandler:]
+___123-[SBSMChannelSynchronizer reflectChannelChangeLogsWithUpdatedChannels:deletedChannelUrls:token:hasMore:complectionHandler:]_block_invoke
+___123-[SBSMChannelSynchronizer reflectChannelChangeLogsWithUpdatedChannels:deletedChannelUrls:token:hasMore:complectionHandler:]_block_invoke_2
+___copy_helper_block_e4_20s24b28s
+___copy_helper_block_e4_20s24b28s32s
++[SBSMChannelSynchronizer broadcastSynchronizationOfQuery:]
+___59+[SBSMChannelSynchronizer broadcastSynchronizationOfQuery:]_block_invoke
+-[SBSMChannelSynchronizer delegate]
+-[SBSMChannelSynchronizer setDelegate:]
+-[SBSMChannelSynchronizer synchronizerQueue]
+-[SBSMChannelSynchronizer setSynchronizerQueue:]
+-[SBSMChannelSynchronizer synchronizingQueue]
+-[SBSMChannelSynchronizer setSynchronizingQueue:]
+-[SBSMChannelSynchronizer observerSets]
+-[SBSMChannelSynchronizer setObserverSets:]
+-[SBSMChannelSynchronizer queries]
+-[SBSMChannelSynchronizer setQueries:]
+-[SBSMChannelSynchronizer changeLogQueue]
+-[SBSMChannelSynchronizer setChangeLogQueue:]
+-[SBSMChannelSynchronizer isSynchronizingChangeLogs]
+-[SBSMChannelSynchronizer setSynchronizingChangeLogs:]
+-[SBSMChannelSynchronizer .cxx_destruct]
+_sharedInstance.instance
+_sharedInstance.onceToken
+_OBJC_CLASSLIST_REFERENCES_$_.2
+_OBJC_CLASSLIST_REFERENCES_$_.9
+_OBJC_CLASSLIST_REFERENCES_$_.12
+_OBJC_CLASSLIST_REFERENCES_$_.21
+_OBJC_SELECTOR_REFERENCES_.35
+_OBJC_SELECTOR_REFERENCES_.37
+_OBJC_SELECTOR_REFERENCES_.39
+_OBJC_CLASSLIST_REFERENCES_$_.40
+_OBJC_CLASSLIST_REFERENCES_$_.41
+_OBJC_SELECTOR_REFERENCES_.47
+_OBJC_SELECTOR_REFERENCES_.56
+_OBJC_SELECTOR_REFERENCES_.58
+_OBJC_SELECTOR_REFERENCES_.61
+___block_descriptor_36_e4_20s24s28s32r_e17_v8?0"SBDError"4l
+_OBJC_SELECTOR_REFERENCES_.63
+___block_descriptor_32_e4_20s28r_e29_v12?0"NSArray"4"SBDError"8l
+_OBJC_SELECTOR_REFERENCES_.66
+___block_descriptor_32_e4_20s28r_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.69
+_OBJC_SELECTOR_REFERENCES_.71
+_OBJC_SELECTOR_REFERENCES_.73
+_OBJC_SELECTOR_REFERENCES_.81
+_OBJC_SELECTOR_REFERENCES_.85
+_OBJC_SELECTOR_REFERENCES_.87
+_OBJC_SELECTOR_REFERENCES_.89
+_OBJC_SELECTOR_REFERENCES_.96
+_OBJC_SELECTOR_REFERENCES_.98
+_OBJC_CLASSLIST_REFERENCES_$_.99
+_OBJC_SELECTOR_REFERENCES_.101
+_OBJC_SELECTOR_REFERENCES_.103
+_OBJC_SELECTOR_REFERENCES_.105
+_OBJC_SELECTOR_REFERENCES_.107
+___block_descriptor_28_e4_20s24r_e30_v12?0"NSString"4"SBDError"8l
+___block_descriptor_28_e4_20s24bs_e57_v24?0"NSArray"4"NSArray"8c12"NSString"16"SBDError"20l
+_OBJC_SELECTOR_REFERENCES_.121
+_OBJC_SELECTOR_REFERENCES_.123
+_OBJC_CLASSLIST_REFERENCES_$_.124
+_OBJC_SELECTOR_REFERENCES_.126
+_OBJC_SELECTOR_REFERENCES_.128
+_OBJC_SELECTOR_REFERENCES_.130
+___block_descriptor_33_e4_20s24bs28s_e17_v8?0"SBDError"4l
+_OBJC_SELECTOR_REFERENCES_.140
+___block_descriptor_37_e4_20s24bs28s32s_e17_v8?0"SBDError"4l
+_OBJC_SELECTOR_REFERENCES_.142
+_OBJC_SELECTOR_REFERENCES_.144
+_OBJC_SELECTOR_REFERENCES_.146
+_OBJC_SELECTOR_REFERENCES_.148
+_OBJC_SELECTOR_REFERENCES_.150
+__OBJC_$_CLASS_METHODS_SBSMChannelSynchronizer
+__OBJC_METACLASS_RO_$_SBSMChannelSynchronizer
+__OBJC_$_INSTANCE_METHODS_SBSMChannelSynchronizer
+_OBJC_IVAR_$_SBSMChannelSynchronizer._synchronizingChangeLogs
+_OBJC_IVAR_$_SBSMChannelSynchronizer._delegate
+_OBJC_IVAR_$_SBSMChannelSynchronizer._synchronizerQueue
+_OBJC_IVAR_$_SBSMChannelSynchronizer._synchronizingQueue
+_OBJC_IVAR_$_SBSMChannelSynchronizer._observerSets
+_OBJC_IVAR_$_SBSMChannelSynchronizer._queries
+_OBJC_IVAR_$_SBSMChannelSynchronizer._changeLogQueue
+__OBJC_$_INSTANCE_VARIABLES_SBSMChannelSynchronizer
+__OBJC_$_PROP_LIST_SBSMChannelSynchronizer
+__OBJC_CLASS_RO_$_SBSMChannelSynchronizer
+/Users/jedgyeong/git/syncmanager-ios/SyncManager/Channel/SBSMChannelSynchronizer.m
+SyncManager/Channel/SBSMChannelSynchronizer.m
+__59+[SBSMChannelSynchronizer broadcastSynchronizationOfQuery:]_block_invoke
+__copy_helper_block_e4_20s24b28s32s
+__copy_helper_block_e4_20s24b28s
+__123-[SBSMChannelSynchronizer reflectChannelChangeLogsWithUpdatedChannels:deletedChannelUrls:token:hasMore:complectionHandler:]_block_invoke_2
+__123-[SBSMChannelSynchronizer reflectChannelChangeLogsWithUpdatedChannels:deletedChannelUrls:token:hasMore:complectionHandler:]_block_invoke
+__79-[SBSMChannelSynchronizer requestChannelChangeLogsWithToken:completionHandler:]_block_invoke
+__83-[SBSMChannelSynchronizer requestChannelChangeLogsWithTimestamp:completionHandler:]_block_invoke
+__51+[SBSMChannelSynchronizer refreshChannelChangeLogs]_block_invoke_3
+__51+[SBSMChannelSynchronizer refreshChannelChangeLogs]_block_invoke_2
+__51+[SBSMChannelSynchronizer refreshChannelChangeLogs]_block_invoke
+__destroy_helper_block_e4_20s28r
+__copy_helper_block_e4_20s28r
+__copy_helper_block_e4_20s24s28s32r
+__65+[SBSMChannelSynchronizer requestSynchronizingChannelsWithQuery:]_block_invoke_4
+__65+[SBSMChannelSynchronizer requestSynchronizingChannelsWithQuery:]_block_invoke_3
+__65+[SBSMChannelSynchronizer requestSynchronizingChannelsWithQuery:]_block_invoke_2
+__65+[SBSMChannelSynchronizer requestSynchronizingChannelsWithQuery:]_block_invoke
+__41+[SBSMChannelSynchronizer sharedInstance]_block_invoke
++[SBSMMOperationQueue queue]
+-[SBSMMOperationQueue init]
+-[SBSMMOperationQueue setMaxConcurrentOperationCount:]
+-[SBSMMOperationQueue addOperation:]
+___36-[SBSMMOperationQueue addOperation:]_block_invoke
+-[SBSMMOperationQueue resume]
+-[SBSMMOperationQueue pause]
+-[SBSMMOperationQueue removeOperation:]
+___39-[SBSMMOperationQueue removeOperation:]_block_invoke
+-[SBSMMOperationQueue thread]
+-[SBSMMOperationQueue setThread:]
+-[SBSMMOperationQueue queue]
+-[SBSMMOperationQueue setQueue:]
+-[SBSMMOperationQueue operations]
+-[SBSMMOperationQueue setOperations:]
+-[SBSMMOperationQueue operationsAccessQueue]
+-[SBSMMOperationQueue setOperationsAccessQueue:]
+-[SBSMMOperationQueue .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_.19
+__OBJC_$_CLASS_METHODS_SBSMMOperationQueue
+__OBJC_$_PROTOCOL_REFS_SBSMMOperationQueue
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_SBSMMOperationQueue
+__OBJC_$_PROTOCOL_METHOD_TYPES_SBSMMOperationQueue
+__OBJC_PROTOCOL_$_SBSMMOperationQueue
+__OBJC_LABEL_PROTOCOL_$_SBSMMOperationQueue
+__OBJC_CLASS_PROTOCOLS_$_SBSMMOperationQueue
+__OBJC_METACLASS_RO_$_SBSMMOperationQueue
+__OBJC_$_INSTANCE_METHODS_SBSMMOperationQueue
+_OBJC_IVAR_$_SBSMMOperationQueue._thread
+_OBJC_IVAR_$_SBSMMOperationQueue._queue
+_OBJC_IVAR_$_SBSMMOperationQueue._operations
+_OBJC_IVAR_$_SBSMMOperationQueue._operationsAccessQueue
+__OBJC_$_INSTANCE_VARIABLES_SBSMMOperationQueue
+__OBJC_$_PROP_LIST_SBSMMOperationQueue
+__OBJC_CLASS_RO_$_SBSMMOperationQueue
+/Users/jedgyeong/git/syncmanager-ios/SyncManager/Command/SBSMMOperationQueue.m
+SyncManager/Command/SBSMMOperationQueue.m
+SyncManager/Command/SBSMMOperationQueue.h
+__39-[SBSMMOperationQueue removeOperation:]_block_invoke
+__36-[SBSMMOperationQueue addOperation:]_block_invoke
++[SBSMSyncManager setupWithUserId:]
++[SBSMSyncManager setupWithUserId:options:]
++[SBSMSyncManager manager]
++[SBSMSyncManager sharedInstance]
+___33+[SBSMSyncManager sharedInstance]_block_invoke
++[SBSMSyncManager currentUserId]
++[SBSMSyncManager options]
++[SBSMSyncManager resumeSynchronize]
++[SBSMSyncManager pauseSynchronize]
+-[SBSMSyncManager resumeSynchronize]
+-[SBSMSyncManager pauseSynchronize]
++[SBSMSyncManager clearCache]
++[SBSMSyncManager setCompletionQueue:]
++[SBSMSyncManager completionQueue]
++[SBSMSyncManager setDelegateQueue:]
++[SBSMSyncManager delegateQueue]
+-[SBSMSyncManager currentUserId]
+-[SBSMSyncManager setCurrentUserId:]
+-[SBSMSyncManager options]
+-[SBSMSyncManager setOptions:]
+-[SBSMSyncManager completionQueue]
+-[SBSMSyncManager setCompletionQueue:]
+-[SBSMSyncManager delegateQueue]
+-[SBSMSyncManager setDelegateQueue:]
+-[SBSMSyncManager .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.1
+_OBJC_CLASSLIST_REFERENCES_$_.32
+_OBJC_SELECTOR_REFERENCES_.49
+_OBJC_SELECTOR_REFERENCES_.55
+_OBJC_SELECTOR_REFERENCES_.59
+__OBJC_$_CLASS_METHODS_SBSMSyncManager
+__OBJC_METACLASS_RO_$_SBSMSyncManager
+__OBJC_$_INSTANCE_METHODS_SBSMSyncManager
+_OBJC_IVAR_$_SBSMSyncManager._currentUserId
+_OBJC_IVAR_$_SBSMSyncManager._options
+_OBJC_IVAR_$_SBSMSyncManager._completionQueue
+_OBJC_IVAR_$_SBSMSyncManager._delegateQueue
+__OBJC_$_INSTANCE_VARIABLES_SBSMSyncManager
+__OBJC_$_PROP_LIST_SBSMSyncManager
+__OBJC_CLASS_RO_$_SBSMSyncManager
+/Users/jedgyeong/git/syncmanager-ios/SyncManager/SBSMSyncManager.m
+SyncManager/SBSMSyncManager.m
+__33+[SBSMSyncManager sharedInstance]_block_invoke
+SBSMSyncManagerBuildNumber
+SBSMSyncManagerVersionString
++[SBSMChannelContainer container]
+-[SBSMChannelContainer init]
+-[SBSMChannelContainer prepareChannelsWithCompletionHandler:]
+___61-[SBSMChannelContainer prepareChannelsWithCompletionHandler:]_block_invoke
+___61-[SBSMChannelContainer prepareChannelsWithCompletionHandler:]_block_invoke_2
+___61-[SBSMChannelContainer prepareChannelsWithCompletionHandler:]_block_invoke.28
+___61-[SBSMChannelContainer prepareChannelsWithCompletionHandler:]_block_invoke_2.31
+___copy_helper_block_e4_20b24s28r
+-[SBSMChannelContainer fetchChannelsWithQuery:fromOffsetChannelUrl:comparisonPoint:fetchLimit:completionHandler:]
+___113-[SBSMChannelContainer fetchChannelsWithQuery:fromOffsetChannelUrl:comparisonPoint:fetchLimit:completionHandler:]_block_invoke
+___113-[SBSMChannelContainer fetchChannelsWithQuery:fromOffsetChannelUrl:comparisonPoint:fetchLimit:completionHandler:]_block_invoke_2
+___113-[SBSMChannelContainer fetchChannelsWithQuery:fromOffsetChannelUrl:comparisonPoint:fetchLimit:completionHandler:]_block_invoke_3
+___113-[SBSMChannelContainer fetchChannelsWithQuery:fromOffsetChannelUrl:comparisonPoint:fetchLimit:completionHandler:]_block_invoke_4
+___113-[SBSMChannelContainer fetchChannelsWithQuery:fromOffsetChannelUrl:comparisonPoint:fetchLimit:completionHandler:]_block_invoke.62
+___113-[SBSMChannelContainer fetchChannelsWithQuery:fromOffsetChannelUrl:comparisonPoint:fetchLimit:completionHandler:]_block_invoke_2.71
+___copy_helper_block_e4_20s24b28s32s36s40s
+___destroy_helper_block_e4_20s24s28s32s36s40s
+-[SBSMChannelContainer fetchChannelWithChannelUrl:completionHandler:]
+___69-[SBSMChannelContainer fetchChannelWithChannelUrl:completionHandler:]_block_invoke
+___69-[SBSMChannelContainer fetchChannelWithChannelUrl:completionHandler:]_block_invoke_2
+-[SBSMChannelContainer upsertChannels:completionHandler:]
+___57-[SBSMChannelContainer upsertChannels:completionHandler:]_block_invoke
+___57-[SBSMChannelContainer upsertChannels:completionHandler:]_block_invoke_2
+___57-[SBSMChannelContainer upsertChannels:completionHandler:]_block_invoke_3
+___57-[SBSMChannelContainer upsertChannels:completionHandler:]_block_invoke_4
+-[SBSMChannelContainer upsertChannels:]
+-[SBSMChannelContainer updateChannelChangeLogsWithChannels:deletedChannelUrls:completionHandler:]
+___97-[SBSMChannelContainer updateChannelChangeLogsWithChannels:deletedChannelUrls:completionHandler:]_block_invoke
+___97-[SBSMChannelContainer updateChannelChangeLogsWithChannels:deletedChannelUrls:completionHandler:]_block_invoke_2
+___97-[SBSMChannelContainer updateChannelChangeLogsWithChannels:deletedChannelUrls:completionHandler:]_block_invoke_3
+___97-[SBSMChannelContainer updateChannelChangeLogsWithChannels:deletedChannelUrls:completionHandler:]_block_invoke_4
+___97-[SBSMChannelContainer updateChannelChangeLogsWithChannels:deletedChannelUrls:completionHandler:]_block_invoke_5
+___copy_helper_block_e4_20s24s28s32b
+-[SBSMChannelContainer removeChannelUrls:completionHandler:]
+___60-[SBSMChannelContainer removeChannelUrls:completionHandler:]_block_invoke
+___60-[SBSMChannelContainer removeChannelUrls:completionHandler:]_block_invoke_2
+___60-[SBSMChannelContainer removeChannelUrls:completionHandler:]_block_invoke_3
+-[SBSMChannelContainer removeChannelUrls:]
+-[SBSMChannelContainer removeAllChannels]
+___41-[SBSMChannelContainer removeAllChannels]_block_invoke
+-[SBSMChannelContainer upsertQuery:savepoint:completionHandler:]
+-[SBSMChannelContainer fetchQueryWithQuery:completionHandler:]
+___62-[SBSMChannelContainer fetchQueryWithQuery:completionHandler:]_block_invoke
+-[SBSMChannelContainer removeAllQueries]
+-[SBSMChannelContainer upsertChangeLogsToken:completionHandler:]
+-[SBSMChannelContainer fetchChangeLogsTokenWithCompletionHandler:]
+-[SBSMChannelContainer removeAllChangeLogs]
++[SBSMChannelContainer defaultQuery:]
+-[SBSMChannelContainer upsertChannelOffset:channelUrl:completionHandler:]
+-[SBSMChannelContainer fetchChannelMessageOffsetWithChannelUrl:completionHandler:]
+-[SBSMChannelContainer prepareQueue]
+-[SBSMChannelContainer setPrepareQueue:]
+-[SBSMChannelContainer mutableChannels]
+-[SBSMChannelContainer setMutableChannels:]
+-[SBSMChannelContainer channelQueue]
+-[SBSMChannelContainer setChannelQueue:]
+-[SBSMChannelContainer didPrepare]
+-[SBSMChannelContainer setPrepared:]
+-[SBSMChannelContainer .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.4
+_OBJC_CLASSLIST_REFERENCES_$_.7
+___block_descriptor_28_e4_20bs24r_e5_v4?0l
+_OBJC_CLASSLIST_REFERENCES_$_.27
+_OBJC_CLASSLIST_REFERENCES_$_.36
+___block_descriptor_32_e4_20bs24s28r_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.68
+___block_descriptor_48_e4_20s24bs28s32s36s40s_e5_v4?0l
+___block_descriptor_40_e4_20s24bs28s32s_e59_v16?0"SBDGroupChannelListQuery"4"NSString"8"SBDError"12l
+_OBJC_SELECTOR_REFERENCES_.76
+_OBJC_SELECTOR_REFERENCES_.78
+___block_descriptor_24_e4_20bs_e41_v16?0"NSArray"4"NSArray"8"SBDError"12l
+___block_descriptor_28_e4_20bs24r_e17_v8?0"SBDError"4l
+___block_descriptor_28_e4_20s24bs_e41_v16?0"NSArray"4"NSArray"8"SBDError"12l
+___block_descriptor_36_e4_20s24s28s32bs_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.90
+_OBJC_SELECTOR_REFERENCES_.92
+_OBJC_SELECTOR_REFERENCES_.100
+___block_descriptor_32_e4_20s24s28bs_e59_v16?0"SBDGroupChannelListQuery"4"NSString"8"SBDError"12l
+_OBJC_CLASSLIST_REFERENCES_$_.113
+_OBJC_SELECTOR_REFERENCES_.115
+_OBJC_SELECTOR_REFERENCES_.117
+_OBJC_SELECTOR_REFERENCES_.119
+_OBJC_SELECTOR_REFERENCES_.131
+_OBJC_SELECTOR_REFERENCES_.133
+_OBJC_SELECTOR_REFERENCES_.135
+_OBJC_SELECTOR_REFERENCES_.137
+_OBJC_SELECTOR_REFERENCES_.139
+__OBJC_$_CLASS_METHODS_SBSMChannelContainer
+__OBJC_METACLASS_RO_$_SBSMChannelContainer
+__OBJC_$_INSTANCE_METHODS_SBSMChannelContainer
+_OBJC_IVAR_$_SBSMChannelContainer._prepared
+_OBJC_IVAR_$_SBSMChannelContainer._prepareQueue
+_OBJC_IVAR_$_SBSMChannelContainer._mutableChannels
+_OBJC_IVAR_$_SBSMChannelContainer._channelQueue
+__OBJC_$_INSTANCE_VARIABLES_SBSMChannelContainer
+__OBJC_$_PROP_LIST_SBSMChannelContainer
+__OBJC_CLASS_RO_$_SBSMChannelContainer
+/Users/jedgyeong/git/syncmanager-ios/SyncManager/Channel/SBSMChannelContainer.m
+SyncManager/Channel/SBSMChannelContainer.m
+__62-[SBSMChannelContainer fetchQueryWithQuery:completionHandler:]_block_invoke
+__41-[SBSMChannelContainer removeAllChannels]_block_invoke
+__60-[SBSMChannelContainer removeChannelUrls:completionHandler:]_block_invoke_3
+__60-[SBSMChannelContainer removeChannelUrls:completionHandler:]_block_invoke_2
+__60-[SBSMChannelContainer removeChannelUrls:completionHandler:]_block_invoke
+__copy_helper_block_e4_20s24s28s32b
+__97-[SBSMChannelContainer updateChannelChangeLogsWithChannels:deletedChannelUrls:completionHandler:]_block_invoke_5
+__97-[SBSMChannelContainer updateChannelChangeLogsWithChannels:deletedChannelUrls:completionHandler:]_block_invoke_4
+__97-[SBSMChannelContainer updateChannelChangeLogsWithChannels:deletedChannelUrls:completionHandler:]_block_invoke_3
+__97-[SBSMChannelContainer updateChannelChangeLogsWithChannels:deletedChannelUrls:completionHandler:]_block_invoke_2
+__97-[SBSMChannelContainer updateChannelChangeLogsWithChannels:deletedChannelUrls:completionHandler:]_block_invoke
+__57-[SBSMChannelContainer upsertChannels:completionHandler:]_block_invoke_4
+__57-[SBSMChannelContainer upsertChannels:completionHandler:]_block_invoke_3
+__57-[SBSMChannelContainer upsertChannels:completionHandler:]_block_invoke_2
+__57-[SBSMChannelContainer upsertChannels:completionHandler:]_block_invoke
+__69-[SBSMChannelContainer fetchChannelWithChannelUrl:completionHandler:]_block_invoke_2
+__69-[SBSMChannelContainer fetchChannelWithChannelUrl:completionHandler:]_block_invoke
+__destroy_helper_block_e4_20s24s28s32s36s40s
+__copy_helper_block_e4_20s24b28s32s36s40s
+__113-[SBSMChannelContainer fetchChannelsWithQuery:fromOffsetChannelUrl:comparisonPoint:fetchLimit:completionHandler:]_block_invoke_2.71
+__113-[SBSMChannelContainer fetchChannelsWithQuery:fromOffsetChannelUrl:comparisonPoint:fetchLimit:completionHandler:]_block_invoke.62
+__113-[SBSMChannelContainer fetchChannelsWithQuery:fromOffsetChannelUrl:comparisonPoint:fetchLimit:completionHandler:]_block_invoke_4
+__113-[SBSMChannelContainer fetchChannelsWithQuery:fromOffsetChannelUrl:comparisonPoint:fetchLimit:completionHandler:]_block_invoke_3
+__113-[SBSMChannelContainer fetchChannelsWithQuery:fromOffsetChannelUrl:comparisonPoint:fetchLimit:completionHandler:]_block_invoke_2
+__113-[SBSMChannelContainer fetchChannelsWithQuery:fromOffsetChannelUrl:comparisonPoint:fetchLimit:completionHandler:]_block_invoke
+__copy_helper_block_e4_20b24s28r
+__61-[SBSMChannelContainer prepareChannelsWithCompletionHandler:]_block_invoke_2.31
+__61-[SBSMChannelContainer prepareChannelsWithCompletionHandler:]_block_invoke.28
+__61-[SBSMChannelContainer prepareChannelsWithCompletionHandler:]_block_invoke_2
+__61-[SBSMChannelContainer prepareChannelsWithCompletionHandler:]_block_invoke
+-[SBDGroupChannelListQuery(SyncManager) defaultCopy]
+-[SBDGroupChannelListQuery(SyncManager) queryId]
+-[SBDGroupChannelListQuery(SyncManager) hasSameFilterWithQuery:]
+-[SBDGroupChannelListQuery(SyncManager) predicate]
+-[SBDGroupChannelListQuery(SyncManager) predicateFromOffsetChannelUrl:comparisonPoint:savepoint:]
+-[SBDGroupChannelListQuery(SyncManager) predicateToOffset:]
+-[SBDGroupChannelListQuery(SyncManager) predicateDescendingOrSameWithComparisonPoint:]
+-[SBDGroupChannelListQuery(SyncManager) predicateAscendingWithComparisonPoint:]
+-[SBDGroupChannelListQuery(SyncManager) predicateAscendingOrSameWithComparisonPoint:afterChannelUrl:]
+-[SBDGroupChannelListQuery(SyncManager) comparator]
+___51-[SBDGroupChannelListQuery(SyncManager) comparator]_block_invoke
+-[SBDGroupChannelListQuery(SyncManager) orderAscendingBetweenObject:andObject:]
+_OBJC_CLASSLIST_REFERENCES_$_.33
+_OBJC_CLASSLIST_REFERENCES_$_.43
+_OBJC_CLASSLIST_REFERENCES_$_.55
+_OBJC_SELECTOR_REFERENCES_.65
+_OBJC_CLASSLIST_REFERENCES_$_.66
+_OBJC_SELECTOR_REFERENCES_.74
+_OBJC_SELECTOR_REFERENCES_.80
+___block_descriptor_24_e4_20s_e38_i12?0"<SBSMObject>"4"<SBSMObject>"8l
+__OBJC_$_CATEGORY_INSTANCE_METHODS_SBDGroupChannelListQuery_$_SyncManager
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
+__OBJC_PROTOCOL_$_NSCopying
+__OBJC_LABEL_PROTOCOL_$_NSCopying
+__OBJC_CATEGORY_PROTOCOLS_$_SBDGroupChannelListQuery_$_SyncManager
+__OBJC_$_PROP_LIST_SBDGroupChannelListQuery_$_SyncManager
+__OBJC_$_CATEGORY_SBDGroupChannelListQuery_$_SyncManager
+/Users/jedgyeong/git/syncmanager-ios/SyncManager/Categories/SBDGroupChannelListQuery+SyncManager.m
+SyncManager/Categories/SBDGroupChannelListQuery+SyncManager.m
+__51-[SBDGroupChannelListQuery(SyncManager) comparator]_block_invoke
++[SBSMSyncManagerOptions infinity]
+-[SBSMSyncManagerOptions init]
++[SBSMSyncManagerOptions options]
+-[SBSMSyncManagerOptions setMessageCollectionCapacity:]
+-[SBSMSyncManagerOptions setAutomaticResendMessageRetryCount:]
+-[SBSMSyncManagerOptions messageResendPolicy]
+-[SBSMSyncManagerOptions setMessageResendPolicy:]
+-[SBSMSyncManagerOptions messageCollectionCapacity]
+-[SBSMSyncManagerOptions automaticResendMessageRetryCount]
+-[SBSMSyncManagerOptions maxFailedMessageCountPerChannel]
+-[SBSMSyncManagerOptions setMaxFailedMessageCountPerChannel:]
+-[SBSMSyncManagerOptions failedMessageRetentionDays]
+-[SBSMSyncManagerOptions setFailedMessageRetentionDays:]
+-[SBSMSyncManagerOptions forceResumeSync]
+-[SBSMSyncManagerOptions setForceResumeSync:]
+__OBJC_$_CLASS_METHODS_SBSMSyncManagerOptions
+__OBJC_$_CLASS_PROP_LIST_SBSMSyncManagerOptions
+__OBJC_METACLASS_RO_$_SBSMSyncManagerOptions
+__OBJC_$_INSTANCE_METHODS_SBSMSyncManagerOptions
+_OBJC_IVAR_$_SBSMSyncManagerOptions._forceResumeSync
+_OBJC_IVAR_$_SBSMSyncManagerOptions._messageResendPolicy
+_OBJC_IVAR_$_SBSMSyncManagerOptions._messageCollectionCapacity
+_OBJC_IVAR_$_SBSMSyncManagerOptions._automaticResendMessageRetryCount
+_OBJC_IVAR_$_SBSMSyncManagerOptions._maxFailedMessageCountPerChannel
+_OBJC_IVAR_$_SBSMSyncManagerOptions._failedMessageRetentionDays
+__OBJC_$_INSTANCE_VARIABLES_SBSMSyncManagerOptions
+__OBJC_$_PROP_LIST_SBSMSyncManagerOptions
+__OBJC_CLASS_RO_$_SBSMSyncManagerOptions
+/Users/jedgyeong/git/syncmanager-ios/SyncManager/SBSMSyncManagerOptions.m
+SyncManager/SBSMSyncManagerOptions.h
+SyncManager/SBSMSyncManagerOptions.m
++[SBSMFailedMessageDispatcher sharedInstance]
+___45+[SBSMFailedMessageDispatcher sharedInstance]_block_invoke
++[SBSMFailedMessageDispatcher setupWithCompletionHandler:]
+___58+[SBSMFailedMessageDispatcher setupWithCompletionHandler:]_block_invoke
++[SBSMFailedMessageDispatcher getMessagesWithChannelUrl:]
++[SBSMFailedMessageDispatcher loadFailedMessagesWithChannelUrl:options:completionHandler:]
+___90+[SBSMFailedMessageDispatcher loadFailedMessagesWithChannelUrl:options:completionHandler:]_block_invoke
++[SBSMFailedMessageDispatcher upsertMessagesWithChannelUrl:messages:automaticResendable:]
++[SBSMFailedMessageDispatcher removeMessagesWithChannelUrl:messages:]
++[SBSMFailedMessageDispatcher resumeAllQueues]
+___46+[SBSMFailedMessageDispatcher resumeAllQueues]_block_invoke
++[SBSMFailedMessageDispatcher pauseAllQueues]
+___45+[SBSMFailedMessageDispatcher pauseAllQueues]_block_invoke
++[SBSMFailedMessageDispatcher createQueueWithChannel:]
++[SBSMFailedMessageDispatcher removeQueueWithChannel:]
++[SBSMFailedMessageDispatcher removeExpiredFailedMessagesWithCompletionHandler:]
+___80+[SBSMFailedMessageDispatcher removeExpiredFailedMessagesWithCompletionHandler:]_block_invoke
++[SBSMFailedMessageDispatcher startFailedMessageRetentionChecker]
+___65+[SBSMFailedMessageDispatcher startFailedMessageRetentionChecker]_block_invoke
++[SBSMFailedMessageDispatcher stopFailedMessageRetentionChecker]
+___64+[SBSMFailedMessageDispatcher stopFailedMessageRetentionChecker]_block_invoke
+-[SBSMFailedMessageDispatcher failedMessageRetentionCheckerTimeout]
+___67-[SBSMFailedMessageDispatcher failedMessageRetentionCheckerTimeout]_block_invoke
+-[SBSMFailedMessageDispatcher queueDict]
+-[SBSMFailedMessageDispatcher setQueueDict:]
+-[SBSMFailedMessageDispatcher oldestFailedMessageTs]
+-[SBSMFailedMessageDispatcher setOldestFailedMessageTs:]
+-[SBSMFailedMessageDispatcher failedMessageRetentionChecker]
+-[SBSMFailedMessageDispatcher setFailedMessageRetentionChecker:]
+-[SBSMFailedMessageDispatcher .cxx_destruct]
+___block_descriptor_24_e4_20bs_e17_v8?0"SBDError"4l
+___block_descriptor_32_e4_20bs24s28s_e41_v16?0"NSArray"4"NSArray"8"SBDError"12l
+___block_descriptor_20_e48_v16?0"NSString"4"SBSMFailedMessageQueue"8^c12l
+___block_literal_global.40
+___block_literal_global.47
+_OBJC_CLASSLIST_REFERENCES_$_.54
+___block_descriptor_24_e4_20bs_e32_v20?0"NSArray"4q8"SBDError"16l
+___block_literal_global.78
+_OBJC_CLASSLIST_REFERENCES_$_.81
+___block_literal_global.88
+___block_descriptor_20_e17_v8?0"SBDError"4l
+___block_literal_global.91
+__OBJC_$_CLASS_METHODS_SBSMFailedMessageDispatcher
+__OBJC_METACLASS_RO_$_SBSMFailedMessageDispatcher
+__OBJC_$_INSTANCE_METHODS_SBSMFailedMessageDispatcher
+_OBJC_IVAR_$_SBSMFailedMessageDispatcher._queueDict
+_OBJC_IVAR_$_SBSMFailedMessageDispatcher._failedMessageRetentionChecker
+_OBJC_IVAR_$_SBSMFailedMessageDispatcher._oldestFailedMessageTs
+__OBJC_$_INSTANCE_VARIABLES_SBSMFailedMessageDispatcher
+__OBJC_$_PROP_LIST_SBSMFailedMessageDispatcher
+__OBJC_CLASS_RO_$_SBSMFailedMessageDispatcher
+/Users/jedgyeong/git/syncmanager-ios/SyncManager/Message/FailedMessage/SBSMFailedMessageDispatcher.m
+SyncManager/Message/FailedMessage/SBSMFailedMessageDispatcher.m
+__67-[SBSMFailedMessageDispatcher failedMessageRetentionCheckerTimeout]_block_invoke
+__64+[SBSMFailedMessageDispatcher stopFailedMessageRetentionChecker]_block_invoke
+__65+[SBSMFailedMessageDispatcher startFailedMessageRetentionChecker]_block_invoke
+__80+[SBSMFailedMessageDispatcher removeExpiredFailedMessagesWithCompletionHandler:]_block_invoke
+__45+[SBSMFailedMessageDispatcher pauseAllQueues]_block_invoke
+__46+[SBSMFailedMessageDispatcher resumeAllQueues]_block_invoke
+__90+[SBSMFailedMessageDispatcher loadFailedMessagesWithChannelUrl:options:completionHandler:]_block_invoke
+__58+[SBSMFailedMessageDispatcher setupWithCompletionHandler:]_block_invoke
+__45+[SBSMFailedMessageDispatcher sharedInstance]_block_invoke
++[SBSMChannelManager manager]
+___29+[SBSMChannelManager manager]_block_invoke
++[SBSMChannelManager resumeSynchronize]
++[SBSMChannelManager pauseSynchronize]
+-[SBSMChannelManager init]
+-[SBSMChannelManager dealloc]
++[SBSMChannelManager channelContainer]
++[SBSMChannelManager renewChannelContainer]
++[SBSMChannelManager addCollection:]
+___36+[SBSMChannelManager addCollection:]_block_invoke
++[SBSMChannelManager removeCollection:]
+___39+[SBSMChannelManager removeCollection:]_block_invoke
++[SBSMChannelManager clearCachedChannels]
+___41+[SBSMChannelManager clearCachedChannels]_block_invoke
++[SBSMChannelManager checkMessageOffsetOfGroupChannel:completionHandler:]
+___73+[SBSMChannelManager checkMessageOffsetOfGroupChannel:completionHandler:]_block_invoke
+___73+[SBSMChannelManager checkMessageOffsetOfGroupChannel:completionHandler:]_block_invoke_2
++[SBSMChannelManager collectionQueue]
+-[SBSMChannelManager channelCollections]
+___40-[SBSMChannelManager channelCollections]_block_invoke
+-[SBSMChannelManager upsertChannelEvent:]
+___41-[SBSMChannelManager upsertChannelEvent:]_block_invoke
+-[SBSMChannelManager removeChannelEventWithChannelUrl:]
++[SBSMChannelManager requestChannelWithChannelUrl:completionHandler:]
+___69+[SBSMChannelManager requestChannelWithChannelUrl:completionHandler:]_block_invoke
+___69+[SBSMChannelManager requestChannelWithChannelUrl:completionHandler:]_block_invoke_2
+-[SBSMChannelManager didUpsertObjects:]
+-[SBSMChannelManager didDeleteObjectIds:]
+-[SBSMChannelManager channelDidUpdateReadReceipt:]
+-[SBSMChannelManager channel:didReceiveInvitation:inviter:]
+-[SBSMChannelManager channel:didDeclineInvitation:inviter:]
+-[SBSMChannelManager channel:userDidJoin:]
+-[SBSMChannelManager channel:userDidLeave:]
+-[SBSMChannelManager channel:userWasMuted:]
+-[SBSMChannelManager channel:userWasUnmuted:]
+-[SBSMChannelManager channel:userWasBanned:]
+-[SBSMChannelManager channel:userWasUnbanned:]
+-[SBSMChannelManager channelWasFrozen:]
+-[SBSMChannelManager channelWasUnfrozen:]
+-[SBSMChannelManager channelWasChanged:]
+-[SBSMChannelManager channelWasDeleted:channelType:]
+-[SBSMChannelManager channel:createdMetaData:]
+-[SBSMChannelManager channel:updatedMetaData:]
+-[SBSMChannelManager channel:deletedMetaDataKeys:]
+-[SBSMChannelManager channel:createdMetaCounters:]
+-[SBSMChannelManager channel:updatedMetaCounters:]
+-[SBSMChannelManager channel:deletedMetaCountersKeys:]
+-[SBSMChannelManager channelWasHidden:]
+-[SBSMChannelManager mutableChannelCollections]
+-[SBSMChannelManager setMutableChannelCollections:]
+-[SBSMChannelManager channelContainer]
+-[SBSMChannelManager setChannelContainer:]
+-[SBSMChannelManager identifier]
+-[SBSMChannelManager setIdentifier:]
+-[SBSMChannelManager messageOffsetDict]
+-[SBSMChannelManager setMessageOffsetDict:]
+-[SBSMChannelManager collectionQueue]
+-[SBSMChannelManager setCollectionQueue:]
+-[SBSMChannelManager .cxx_destruct]
+_manager.instance
+_manager.onceToken
+_OBJC_CLASSLIST_REFERENCES_$_.20
+_OBJC_CLASSLIST_REFERENCES_$_.35
+_OBJC_CLASSLIST_REFERENCES_$_.38
+_OBJC_CLASSLIST_REFERENCES_$_.51
+_OBJC_CLASSLIST_REFERENCES_$_.84
+_OBJC_CLASSLIST_REFERENCES_$_.87
+_OBJC_CLASSLIST_REFERENCES_$_.88
+___block_descriptor_32_e4_20bs24s28s_e17_v8?0"SBDError"4l
+_OBJC_SELECTOR_REFERENCES_.99
+_OBJC_CLASSLIST_REFERENCES_$_.100
+___block_descriptor_28_e4_20s24s_e17_v8?0"SBDError"4l
+_OBJC_CLASSLIST_REFERENCES_$_.118
+___block_descriptor_28_e4_20s24bs_e37_v12?0"SBDGroupChannel"4"SBDError"8l
+___block_descriptor_32_e4_20bs24s28s_e37_v12?0"SBDGroupChannel"4"SBDError"8l
+__OBJC_$_CLASS_METHODS_SBSMChannelManager
+__OBJC_$_PROTOCOL_REFS_SBDChannelDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SBDChannelDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_SBDChannelDelegate
+__OBJC_PROTOCOL_$_SBDChannelDelegate
+__OBJC_LABEL_PROTOCOL_$_SBDChannelDelegate
+__OBJC_$_PROTOCOL_REFS_SBSMManager
+__OBJC_$_PROTOCOL_CLASS_METHODS_SBSMManager
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SBSMManager
+__OBJC_$_PROTOCOL_METHOD_TYPES_SBSMManager
+__OBJC_PROTOCOL_$_SBSMManager
+__OBJC_LABEL_PROTOCOL_$_SBSMManager
+__OBJC_$_PROTOCOL_REFS_SBSMSynchronizer
+__OBJC_$_PROTOCOL_CLASS_METHODS_SBSMSynchronizer
+__OBJC_$_PROTOCOL_METHOD_TYPES_SBSMSynchronizer
+__OBJC_PROTOCOL_$_SBSMSynchronizer
+__OBJC_LABEL_PROTOCOL_$_SBSMSynchronizer
+__OBJC_CLASS_PROTOCOLS_$_SBSMChannelManager
+__OBJC_METACLASS_RO_$_SBSMChannelManager
+__OBJC_$_INSTANCE_METHODS_SBSMChannelManager
+_OBJC_IVAR_$_SBSMChannelManager._mutableChannelCollections
+_OBJC_IVAR_$_SBSMChannelManager._channelContainer
+_OBJC_IVAR_$_SBSMChannelManager._identifier
+_OBJC_IVAR_$_SBSMChannelManager._messageOffsetDict
+_OBJC_IVAR_$_SBSMChannelManager._collectionQueue
+__OBJC_$_INSTANCE_VARIABLES_SBSMChannelManager
+__OBJC_$_PROP_LIST_SBSMChannelManager
+__OBJC_CLASS_RO_$_SBSMChannelManager
+/Users/jedgyeong/git/syncmanager-ios/SyncManager/Channel/SBSMChannelManager.m
+SyncManager/Channel/SBSMChannelManager.m
+__69+[SBSMChannelManager requestChannelWithChannelUrl:completionHandler:]_block_invoke_2
+__69+[SBSMChannelManager requestChannelWithChannelUrl:completionHandler:]_block_invoke
+__41-[SBSMChannelManager upsertChannelEvent:]_block_invoke
+__40-[SBSMChannelManager channelCollections]_block_invoke
+__73+[SBSMChannelManager checkMessageOffsetOfGroupChannel:completionHandler:]_block_invoke_2
+__73+[SBSMChannelManager checkMessageOffsetOfGroupChannel:completionHandler:]_block_invoke
+__41+[SBSMChannelManager clearCachedChannels]_block_invoke
+__39+[SBSMChannelManager removeCollection:]_block_invoke
+__36+[SBSMChannelManager addCollection:]_block_invoke
+__29+[SBSMChannelManager manager]_block_invoke
+__OBJC_$_CATEGORY_SBDBaseMessage_$_Test
+/Users/jedgyeong/git/syncmanager-ios/SyncManagerTests/Supports/SBDBaseMessage+Test.m
+-[SBDGroupChannel(SyncManager) lastMessageUpdatedAt]
+-[SBDGroupChannel(SyncManager) comparisonPointWithOrder:]
+-[SBDGroupChannel(SyncManager) compareWithComparisonPoint:order:]
+_OBJC_SELECTOR_REFERENCES_.17
+__OBJC_$_CATEGORY_INSTANCE_METHODS_SBDGroupChannel_$_SyncManager
+__OBJC_$_PROTOCOL_REFS_SBSMObject
+__OBJC_PROTOCOL_$_SBSMObject
+__OBJC_LABEL_PROTOCOL_$_SBSMObject
+__OBJC_CATEGORY_PROTOCOLS_$_SBDGroupChannel_$_SyncManager
+__OBJC_$_PROP_LIST_SBDGroupChannel_$_SyncManager
+__OBJC_$_CATEGORY_SBDGroupChannel_$_SyncManager
+/Users/jedgyeong/git/syncmanager-ios/SyncManager/Categories/SBDGroupChannel+SyncManager.m
+SyncManager/Categories/SBDGroupChannel+SyncManager.m
+-[SBSMMessageChunk initWithChunkId:channel:filter:startAt:endAt:]
++[SBSMMessageChunk chunkWithChunkId:channel:filter:startAt:endAt:]
++[SBSMMessageChunk chunkWithMessages:channel:filter:]
++[SBSMMessageChunk chunkWithChunk:filter:]
+-[SBSMMessageChunk chunkOfFilter:]
+-[SBSMMessageChunk mergeWithChunks:]
+-[SBSMMessageChunk mergeWithChunk:]
+-[SBSMMessageChunk mergeWithMessages:]
+-[SBSMMessageChunk update]
+-[SBSMMessageChunk intersectsWithChunk:]
+-[SBSMMessageChunk containsTimestamp:]
+-[SBSMMessageChunk containsChunk:]
+-[SBSMMessageChunk startSynchronizing]
+-[SBSMMessageChunk startSynchronizingInDirection:]
+-[SBSMMessageChunk stopSynchronizing]
+-[SBSMMessageChunk stopSynchronizingInDirection:]
+-[SBSMMessageChunk didStopSynchronizingInDirection:]
+-[SBSMMessageChunk completeSynchronizationInDirection:]
+-[SBSMMessageChunk hasCompletedSynchronizingOfDirection:]
+-[SBSMMessageChunk readyToSynchronize]
+-[SBSMMessageChunk description]
+-[SBSMMessageChunk chunkId]
+-[SBSMMessageChunk setChunkId:]
+-[SBSMMessageChunk channel]
+-[SBSMMessageChunk setChannel:]
+-[SBSMMessageChunk filter]
+-[SBSMMessageChunk setFilter:]
+-[SBSMMessageChunk startAt]
+-[SBSMMessageChunk setStartAt:]
+-[SBSMMessageChunk endAt]
+-[SBSMMessageChunk setEndAt:]
+-[SBSMMessageChunk stopNextSynchronizing]
+-[SBSMMessageChunk setStopNextSynchronizing:]
+-[SBSMMessageChunk stopPreviousSynchronizing]
+-[SBSMMessageChunk setStopPreviousSynchronizing:]
+-[SBSMMessageChunk completeNextSynchronization]
+-[SBSMMessageChunk setCompleteNextSynchronization:]
+-[SBSMMessageChunk completePreviousSynchronization]
+-[SBSMMessageChunk setCompletePreviousSynchronization:]
+-[SBSMMessageChunk .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.53
+_OBJC_CLASSLIST_REFERENCES_$_.82
+__OBJC_$_CLASS_METHODS_SBSMMessageChunk
+__OBJC_CLASS_PROTOCOLS_$_SBSMMessageChunk
+__OBJC_METACLASS_RO_$_SBSMMessageChunk
+__OBJC_$_INSTANCE_METHODS_SBSMMessageChunk
+_OBJC_IVAR_$_SBSMMessageChunk._stopNextSynchronizing
+_OBJC_IVAR_$_SBSMMessageChunk._stopPreviousSynchronizing
+_OBJC_IVAR_$_SBSMMessageChunk._completeNextSynchronization
+_OBJC_IVAR_$_SBSMMessageChunk._completePreviousSynchronization
+_OBJC_IVAR_$_SBSMMessageChunk._chunkId
+_OBJC_IVAR_$_SBSMMessageChunk._channel
+_OBJC_IVAR_$_SBSMMessageChunk._filter
+_OBJC_IVAR_$_SBSMMessageChunk._startAt
+_OBJC_IVAR_$_SBSMMessageChunk._endAt
+__OBJC_$_INSTANCE_VARIABLES_SBSMMessageChunk
+__OBJC_$_PROP_LIST_SBSMMessageChunk
+__OBJC_CLASS_RO_$_SBSMMessageChunk
+/Users/jedgyeong/git/syncmanager-ios/SyncManager/Message/Chunk/SBSMMessageChunk.m
+SyncManager/Message/Chunk/SBSMMessageChunk.m
+SyncManager/Message/Chunk/SBSMMessageChunk.h
++[SBSMMessageSyncSet setWithObserver:chunk:]
+-[SBSMMessageSyncSet initWithObserver:chunk:]
+-[SBSMMessageSyncSet initWithObserver:filter:viewpoint:]
+-[SBSMMessageSyncSet addObserver:]
+-[SBSMMessageSyncSet removeObserver:]
+-[SBSMMessageSyncSet isSetOfChunk:]
+-[SBSMMessageSyncSet isSetOfFilter:viewpoint:]
+-[SBSMMessageSyncSet observers]
+-[SBSMMessageSyncSet setObservers:]
+-[SBSMMessageSyncSet chunk]
+-[SBSMMessageSyncSet setChunk:]
+-[SBSMMessageSyncSet filter]
+-[SBSMMessageSyncSet setFilter:]
+-[SBSMMessageSyncSet viewpoint]
+-[SBSMMessageSyncSet setViewpoint:]
+-[SBSMMessageSyncSet .cxx_destruct]
+__OBJC_$_CLASS_METHODS_SBSMMessageSyncSet
+__OBJC_METACLASS_RO_$_SBSMMessageSyncSet
+__OBJC_$_INSTANCE_METHODS_SBSMMessageSyncSet
+_OBJC_IVAR_$_SBSMMessageSyncSet._observers
+_OBJC_IVAR_$_SBSMMessageSyncSet._chunk
+_OBJC_IVAR_$_SBSMMessageSyncSet._filter
+_OBJC_IVAR_$_SBSMMessageSyncSet._viewpoint
+__OBJC_$_INSTANCE_VARIABLES_SBSMMessageSyncSet
+__OBJC_$_PROP_LIST_SBSMMessageSyncSet
+__OBJC_CLASS_RO_$_SBSMMessageSyncSet
+/Users/jedgyeong/git/syncmanager-ios/SyncManager/Message/SBSMMessageSyncSet.m
+SyncManager/Message/SBSMMessageSyncSet.m
+SyncManager/Message/SBSMMessageSyncSet.h
++[SBDError(SyncManager) errorWithDomainSuffix:code:]
+_OBJC_CLASSLIST_REFERENCES_$_.37
+__OBJC_$_CATEGORY_CLASS_METHODS_SBDError_$_SyncManager
+__OBJC_$_CATEGORY_SBDError_$_SyncManager
+/Users/jedgyeong/git/syncmanager-ios/SyncManager/Categories/SBDError+SyncManager.m
+SyncManager/Categories/SBDError+SyncManager.m
+-[SBSMRetryCommand initWithTask:onQueue:]
++[SBSMRetryCommand commandWithTask:]
+-[SBSMRetryCommand reduceRetryCount]
+-[SBSMRetryCommand complete]
+-[SBSMRetryCommand execute]
+-[SBSMRetryCommand failedWithCompletionHandler:]
+-[SBSMRetryCommand retryCount]
+_OBJC_IVAR_$_SBSMRetryCommand._retryCount
+__OBJC_$_CLASS_METHODS_SBSMRetryCommand
+__OBJC_$_PROTOCOL_REFS_SBSMCommand
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_SBSMCommand
+__OBJC_$_PROTOCOL_METHOD_TYPES_SBSMCommand
+__OBJC_PROTOCOL_$_SBSMCommand
+__OBJC_LABEL_PROTOCOL_$_SBSMCommand
+__OBJC_$_PROTOCOL_REFS_SBSMRetryCommand
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_SBSMRetryCommand
+__OBJC_$_PROTOCOL_METHOD_TYPES_SBSMRetryCommand
+__OBJC_PROTOCOL_$_SBSMRetryCommand
+__OBJC_LABEL_PROTOCOL_$_SBSMRetryCommand
+__OBJC_CLASS_PROTOCOLS_$_SBSMRetryCommand
+__OBJC_METACLASS_RO_$_SBSMRetryCommand
+__OBJC_$_INSTANCE_METHODS_SBSMRetryCommand
+__OBJC_$_INSTANCE_VARIABLES_SBSMRetryCommand
+__OBJC_$_PROP_LIST_SBSMRetryCommand
+__OBJC_CLASS_RO_$_SBSMRetryCommand
+/Users/jedgyeong/git/syncmanager-ios/SyncManager/Client/Command/SBSMRetryCommand.m
+SyncManager/Client/Command/SBSMRetryCommand.h
+SyncManager/Client/Command/SBSMRetryCommand.m
+-[SBDBaseChannel(SyncManager) channelType]
+-[SBDBaseChannel(SyncManager) description]
+__OBJC_$_CATEGORY_INSTANCE_METHODS_SBDBaseChannel_$_SyncManager
+__OBJC_CATEGORY_PROTOCOLS_$_SBDBaseChannel_$_SyncManager
+__OBJC_$_PROP_LIST_SBDBaseChannel_$_SyncManager
+__OBJC_$_CATEGORY_SBDBaseChannel_$_SyncManager
+/Users/jedgyeong/git/syncmanager-ios/SyncManager/Categories/SBDBaseChannel+SyncManager.m
+SyncManager/Categories/SBDBaseChannel+SyncManager.m
++[SBSMMessageFilter filter]
++[SBSMMessageFilter filterWithMessageType:customType:senderUserIds:]
+-[SBSMMessageFilter initWithChannelUrl:messageType:customType:senderUserIds:]
+-[SBSMMessageFilter predicate]
+-[SBSMMessageFilter isSubFilterOfFilter:]
+-[SBSMMessageFilter isEqualToFilter:]
+-[SBSMMessageFilter isEqual:]
+-[SBSMMessageFilter hash]
+-[SBSMMessageFilter copyWithZone:]
++[SBSMMessageFilter supportsSecureCoding]
+-[SBSMMessageFilter initWithCoder:]
+-[SBSMMessageFilter encodeWithCoder:]
+-[SBSMMessageFilter channelUrl]
+-[SBSMMessageFilter setChannelUrl:]
+-[SBSMMessageFilter messageType]
+-[SBSMMessageFilter setMessageType:]
+-[SBSMMessageFilter customType]
+-[SBSMMessageFilter setCustomType:]
+-[SBSMMessageFilter senderUserIds]
+-[SBSMMessageFilter setSenderUserIds:]
+-[SBSMMessageFilter .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.24
+_OBJC_SELECTOR_REFERENCES_.41
+_OBJC_CLASSLIST_REFERENCES_$_.44
+_OBJC_CLASSLIST_REFERENCES_$_.57
+_OBJC_CLASSLIST_REFERENCES_$_.60
+_OBJC_CLASSLIST_REFERENCES_$_.65
+_OBJC_CLASSLIST_REFERENCES_$_.72
+__OBJC_$_CLASS_METHODS_SBSMMessageFilter
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding
+__OBJC_PROTOCOL_$_NSCoding
+__OBJC_LABEL_PROTOCOL_$_NSCoding
+__OBJC_$_PROTOCOL_REFS_NSSecureCoding
+__OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding
+__OBJC_$_CLASS_PROP_LIST_NSSecureCoding
+__OBJC_PROTOCOL_$_NSSecureCoding
+__OBJC_LABEL_PROTOCOL_$_NSSecureCoding
+__OBJC_CLASS_PROTOCOLS_$_SBSMMessageFilter
+__OBJC_$_CLASS_PROP_LIST_SBSMMessageFilter
+__OBJC_METACLASS_RO_$_SBSMMessageFilter
+__OBJC_$_INSTANCE_METHODS_SBSMMessageFilter
+_OBJC_IVAR_$_SBSMMessageFilter._channelUrl
+_OBJC_IVAR_$_SBSMMessageFilter._messageType
+_OBJC_IVAR_$_SBSMMessageFilter._customType
+_OBJC_IVAR_$_SBSMMessageFilter._senderUserIds
+__OBJC_$_INSTANCE_VARIABLES_SBSMMessageFilter
+__OBJC_$_PROP_LIST_SBSMMessageFilter
+__OBJC_CLASS_RO_$_SBSMMessageFilter
+/Users/jedgyeong/git/syncmanager-ios/SyncManager/Message/Filter/SBSMMessageFilter.m
+SyncManager/Message/Filter/SBSMMessageFilter.m
+SyncManager/Message/Filter/SBSMMessageFilter.h
+-[SBSMFailedMessageQueue initWithChannel:]
+-[SBSMFailedMessageQueue upsertMessages:automaticResendable:]
+-[SBSMFailedMessageQueue removeMessages:]
+-[SBSMFailedMessageQueue resumeResending]
+-[SBSMFailedMessageQueue pauseResending]
+-[SBSMFailedMessageQueue increaseCount]
+-[SBSMFailedMessageQueue decreaseCount]
+-[SBSMFailedMessageQueue clear]
+-[SBSMFailedMessageQueue insertMessages:automaticResendable:]
+-[SBSMFailedMessageQueue increaseDelayTime]
+-[SBSMFailedMessageQueue resendMessage]
+___39-[SBSMFailedMessageQueue resendMessage]_block_invoke
+-[SBSMFailedMessageQueue cancelResending]
+-[SBSMFailedMessageQueue resendingTimeout]
+___42-[SBSMFailedMessageQueue resendingTimeout]_block_invoke
+___42-[SBSMFailedMessageQueue resendingTimeout]_block_invoke_2
+-[SBSMFailedMessageQueue moveAutomaticMessagesToManualMessages]
+-[SBSMFailedMessageQueue collectionReferenceCount]
+-[SBSMFailedMessageQueue setCollectionReferenceCount:]
+-[SBSMFailedMessageQueue messages]
+-[SBSMFailedMessageQueue setMessages:]
+-[SBSMFailedMessageQueue manualMessages]
+-[SBSMFailedMessageQueue setManualMessages:]
+-[SBSMFailedMessageQueue channel]
+-[SBSMFailedMessageQueue setChannel:]
+-[SBSMFailedMessageQueue resendDelayTimer]
+-[SBSMFailedMessageQueue setResendDelayTimer:]
+-[SBSMFailedMessageQueue delayTime]
+-[SBSMFailedMessageQueue setDelayTime:]
+-[SBSMFailedMessageQueue isRunning]
+-[SBSMFailedMessageQueue setIsRunning:]
+-[SBSMFailedMessageQueue isResending]
+-[SBSMFailedMessageQueue setIsResending:]
+-[SBSMFailedMessageQueue retryCount]
+-[SBSMFailedMessageQueue setRetryCount:]
+-[SBSMFailedMessageQueue .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.64
+_OBJC_CLASSLIST_REFERENCES_$_.69
+_OBJC_CLASSLIST_REFERENCES_$_.80
+_OBJC_SELECTOR_REFERENCES_.82
+_OBJC_SELECTOR_REFERENCES_.84
+_OBJC_SELECTOR_REFERENCES_.93
+_OBJC_SELECTOR_REFERENCES_.95
+___block_descriptor_28_e4_20s24s_e36_v12?0"SBDUserMessage"4"SBDError"8l
+__OBJC_METACLASS_RO_$_SBSMFailedMessageQueue
+__OBJC_$_INSTANCE_METHODS_SBSMFailedMessageQueue
+_OBJC_IVAR_$_SBSMFailedMessageQueue._isRunning
+_OBJC_IVAR_$_SBSMFailedMessageQueue._isResending
+_OBJC_IVAR_$_SBSMFailedMessageQueue._collectionReferenceCount
+_OBJC_IVAR_$_SBSMFailedMessageQueue._messages
+_OBJC_IVAR_$_SBSMFailedMessageQueue._manualMessages
+_OBJC_IVAR_$_SBSMFailedMessageQueue._channel
+_OBJC_IVAR_$_SBSMFailedMessageQueue._resendDelayTimer
+_OBJC_IVAR_$_SBSMFailedMessageQueue._retryCount
+_OBJC_IVAR_$_SBSMFailedMessageQueue._delayTime
+__OBJC_$_INSTANCE_VARIABLES_SBSMFailedMessageQueue
+__OBJC_$_PROP_LIST_SBSMFailedMessageQueue
+__OBJC_CLASS_RO_$_SBSMFailedMessageQueue
+/Users/jedgyeong/git/syncmanager-ios/SyncManager/Message/FailedMessage/SBSMFailedMessageQueue.m
+SyncManager/Message/FailedMessage/SBSMFailedMessageQueue.m
+SyncManager/Message/FailedMessage/SBSMFailedMessageQueue.h
+__42-[SBSMFailedMessageQueue resendingTimeout]_block_invoke_2
+__42-[SBSMFailedMessageQueue resendingTimeout]_block_invoke
+__39-[SBSMFailedMessageQueue resendMessage]_block_invoke
+___sbsm_performBlockOnCompletionQueue_block_invoke
+___sbsm_performBlockOnGlobalThread_block_invoke
+__OBJC_METACLASS_RO_$_SBSMThread
+__OBJC_CLASS_RO_$_SBSMThread
+/Users/jedgyeong/git/syncmanager-ios/SyncManager/Core/SBSMThread.m
+__sbsm_performBlockOnGlobalThread_block_invoke
+SyncManager/Core/SBSMThread.m
+sbsm_performBlockOnGlobalThread
+__sbsm_performBlockOnCompletionQueue_block_invoke
+sbsm_performBlockOnCompletionQueue
++[SBSMMOperation operationWithSyncTask:]
++[SBSMMOperation operationWithAsyncTask:]
+-[SBSMMOperation provisionalComplete]
+-[SBSMMOperation complete]
+-[SBSMMOperation initWithCommand:synchronous:]
+-[SBSMMOperation setOperationQueue:commandThread:]
++[SBSMMOperation operationWithSyncTask:synchronous:]
+-[SBSMMOperation isExecuting]
+-[SBSMMOperation isFinished]
+-[SBSMMOperation start]
+-[SBSMMOperation main]
+-[SBSMMOperation identifer]
+-[SBSMMOperation command]
+-[SBSMMOperation setCommand:]
+-[SBSMMOperation isSynchronous]
+-[SBSMMOperation setSynchronous:]
+-[SBSMMOperation operationQueue]
+-[SBSMMOperation setOperationQueue:]
+-[SBSMMOperation .cxx_destruct]
+_OBJC_IVAR_$_SBSMMOperation.executing
+_OBJC_IVAR_$_SBSMMOperation.finished
+_OBJC_IVAR_$_SBSMMOperation._command
+_OBJC_IVAR_$_SBSMMOperation._synchronous
+_OBJC_IVAR_$_SBSMMOperation._identifer
+_OBJC_CLASSLIST_REFERENCES_$_.29
+_OBJC_IVAR_$_SBSMMOperation._operationQueue
+__OBJC_$_CLASS_METHODS_SBSMMOperation
+__OBJC_METACLASS_RO_$_SBSMMOperation
+__OBJC_$_INSTANCE_METHODS_SBSMMOperation
+__OBJC_$_INSTANCE_VARIABLES_SBSMMOperation
+__OBJC_$_PROP_LIST_SBSMMOperation
+__OBJC_CLASS_RO_$_SBSMMOperation
+/Users/jedgyeong/git/syncmanager-ios/SyncManager/Command/SBSMMOperation.m
+SyncManager/Command/SBSMMOperation.m
+SyncManager/Command/SBSMMOperation.h
+__OBJC_METACLASS_RO_$_Channel
+__OBJC_CLASS_RO_$_Channel
+/Users/jedgyeong/Library/Developer/Xcode/DerivedData/SendBirdSyncManager-ekvtjsxqhssoucgflwqhscpuwooi/Build/Intermediates.noindex/ArchiveIntermediates/SendBirdSyncManager/IntermediateBuildFilesPath/SendBirdSyncManager.build/Release-iphoneos/SendBirdSyncManager.build/DerivedSources/CoreDataGenerated/SendBirdDataModels/Channel+CoreDataClass.m
++[Channel(CoreDataProperties) fetchRequest]
+__OBJC_$_CATEGORY_CLASS_METHODS_Channel_$_CoreDataProperties
+__OBJC_$_PROP_LIST_Channel_$_CoreDataProperties
+__OBJC_$_CATEGORY_Channel_$_CoreDataProperties
+/Users/jedgyeong/Library/Developer/Xcode/DerivedData/SendBirdSyncManager-ekvtjsxqhssoucgflwqhscpuwooi/Build/Intermediates.noindex/ArchiveIntermediates/SendBirdSyncManager/IntermediateBuildFilesPath/SendBirdSyncManager.build/Release-iphoneos/SendBirdSyncManager.build/DerivedSources/CoreDataGenerated/SendBirdDataModels/Channel+CoreDataProperties.m
+Library/Developer/Xcode/DerivedData/SendBirdSyncManager-ekvtjsxqhssoucgflwqhscpuwooi/Build/Intermediates.noindex/ArchiveIntermediates/SendBirdSyncManager/IntermediateBuildFilesPath/SendBirdSyncManager.build/Release-iphoneos/SendBirdSyncManager.build/DerivedSources/CoreDataGenerated/SendBirdDataModels/Channel+CoreDataProperties.m
+/Users/jedgyeong
+__OBJC_METACLASS_RO_$_ChannelListQuery
+__OBJC_CLASS_RO_$_ChannelListQuery
+/Users/jedgyeong/Library/Developer/Xcode/DerivedData/SendBirdSyncManager-ekvtjsxqhssoucgflwqhscpuwooi/Build/Intermediates.noindex/ArchiveIntermediates/SendBirdSyncManager/IntermediateBuildFilesPath/SendBirdSyncManager.build/Release-iphoneos/SendBirdSyncManager.build/DerivedSources/CoreDataGenerated/SendBirdDataModels/ChannelListQuery+CoreDataClass.m
++[ChannelListQuery(CoreDataProperties) fetchRequest]
+__OBJC_$_CATEGORY_CLASS_METHODS_ChannelListQuery_$_CoreDataProperties
+__OBJC_$_PROP_LIST_ChannelListQuery_$_CoreDataProperties
+__OBJC_$_CATEGORY_ChannelListQuery_$_CoreDataProperties
+/Users/jedgyeong/Library/Developer/Xcode/DerivedData/SendBirdSyncManager-ekvtjsxqhssoucgflwqhscpuwooi/Build/Intermediates.noindex/ArchiveIntermediates/SendBirdSyncManager/IntermediateBuildFilesPath/SendBirdSyncManager.build/Release-iphoneos/SendBirdSyncManager.build/DerivedSources/CoreDataGenerated/SendBirdDataModels/ChannelListQuery+CoreDataProperties.m
+Library/Developer/Xcode/DerivedData/SendBirdSyncManager-ekvtjsxqhssoucgflwqhscpuwooi/Build/Intermediates.noindex/ArchiveIntermediates/SendBirdSyncManager/IntermediateBuildFilesPath/SendBirdSyncManager.build/Release-iphoneos/SendBirdSyncManager.build/DerivedSources/CoreDataGenerated/SendBirdDataModels/ChannelListQuery+CoreDataProperties.m
+__OBJC_METACLASS_RO_$_Chunk
+__OBJC_CLASS_RO_$_Chunk
+/Users/jedgyeong/Library/Developer/Xcode/DerivedData/SendBirdSyncManager-ekvtjsxqhssoucgflwqhscpuwooi/Build/Intermediates.noindex/ArchiveIntermediates/SendBirdSyncManager/IntermediateBuildFilesPath/SendBirdSyncManager.build/Release-iphoneos/SendBirdSyncManager.build/DerivedSources/CoreDataGenerated/SendBirdDataModels/Chunk+CoreDataClass.m
++[Chunk(CoreDataProperties) fetchRequest]
+__OBJC_$_CATEGORY_CLASS_METHODS_Chunk_$_CoreDataProperties
+__OBJC_$_PROP_LIST_Chunk_$_CoreDataProperties
+__OBJC_$_CATEGORY_Chunk_$_CoreDataProperties
+/Users/jedgyeong/Library/Developer/Xcode/DerivedData/SendBirdSyncManager-ekvtjsxqhssoucgflwqhscpuwooi/Build/Intermediates.noindex/ArchiveIntermediates/SendBirdSyncManager/IntermediateBuildFilesPath/SendBirdSyncManager.build/Release-iphoneos/SendBirdSyncManager.build/DerivedSources/CoreDataGenerated/SendBirdDataModels/Chunk+CoreDataProperties.m
+Library/Developer/Xcode/DerivedData/SendBirdSyncManager-ekvtjsxqhssoucgflwqhscpuwooi/Build/Intermediates.noindex/ArchiveIntermediates/SendBirdSyncManager/IntermediateBuildFilesPath/SendBirdSyncManager.build/Release-iphoneos/SendBirdSyncManager.build/DerivedSources/CoreDataGenerated/SendBirdDataModels/Chunk+CoreDataProperties.m
+__OBJC_METACLASS_RO_$_FailedMessage
+__OBJC_CLASS_RO_$_FailedMessage
+/Users/jedgyeong/Library/Developer/Xcode/DerivedData/SendBirdSyncManager-ekvtjsxqhssoucgflwqhscpuwooi/Build/Intermediates.noindex/ArchiveIntermediates/SendBirdSyncManager/IntermediateBuildFilesPath/SendBirdSyncManager.build/Release-iphoneos/SendBirdSyncManager.build/DerivedSources/CoreDataGenerated/SendBirdDataModels/FailedMessage+CoreDataClass.m
++[FailedMessage(CoreDataProperties) fetchRequest]
+__OBJC_$_CATEGORY_CLASS_METHODS_FailedMessage_$_CoreDataProperties
+__OBJC_$_PROP_LIST_FailedMessage_$_CoreDataProperties
+__OBJC_$_CATEGORY_FailedMessage_$_CoreDataProperties
+/Users/jedgyeong/Library/Developer/Xcode/DerivedData/SendBirdSyncManager-ekvtjsxqhssoucgflwqhscpuwooi/Build/Intermediates.noindex/ArchiveIntermediates/SendBirdSyncManager/IntermediateBuildFilesPath/SendBirdSyncManager.build/Release-iphoneos/SendBirdSyncManager.build/DerivedSources/CoreDataGenerated/SendBirdDataModels/FailedMessage+CoreDataProperties.m
+Library/Developer/Xcode/DerivedData/SendBirdSyncManager-ekvtjsxqhssoucgflwqhscpuwooi/Build/Intermediates.noindex/ArchiveIntermediates/SendBirdSyncManager/IntermediateBuildFilesPath/SendBirdSyncManager.build/Release-iphoneos/SendBirdSyncManager.build/DerivedSources/CoreDataGenerated/SendBirdDataModels/FailedMessage+CoreDataProperties.m
+__OBJC_METACLASS_RO_$_MessageChangeLogToken
+__OBJC_CLASS_RO_$_MessageChangeLogToken
+/Users/jedgyeong/Library/Developer/Xcode/DerivedData/SendBirdSyncManager-ekvtjsxqhssoucgflwqhscpuwooi/Build/Intermediates.noindex/ArchiveIntermediates/SendBirdSyncManager/IntermediateBuildFilesPath/SendBirdSyncManager.build/Release-iphoneos/SendBirdSyncManager.build/DerivedSources/CoreDataGenerated/SendBirdDataModels/MessageChangeLogToken+CoreDataClass.m
++[MessageChangeLogToken(CoreDataProperties) fetchRequest]
+__OBJC_$_CATEGORY_CLASS_METHODS_MessageChangeLogToken_$_CoreDataProperties
+__OBJC_$_PROP_LIST_MessageChangeLogToken_$_CoreDataProperties
+__OBJC_$_CATEGORY_MessageChangeLogToken_$_CoreDataProperties
+/Users/jedgyeong/Library/Developer/Xcode/DerivedData/SendBirdSyncManager-ekvtjsxqhssoucgflwqhscpuwooi/Build/Intermediates.noindex/ArchiveIntermediates/SendBirdSyncManager/IntermediateBuildFilesPath/SendBirdSyncManager.build/Release-iphoneos/SendBirdSyncManager.build/DerivedSources/CoreDataGenerated/SendBirdDataModels/MessageChangeLogToken+CoreDataProperties.m
+Library/Developer/Xcode/DerivedData/SendBirdSyncManager-ekvtjsxqhssoucgflwqhscpuwooi/Build/Intermediates.noindex/ArchiveIntermediates/SendBirdSyncManager/IntermediateBuildFilesPath/SendBirdSyncManager.build/Release-iphoneos/SendBirdSyncManager.build/DerivedSources/CoreDataGenerated/SendBirdDataModels/MessageChangeLogToken+CoreDataProperties.m
+__OBJC_METACLASS_RO_$_PendingMessage
+__OBJC_CLASS_RO_$_PendingMessage
+/Users/jedgyeong/Library/Developer/Xcode/DerivedData/SendBirdSyncManager-ekvtjsxqhssoucgflwqhscpuwooi/Build/Intermediates.noindex/ArchiveIntermediates/SendBirdSyncManager/IntermediateBuildFilesPath/SendBirdSyncManager.build/Release-iphoneos/SendBirdSyncManager.build/DerivedSources/CoreDataGenerated/SendBirdDataModels/PendingMessage+CoreDataClass.m
++[PendingMessage(CoreDataProperties) fetchRequest]
+__OBJC_$_CATEGORY_CLASS_METHODS_PendingMessage_$_CoreDataProperties
+__OBJC_$_PROP_LIST_PendingMessage_$_CoreDataProperties
+__OBJC_$_CATEGORY_PendingMessage_$_CoreDataProperties
+/Users/jedgyeong/Library/Developer/Xcode/DerivedData/SendBirdSyncManager-ekvtjsxqhssoucgflwqhscpuwooi/Build/Intermediates.noindex/ArchiveIntermediates/SendBirdSyncManager/IntermediateBuildFilesPath/SendBirdSyncManager.build/Release-iphoneos/SendBirdSyncManager.build/DerivedSources/CoreDataGenerated/SendBirdDataModels/PendingMessage+CoreDataProperties.m
+Library/Developer/Xcode/DerivedData/SendBirdSyncManager-ekvtjsxqhssoucgflwqhscpuwooi/Build/Intermediates.noindex/ArchiveIntermediates/SendBirdSyncManager/IntermediateBuildFilesPath/SendBirdSyncManager.build/Release-iphoneos/SendBirdSyncManager.build/DerivedSources/CoreDataGenerated/SendBirdDataModels/PendingMessage+CoreDataProperties.m
+__OBJC_METACLASS_RO_$_SucceededMessage
+__OBJC_CLASS_RO_$_SucceededMessage
+/Users/jedgyeong/Library/Developer/Xcode/DerivedData/SendBirdSyncManager-ekvtjsxqhssoucgflwqhscpuwooi/Build/Intermediates.noindex/ArchiveIntermediates/SendBirdSyncManager/IntermediateBuildFilesPath/SendBirdSyncManager.build/Release-iphoneos/SendBirdSyncManager.build/DerivedSources/CoreDataGenerated/SendBirdDataModels/SucceededMessage+CoreDataClass.m
++[SucceededMessage(CoreDataProperties) fetchRequest]
+__OBJC_$_CATEGORY_CLASS_METHODS_SucceededMessage_$_CoreDataProperties
+__OBJC_$_PROP_LIST_SucceededMessage_$_CoreDataProperties
+__OBJC_$_CATEGORY_SucceededMessage_$_CoreDataProperties
+/Users/jedgyeong/Library/Developer/Xcode/DerivedData/SendBirdSyncManager-ekvtjsxqhssoucgflwqhscpuwooi/Build/Intermediates.noindex/ArchiveIntermediates/SendBirdSyncManager/IntermediateBuildFilesPath/SendBirdSyncManager.build/Release-iphoneos/SendBirdSyncManager.build/DerivedSources/CoreDataGenerated/SendBirdDataModels/SucceededMessage+CoreDataProperties.m
+Library/Developer/Xcode/DerivedData/SendBirdSyncManager-ekvtjsxqhssoucgflwqhscpuwooi/Build/Intermediates.noindex/ArchiveIntermediates/SendBirdSyncManager/IntermediateBuildFilesPath/SendBirdSyncManager.build/Release-iphoneos/SendBirdSyncManager.build/DerivedSources/CoreDataGenerated/SendBirdDataModels/SucceededMessage+CoreDataProperties.m
+/Users/jedgyeong/Library/Developer/Xcode/DerivedData/SendBirdSyncManager-ekvtjsxqhssoucgflwqhscpuwooi/Build/Intermediates.noindex/ArchiveIntermediates/SendBirdSyncManager/IntermediateBuildFilesPath/SendBirdSyncManager.build/Release-iphoneos/SendBirdSyncManager.build/DerivedSources/CoreDataGenerated/SendBirdDataModels/SendBirdDataModels+CoreDataModel.m
+-[SBSMCommand initWithTask:]
+-[SBSMCommand execute]
+___22-[SBSMCommand execute]_block_invoke
+-[SBSMCommand complete]
+-[SBSMCommand taskBlock]
+-[SBSMCommand setTaskBlock:]
+-[SBSMCommand thread]
+-[SBSMCommand setThread:]
+-[SBSMCommand .cxx_destruct]
+__OBJC_CLASS_PROTOCOLS_$_SBSMCommand
+__OBJC_METACLASS_RO_$_SBSMCommand
+__OBJC_$_INSTANCE_METHODS_SBSMCommand
+_OBJC_IVAR_$_SBSMCommand._taskBlock
+_OBJC_IVAR_$_SBSMCommand._thread
+__OBJC_$_INSTANCE_VARIABLES_SBSMCommand
+__OBJC_$_PROP_LIST_SBSMCommand
+__OBJC_CLASS_RO_$_SBSMCommand
+/Users/jedgyeong/git/syncmanager-ios/SyncManager/Command/SBSMCommand.m
+SyncManager/Command/SBSMCommand.m
+SyncManager/Command/SBSMCommand.h
+__22-[SBSMCommand execute]_block_invoke
++[SBSMMessageManager manager]
+___29+[SBSMMessageManager manager]_block_invoke
++[SBSMMessageManager addCollection:]
+___36+[SBSMMessageManager addCollection:]_block_invoke
++[SBSMMessageManager removeCollection:]
+___39+[SBSMMessageManager removeCollection:]_block_invoke
+___copy_helper_block_e4_24s
+___destroy_helper_block_e4_24s
++[SBSMMessageManager resumeSynchronize]
+___39+[SBSMMessageManager resumeSynchronize]_block_invoke
++[SBSMMessageManager synchronizingCollectionsWithCompletionHandler:]
+___68+[SBSMMessageManager synchronizingCollectionsWithCompletionHandler:]_block_invoke
+___68+[SBSMMessageManager synchronizingCollectionsWithCompletionHandler:]_block_invoke_2
++[SBSMMessageManager pauseSynchronize]
+-[SBSMMessageManager orderAscendingBetweenObject:andObject:]
+-[SBSMMessageManager comparator]
+___32-[SBSMMessageManager comparator]_block_invoke
+-[SBSMMessageManager init]
+-[SBSMMessageManager dealloc]
++[SBSMMessageManager clearCachedMessages]
++[SBSMMessageManager messageChunkContainer]
++[SBSMMessageManager messageContainer]
++[SBSMMessageManager collections]
++[SBSMMessageManager insertMessage:]
++[SBSMMessageManager insertFailedMessage:automaticResendable:]
++[SBSMMessageManager insertMessage:automaticResendable:]
+___56+[SBSMMessageManager insertMessage:automaticResendable:]_block_invoke
+___56+[SBSMMessageManager insertMessage:automaticResendable:]_block_invoke_2
++[SBSMMessageManager updateMessage:]
++[SBSMMessageManager removeMessageWithMessageId:channel:completionHandler:]
+___75+[SBSMMessageManager removeMessageWithMessageId:channel:completionHandler:]_block_invoke
+___copy_helper_block_e8_20s36b
++[SBSMMessageManager removeFailedMessage:channel:reason:completionHandler:]
+___75+[SBSMMessageManager removeFailedMessage:channel:reason:completionHandler:]_block_invoke
++[SBSMMessageManager removeMessagesBeforeOffset:channelUrl:completionHandler:]
+___78+[SBSMMessageManager removeMessagesBeforeOffset:channelUrl:completionHandler:]_block_invoke
+___78+[SBSMMessageManager removeMessagesBeforeOffset:channelUrl:completionHandler:]_block_invoke_2
+___78+[SBSMMessageManager removeMessagesBeforeOffset:channelUrl:completionHandler:]_block_invoke_3
+___copy_helper_block_e8_20s36s40b
+___destroy_helper_block_e8_20s36s40s
+___copy_helper_block_e8_20b36s40s
++[SBSMMessageManager removeChannelWithChannelUrl:]
++[SBSMMessageManager updateChannel:]
+-[SBSMMessageManager channel:didReceiveMessage:]
+-[SBSMMessageManager channel:didUpdateMessage:]
+-[SBSMMessageManager channel:messageWasDeleted:]
+-[SBSMMessageManager channelWasDeleted:channelType:]
+-[SBSMMessageManager channelWasChanged:]
+-[SBSMMessageManager didUpsertObjects:]
+-[SBSMMessageManager didDeleteObjectIds:]
++[SBSMMessageManager setPendingMessagesEndAtToLoginTimeWithChannelUrl:completionHandler:]
++[SBSMMessageManager insertPendingMessage:startAt:endAt:]
+___57+[SBSMMessageManager insertPendingMessage:startAt:endAt:]_block_invoke
++[SBSMMessageManager resolvePendingMessagesWithChunk:syncedMessages:completionHandler:]
++[SBSMMessageManager resolvePendingMessagesWithDirection:chunk:]
+___64+[SBSMMessageManager resolvePendingMessagesWithDirection:chunk:]_block_invoke
++[SBSMMessageManager resolveAllPendingMessagesAsFailedMessagesWithChannelUrl:]
+___78+[SBSMMessageManager resolveAllPendingMessagesAsFailedMessagesWithChannelUrl:]_block_invoke
++[SBSMMessageManager deletePendingMessageWithChannelUrl:requestId:]
+___67+[SBSMMessageManager deletePendingMessageWithChannelUrl:requestId:]_block_invoke
+-[SBSMMessageManager messageCollections]
+-[SBSMMessageManager setMessageCollections:]
+-[SBSMMessageManager messageChunkContainer]
+-[SBSMMessageManager setMessageChunkContainer:]
+-[SBSMMessageManager messageContainer]
+-[SBSMMessageManager setMessageContainer:]
+-[SBSMMessageManager identifier]
+-[SBSMMessageManager setIdentifier:]
+-[SBSMMessageManager queue]
+-[SBSMMessageManager setQueue:]
+-[SBSMMessageManager .cxx_destruct]
+___block_descriptor_28_e4_20s_e5_v4?0l
+___block_descriptor_28_e4_24s_e5_v4?0l
+___block_literal_global.20
+_OBJC_CLASSLIST_REFERENCES_$_.30
+_OBJC_CLASSLIST_REFERENCES_$_.59
+_OBJC_CLASSLIST_REFERENCES_$_.62
+_OBJC_CLASSLIST_REFERENCES_$_.74
+_OBJC_CLASSLIST_REFERENCES_$_.77
+_OBJC_CLASSLIST_REFERENCES_$_.78
+___block_descriptor_24_e4_20s_e29_v12?0"NSArray"4"SBDError"8l
+___block_descriptor_29_e4_20s24s_e41_v16?0"NSArray"4"NSArray"8"SBDError"12l
+_OBJC_CLASSLIST_REFERENCES_$_.129
+___block_descriptor_40_e8_20s36bs_e17_v8?0"SBDError"4l
+___block_descriptor_36_e4_20s24s28bs_e17_v8?0"SBDError"4l
+___block_descriptor_28_e4_20s24bs_e29_v12?0"NSArray"4"SBDError"8l
+___block_descriptor_44_e8_20s36s40bs_e29_v12?0"NSArray"4"SBDError"8l
+_OBJC_SELECTOR_REFERENCES_.162
+___block_descriptor_44_e8_20bs36s40s_e17_v8?0"SBDError"4l
+_OBJC_SELECTOR_REFERENCES_.169
+_OBJC_CLASSLIST_REFERENCES_$_.170
+_OBJC_SELECTOR_REFERENCES_.182
+_OBJC_SELECTOR_REFERENCES_.184
+_OBJC_SELECTOR_REFERENCES_.186
+_OBJC_SELECTOR_REFERENCES_.190
+_OBJC_SELECTOR_REFERENCES_.192
+___block_descriptor_20_e36_v12?0"SBDBaseMessage"4"SBDError"8l
+___block_literal_global.194
+_OBJC_SELECTOR_REFERENCES_.196
+_OBJC_SELECTOR_REFERENCES_.198
+___block_literal_global.199
+_OBJC_SELECTOR_REFERENCES_.201
+_OBJC_SELECTOR_REFERENCES_.203
+_OBJC_SELECTOR_REFERENCES_.205
+___block_literal_global.208
+_OBJC_SELECTOR_REFERENCES_.210
+__OBJC_$_CLASS_METHODS_SBSMMessageManager
+__OBJC_CLASS_PROTOCOLS_$_SBSMMessageManager
+__OBJC_METACLASS_RO_$_SBSMMessageManager
+__OBJC_$_INSTANCE_METHODS_SBSMMessageManager
+_OBJC_IVAR_$_SBSMMessageManager._messageCollections
+_OBJC_IVAR_$_SBSMMessageManager._messageChunkContainer
+_OBJC_IVAR_$_SBSMMessageManager._messageContainer
+_OBJC_IVAR_$_SBSMMessageManager._identifier
+_OBJC_IVAR_$_SBSMMessageManager._queue
+__OBJC_$_INSTANCE_VARIABLES_SBSMMessageManager
+__OBJC_$_PROP_LIST_SBSMMessageManager
+__OBJC_CLASS_RO_$_SBSMMessageManager
+/Users/jedgyeong/git/syncmanager-ios/SyncManager/Message/SBSMMessageManager.m
+SyncManager/Message/SBSMMessageManager.m
+__67+[SBSMMessageManager deletePendingMessageWithChannelUrl:requestId:]_block_invoke
+__78+[SBSMMessageManager resolveAllPendingMessagesAsFailedMessagesWithChannelUrl:]_block_invoke
+__64+[SBSMMessageManager resolvePendingMessagesWithDirection:chunk:]_block_invoke
+__57+[SBSMMessageManager insertPendingMessage:startAt:endAt:]_block_invoke
+__copy_helper_block_e8_20b36s40s
+__destroy_helper_block_e8_20s36s40s
+__copy_helper_block_e8_20s36s40b
+__78+[SBSMMessageManager removeMessagesBeforeOffset:channelUrl:completionHandler:]_block_invoke_3
+__78+[SBSMMessageManager removeMessagesBeforeOffset:channelUrl:completionHandler:]_block_invoke_2
+__78+[SBSMMessageManager removeMessagesBeforeOffset:channelUrl:completionHandler:]_block_invoke
+__75+[SBSMMessageManager removeFailedMessage:channel:reason:completionHandler:]_block_invoke
+__copy_helper_block_e8_20s36b
+__75+[SBSMMessageManager removeMessageWithMessageId:channel:completionHandler:]_block_invoke
+__56+[SBSMMessageManager insertMessage:automaticResendable:]_block_invoke_2
+__56+[SBSMMessageManager insertMessage:automaticResendable:]_block_invoke
+__32-[SBSMMessageManager comparator]_block_invoke
+__68+[SBSMMessageManager synchronizingCollectionsWithCompletionHandler:]_block_invoke_2
+__68+[SBSMMessageManager synchronizingCollectionsWithCompletionHandler:]_block_invoke
+__39+[SBSMMessageManager resumeSynchronize]_block_invoke
+__destroy_helper_block_e4_24s
+__copy_helper_block_e4_24s
+__39+[SBSMMessageManager removeCollection:]_block_invoke
+__36+[SBSMMessageManager addCollection:]_block_invoke
+__29+[SBSMMessageManager manager]_block_invoke
++[SBSMChannelCollection collectionWithQuery:]
+-[SBSMChannelCollection initWithQuery:]
+___39-[SBSMChannelCollection initWithQuery:]_block_invoke
+___39-[SBSMChannelCollection initWithQuery:]_block_invoke_2
+-[SBSMChannelCollection remove]
+-[SBSMChannelCollection channels]
+___33-[SBSMChannelCollection channels]_block_invoke
+-[SBSMChannelCollection fetchWithCompletionHandler:]
+___52-[SBSMChannelCollection fetchWithCompletionHandler:]_block_invoke
+___52-[SBSMChannelCollection fetchWithCompletionHandler:]_block_invoke.81
+___52-[SBSMChannelCollection fetchWithCompletionHandler:]_block_invoke_2
+___52-[SBSMChannelCollection fetchWithCompletionHandler:]_block_invoke_3
+___52-[SBSMChannelCollection fetchWithCompletionHandler:]_block_invoke.91
+___52-[SBSMChannelCollection fetchWithCompletionHandler:]_block_invoke_2.94
+-[SBSMChannelCollection orderAscendingBetweenObject:andObject:]
+-[SBSMChannelCollection comparator]
+-[SBSMChannelCollection upsertChannel:]
+___39-[SBSMChannelCollection upsertChannel:]_block_invoke
+___39-[SBSMChannelCollection upsertChannel:]_block_invoke_2
+___39-[SBSMChannelCollection upsertChannel:]_block_invoke_3
+___39-[SBSMChannelCollection upsertChannel:]_block_invoke.122
+-[SBSMChannelCollection removeChannelUrl:]
+-[SBSMChannelCollection upsertChannels:]
+___40-[SBSMChannelCollection upsertChannels:]_block_invoke
+-[SBSMChannelCollection removeChannelUrls:]
+___43-[SBSMChannelCollection removeChannelUrls:]_block_invoke
+___43-[SBSMChannelCollection removeChannelUrls:]_block_invoke_2
+-[SBSMChannelCollection changeSynchronizingIncompleted]
+-[SBSMChannelCollection removeAllChannels]
+-[SBSMChannelCollection clearAllChannelsCompletionHandler:]
+___59-[SBSMChannelCollection clearAllChannelsCompletionHandler:]_block_invoke
+___59-[SBSMChannelCollection clearAllChannelsCompletionHandler:]_block_invoke_2
+-[SBSMChannelCollection order]
+-[SBSMChannelCollection offsetComparisonPoint]
+-[SBSMChannelCollection numberOfAppendingChannel]
+-[SBSMChannelCollection didSynchronizeQuery:]
+___45-[SBSMChannelCollection didSynchronizeQuery:]_block_invoke
+___45-[SBSMChannelCollection didSynchronizeQuery:]_block_invoke_2
+___45-[SBSMChannelCollection didSynchronizeQuery:]_block_invoke_3
+-[SBSMChannelCollection observerId]
+-[SBSMChannelCollection propagateChannels:action:]
+___50-[SBSMChannelCollection propagateChannels:action:]_block_invoke
+-[SBSMChannelCollection mergeChannels:resultHandler:]
+___53-[SBSMChannelCollection mergeChannels:resultHandler:]_block_invoke
+___53-[SBSMChannelCollection mergeChannels:resultHandler:]_block_invoke_2
+___53-[SBSMChannelCollection mergeChannels:resultHandler:]_block_invoke.190
+___copy_helper_block_e4_20b24s28s32s36s
+___destroy_helper_block_e4_20s24s28s32s36s
+-[SBSMChannelCollection delegate]
+-[SBSMChannelCollection setDelegate:]
+-[SBSMChannelCollection query]
+-[SBSMChannelCollection setQuery:]
+-[SBSMChannelCollection queryQueue]
+-[SBSMChannelCollection setQueryQueue:]
+-[SBSMChannelCollection channelQueue]
+-[SBSMChannelCollection setChannelQueue:]
+-[SBSMChannelCollection propagateQueue]
+-[SBSMChannelCollection setPropagateQueue:]
+-[SBSMChannelCollection internalQuery]
+-[SBSMChannelCollection setInternalQuery:]
+-[SBSMChannelCollection offsetChannelUrl]
+-[SBSMChannelCollection setOffsetChannelUrl:]
+-[SBSMChannelCollection mutableChannels]
+-[SBSMChannelCollection setMutableChannels:]
+-[SBSMChannelCollection channelComparisonPoints]
+-[SBSMChannelCollection setChannelComparisonPoints:]
+-[SBSMChannelCollection identifier]
+-[SBSMChannelCollection setIdentifier:]
+-[SBSMChannelCollection isLoading]
+-[SBSMChannelCollection setLoading:]
+-[SBSMChannelCollection setNumberOfAppendingChannel:]
+-[SBSMChannelCollection .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.26
+___block_descriptor_28_e4_20s24r_e59_v16?0"SBDGroupChannelListQuery"4"NSString"8"SBDError"12l
+___block_descriptor_32_e4_20s24bs28r_e17_v8?0"SBDError"4l
+___block_descriptor_28_e4_20s24bs_e52_v20?0"NSArray"4"NSArray"8"NSArray"12"NSArray"16l
+___block_descriptor_32_e4_20bs24s_e29_v12?0"NSArray"4"SBDError"8l
+_OBJC_CLASSLIST_REFERENCES_$_.115
+___block_descriptor_28_e4_20s24r_e52_v20?0"NSArray"4"NSArray"8"NSArray"12"NSArray"16l
+___block_descriptor_32_e4_20s24s28r_e29_v12?0"NSArray"4"SBDError"8l
+_OBJC_SELECTOR_REFERENCES_.124
+___block_descriptor_24_e4_20s_e52_v20?0"NSArray"4"NSArray"8"NSArray"12"NSArray"16l
+___block_descriptor_28_e4_20s24s_e31_c16?0"SBDGroupChannel"4I8^c12l
+___block_descriptor_28_e4_20s24r_e29_v12?0"NSArray"4"SBDError"8l
+___block_descriptor_32_e4_20s24s_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.171
+___block_descriptor_24_e4_20s_e31_c16?0"SBDGroupChannel"4I8^c12l
+_OBJC_SELECTOR_REFERENCES_.173
+_OBJC_SELECTOR_REFERENCES_.175
+_OBJC_SELECTOR_REFERENCES_.177
+_OBJC_SELECTOR_REFERENCES_.179
+_OBJC_SELECTOR_REFERENCES_.181
+_OBJC_SELECTOR_REFERENCES_.187
+_OBJC_SELECTOR_REFERENCES_.189
+___block_descriptor_40_e4_20bs24s28s32s36s_e5_v4?0l
+__OBJC_$_CLASS_METHODS_SBSMChannelCollection
+__OBJC_$_PROTOCOL_REFS_SBSMChannelSynchronizeObserver
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_SBSMChannelSynchronizeObserver
+__OBJC_$_PROTOCOL_METHOD_TYPES_SBSMChannelSynchronizeObserver
+__OBJC_PROTOCOL_$_SBSMChannelSynchronizeObserver
+__OBJC_LABEL_PROTOCOL_$_SBSMChannelSynchronizeObserver
+__OBJC_CLASS_PROTOCOLS_$_SBSMChannelCollection
+__OBJC_METACLASS_RO_$_SBSMChannelCollection
+__OBJC_$_INSTANCE_METHODS_SBSMChannelCollection
+_OBJC_IVAR_$_SBSMChannelCollection._loading
+_OBJC_IVAR_$_SBSMChannelCollection._delegate
+_OBJC_IVAR_$_SBSMChannelCollection._query
+_OBJC_IVAR_$_SBSMChannelCollection._queryQueue
+_OBJC_IVAR_$_SBSMChannelCollection._channelQueue
+_OBJC_IVAR_$_SBSMChannelCollection._propagateQueue
+_OBJC_IVAR_$_SBSMChannelCollection._internalQuery
+_OBJC_IVAR_$_SBSMChannelCollection._offsetChannelUrl
+_OBJC_IVAR_$_SBSMChannelCollection._mutableChannels
+_OBJC_IVAR_$_SBSMChannelCollection._channelComparisonPoints
+_OBJC_IVAR_$_SBSMChannelCollection._identifier
+_OBJC_IVAR_$_SBSMChannelCollection._numberOfAppendingChannel
+__OBJC_$_INSTANCE_VARIABLES_SBSMChannelCollection
+__OBJC_$_PROP_LIST_SBSMChannelCollection
+__OBJC_CLASS_RO_$_SBSMChannelCollection
+/Users/jedgyeong/git/syncmanager-ios/SyncManager/Channel/SBSMChannelCollection.m
+SyncManager/Channel/SBSMChannelCollection.m
+SyncManager/Channel/SBSMChannelCollection.h
+__destroy_helper_block_e4_20s24s28s32s36s
+__copy_helper_block_e4_20b24s28s32s36s
+__53-[SBSMChannelCollection mergeChannels:resultHandler:]_block_invoke.190
+__53-[SBSMChannelCollection mergeChannels:resultHandler:]_block_invoke_2
+__53-[SBSMChannelCollection mergeChannels:resultHandler:]_block_invoke
+__50-[SBSMChannelCollection propagateChannels:action:]_block_invoke
+__45-[SBSMChannelCollection didSynchronizeQuery:]_block_invoke_3
+__45-[SBSMChannelCollection didSynchronizeQuery:]_block_invoke_2
+__45-[SBSMChannelCollection didSynchronizeQuery:]_block_invoke
+__59-[SBSMChannelCollection clearAllChannelsCompletionHandler:]_block_invoke_2
+__59-[SBSMChannelCollection clearAllChannelsCompletionHandler:]_block_invoke
+__43-[SBSMChannelCollection removeChannelUrls:]_block_invoke_2
+__43-[SBSMChannelCollection removeChannelUrls:]_block_invoke
+__40-[SBSMChannelCollection upsertChannels:]_block_invoke
+__39-[SBSMChannelCollection upsertChannel:]_block_invoke.122
+__39-[SBSMChannelCollection upsertChannel:]_block_invoke_3
+__39-[SBSMChannelCollection upsertChannel:]_block_invoke_2
+__39-[SBSMChannelCollection upsertChannel:]_block_invoke
+__52-[SBSMChannelCollection fetchWithCompletionHandler:]_block_invoke_2.94
+__52-[SBSMChannelCollection fetchWithCompletionHandler:]_block_invoke.91
+__52-[SBSMChannelCollection fetchWithCompletionHandler:]_block_invoke_3
+__52-[SBSMChannelCollection fetchWithCompletionHandler:]_block_invoke_2
+__52-[SBSMChannelCollection fetchWithCompletionHandler:]_block_invoke.81
+__52-[SBSMChannelCollection fetchWithCompletionHandler:]_block_invoke
+__33-[SBSMChannelCollection channels]_block_invoke
+__39-[SBSMChannelCollection initWithQuery:]_block_invoke_2
+__39-[SBSMChannelCollection initWithQuery:]_block_invoke
++[SBSMClient loadNextPageWithQuery:completionHandler:]
+___54+[SBSMClient loadNextPageWithQuery:completionHandler:]_block_invoke
+___54+[SBSMClient loadNextPageWithQuery:completionHandler:]_block_invoke_2
+___54+[SBSMClient loadNextPageWithQuery:completionHandler:]_block_invoke_3
++[SBSMClient getMyGroupChannelChangeLogsByTimestamp:completionHandler:]
+___71+[SBSMClient getMyGroupChannelChangeLogsByTimestamp:completionHandler:]_block_invoke
+___71+[SBSMClient getMyGroupChannelChangeLogsByTimestamp:completionHandler:]_block_invoke_2
+___71+[SBSMClient getMyGroupChannelChangeLogsByTimestamp:completionHandler:]_block_invoke_3
+___copy_helper_block_e8_20b36r
++[SBSMClient getMyGroupChannelChangeLogsByToken:completionHandler:]
+___67+[SBSMClient getMyGroupChannelChangeLogsByToken:completionHandler:]_block_invoke
+___67+[SBSMClient getMyGroupChannelChangeLogsByToken:completionHandler:]_block_invoke_2
+___67+[SBSMClient getMyGroupChannelChangeLogsByToken:completionHandler:]_block_invoke_3
++[SBSMClient getPreviousAndNextMessagesInChannel:byTimestamp:limit:messageType:customType:senderUserIds:completionHandler:]
+___123+[SBSMClient getPreviousAndNextMessagesInChannel:byTimestamp:limit:messageType:customType:senderUserIds:completionHandler:]_block_invoke
+___123+[SBSMClient getPreviousAndNextMessagesInChannel:byTimestamp:limit:messageType:customType:senderUserIds:completionHandler:]_block_invoke_2
+___123+[SBSMClient getPreviousAndNextMessagesInChannel:byTimestamp:limit:messageType:customType:senderUserIds:completionHandler:]_block_invoke_3
+___copy_helper_block_e8_20s36s40s44b48r
+___destroy_helper_block_e8_20s36s40s44s48r
++[SBSMClient getPreviousMessagesInChannel:byTimestamp:limit:messageType:customType:senderUserIds:completionHandler:]
+___116+[SBSMClient getPreviousMessagesInChannel:byTimestamp:limit:messageType:customType:senderUserIds:completionHandler:]_block_invoke
+___116+[SBSMClient getPreviousMessagesInChannel:byTimestamp:limit:messageType:customType:senderUserIds:completionHandler:]_block_invoke_2
+___116+[SBSMClient getPreviousMessagesInChannel:byTimestamp:limit:messageType:customType:senderUserIds:completionHandler:]_block_invoke_3
++[SBSMClient getNextMessagesInChannel:byTimestamp:limit:messageType:customType:senderUserIds:completionHandler:]
+___112+[SBSMClient getNextMessagesInChannel:byTimestamp:limit:messageType:customType:senderUserIds:completionHandler:]_block_invoke
+___112+[SBSMClient getNextMessagesInChannel:byTimestamp:limit:messageType:customType:senderUserIds:completionHandler:]_block_invoke_2
+___112+[SBSMClient getNextMessagesInChannel:byTimestamp:limit:messageType:customType:senderUserIds:completionHandler:]_block_invoke_3
++[SBSMClient getMessageChangeLogsInChannel:token:completionHandler:]
+___68+[SBSMClient getMessageChangeLogsInChannel:token:completionHandler:]_block_invoke
+___68+[SBSMClient getMessageChangeLogsInChannel:token:completionHandler:]_block_invoke_2
+___68+[SBSMClient getMessageChangeLogsInChannel:token:completionHandler:]_block_invoke_3
+___copy_helper_block_e4_20s24s28b32r
++[SBSMClient getMessageChangeLogsInChannel:timestamp:completionHandler:]
+___72+[SBSMClient getMessageChangeLogsInChannel:timestamp:completionHandler:]_block_invoke
+___72+[SBSMClient getMessageChangeLogsInChannel:timestamp:completionHandler:]_block_invoke_2
+___72+[SBSMClient getMessageChangeLogsInChannel:timestamp:completionHandler:]_block_invoke_3
+___copy_helper_block_e8_20s36b40r
+___destroy_helper_block_e8_20s36s40r
+___block_descriptor_28_e4_20bs24r_e29_v12?0"NSArray"4"SBDError"8l
+___block_descriptor_41_e4_20bs24s28s32s36s_e5_v4?0l
+___block_descriptor_28_e4_20bs24r_e57_v24?0"NSArray"4"NSArray"8c12"NSString"16"SBDError"20l
+___block_descriptor_40_e8_20bs36r_e5_v4?0l
+___block_descriptor_64_e8_20s36s40s44bs48r_e5_v4?0l
+___block_descriptor_60_e8_20s36s40s44bs48r_e5_v4?0l
+___block_descriptor_36_e4_20s24s28bs32r_e5_v4?0l
+___block_descriptor_44_e8_20s36bs40r_e5_v4?0l
+__OBJC_$_CLASS_METHODS_SBSMClient
+__OBJC_METACLASS_RO_$_SBSMClient
+__OBJC_CLASS_RO_$_SBSMClient
+/Users/jedgyeong/git/syncmanager-ios/SyncManager/Client/SBSMClient.m
+__destroy_helper_block_e8_20s36s40r
+__copy_helper_block_e8_20s36b40r
+__72+[SBSMClient getMessageChangeLogsInChannel:timestamp:completionHandler:]_block_invoke_3
+SyncManager/Client/SBSMClient.m
+__72+[SBSMClient getMessageChangeLogsInChannel:timestamp:completionHandler:]_block_invoke_2
+__72+[SBSMClient getMessageChangeLogsInChannel:timestamp:completionHandler:]_block_invoke
+__copy_helper_block_e4_20s24s28b32r
+__68+[SBSMClient getMessageChangeLogsInChannel:token:completionHandler:]_block_invoke_3
+__68+[SBSMClient getMessageChangeLogsInChannel:token:completionHandler:]_block_invoke_2
+__68+[SBSMClient getMessageChangeLogsInChannel:token:completionHandler:]_block_invoke
+__112+[SBSMClient getNextMessagesInChannel:byTimestamp:limit:messageType:customType:senderUserIds:completionHandler:]_block_invoke_3
+__112+[SBSMClient getNextMessagesInChannel:byTimestamp:limit:messageType:customType:senderUserIds:completionHandler:]_block_invoke_2
+__112+[SBSMClient getNextMessagesInChannel:byTimestamp:limit:messageType:customType:senderUserIds:completionHandler:]_block_invoke
+__116+[SBSMClient getPreviousMessagesInChannel:byTimestamp:limit:messageType:customType:senderUserIds:completionHandler:]_block_invoke_3
+__116+[SBSMClient getPreviousMessagesInChannel:byTimestamp:limit:messageType:customType:senderUserIds:completionHandler:]_block_invoke_2
+__116+[SBSMClient getPreviousMessagesInChannel:byTimestamp:limit:messageType:customType:senderUserIds:completionHandler:]_block_invoke
+__destroy_helper_block_e8_20s36s40s44s48r
+__copy_helper_block_e8_20s36s40s44b48r
+__123+[SBSMClient getPreviousAndNextMessagesInChannel:byTimestamp:limit:messageType:customType:senderUserIds:completionHandler:]_block_invoke_3
+__123+[SBSMClient getPreviousAndNextMessagesInChannel:byTimestamp:limit:messageType:customType:senderUserIds:completionHandler:]_block_invoke_2
+__123+[SBSMClient getPreviousAndNextMessagesInChannel:byTimestamp:limit:messageType:customType:senderUserIds:completionHandler:]_block_invoke
+__67+[SBSMClient getMyGroupChannelChangeLogsByToken:completionHandler:]_block_invoke_3
+__67+[SBSMClient getMyGroupChannelChangeLogsByToken:completionHandler:]_block_invoke_2
+__67+[SBSMClient getMyGroupChannelChangeLogsByToken:completionHandler:]_block_invoke
+__copy_helper_block_e8_20b36r
+__71+[SBSMClient getMyGroupChannelChangeLogsByTimestamp:completionHandler:]_block_invoke_3
+__71+[SBSMClient getMyGroupChannelChangeLogsByTimestamp:completionHandler:]_block_invoke_2
+__71+[SBSMClient getMyGroupChannelChangeLogsByTimestamp:completionHandler:]_block_invoke
+__54+[SBSMClient loadNextPageWithQuery:completionHandler:]_block_invoke_3
+__54+[SBSMClient loadNextPageWithQuery:completionHandler:]_block_invoke_2
+__54+[SBSMClient loadNextPageWithQuery:completionHandler:]_block_invoke
+-[SBSMMessageCollectionOptions initWithChannelUrl:messageType:customType:senderUserIds:]
+-[SBSMMessageCollectionOptions setLimit:]
+-[SBSMMessageCollectionOptions limit]
+-[SBSMMessageCollectionOptions reverse]
+-[SBSMMessageCollectionOptions setReverse:]
+_OBJC_IVAR_$_SBSMMessageCollectionOptions._limit
+_OBJC_IVAR_$_SBSMMessageCollectionOptions._reverse
+__OBJC_METACLASS_RO_$_SBSMMessageCollectionOptions
+__OBJC_$_INSTANCE_METHODS_SBSMMessageCollectionOptions
+__OBJC_$_INSTANCE_VARIABLES_SBSMMessageCollectionOptions
+__OBJC_$_PROP_LIST_SBSMMessageCollectionOptions
+__OBJC_CLASS_RO_$_SBSMMessageCollectionOptions
+/Users/jedgyeong/git/syncmanager-ios/SyncManager/Message/Filter/SBSMMessageCollectionOptions.m
+SyncManager/Message/Filter/SBSMMessageCollectionOptions.h
+SyncManager/Message/Filter/SBSMMessageCollectionOptions.m
++[SBSMMessageSynchronizer sharedInstance]
+___41+[SBSMMessageSynchronizer sharedInstance]_block_invoke
+-[SBSMMessageSynchronizer init]
+-[SBSMMessageSynchronizer syncListQueueWithDirection:]
+-[SBSMMessageSynchronizer syncListWithDirection:]
++[SBSMMessageSynchronizer startSynchronizingWithChunk:]
++[SBSMMessageSynchronizer startSynchronizingWithChunk:completionHandler:]
++[SBSMMessageSynchronizer startSynchronizingWithChannel:options:viewpoint:observer:]
+___84+[SBSMMessageSynchronizer startSynchronizingWithChannel:options:viewpoint:observer:]_block_invoke
+___84+[SBSMMessageSynchronizer startSynchronizingWithChannel:options:viewpoint:observer:]_block_invoke_2
+___84+[SBSMMessageSynchronizer startSynchronizingWithChannel:options:viewpoint:observer:]_block_invoke_3
+___copy_helper_block_e8_20s36s40s44s48s52s60r
+___destroy_helper_block_e8_20s36s40s44s48s52s60r
+___copy_helper_block_e8_20s36s40s44s48s56r
+___destroy_helper_block_e8_20s36s40s44s48s56r
+-[SBSMMessageSynchronizer extendChunk:direction:]
+-[SBSMMessageSynchronizer extendChunk:direction:completionHandler:]
+___67-[SBSMMessageSynchronizer extendChunk:direction:completionHandler:]_block_invoke
+___67-[SBSMMessageSynchronizer extendChunk:direction:completionHandler:]_block_invoke_2
+___67-[SBSMMessageSynchronizer extendChunk:direction:completionHandler:]_block_invoke_3
+___67-[SBSMMessageSynchronizer extendChunk:direction:completionHandler:]_block_invoke_4
+___copy_helper_block_e4_20s24s28b32s36r
+___destroy_helper_block_e4_20s24s28s32s36r
+___copy_helper_block_e4_20s24s28s32b36r
++[SBSMMessageSynchronizer isSynchronizingWithFilter:viewpoint:]
+___63+[SBSMMessageSynchronizer isSynchronizingWithFilter:viewpoint:]_block_invoke
+___copy_helper_block_e8_20s36s40r
+___63+[SBSMMessageSynchronizer isSynchronizingWithFilter:viewpoint:]_block_invoke.141
+___63+[SBSMMessageSynchronizer isSynchronizingWithFilter:viewpoint:]_block_invoke_2
++[SBSMMessageSynchronizer addCenterSynchronizerSet:]
+___52+[SBSMMessageSynchronizer addCenterSynchronizerSet:]_block_invoke
++[SBSMMessageSynchronizer removeCenterSynchronizerSet:]
+___55+[SBSMMessageSynchronizer removeCenterSynchronizerSet:]_block_invoke
++[SBSMMessageSynchronizer addSynchronizationObserver:direction:chunk:]
+___70+[SBSMMessageSynchronizer addSynchronizationObserver:direction:chunk:]_block_invoke
++[SBSMMessageSynchronizer removeSynchronizingSetWithFilter:viewpoint:]
+___70+[SBSMMessageSynchronizer removeSynchronizingSetWithFilter:viewpoint:]_block_invoke
+___70+[SBSMMessageSynchronizer removeSynchronizingSetWithFilter:viewpoint:]_block_invoke_2
++[SBSMMessageSynchronizer removeSynchronizingChunk:direction:]
+___62+[SBSMMessageSynchronizer removeSynchronizingChunk:direction:]_block_invoke
+___62+[SBSMMessageSynchronizer removeSynchronizingChunk:direction:]_block_invoke_2
++[SBSMMessageSynchronizer removeSynchronizationObserver:chunk:]
++[SBSMMessageSynchronizer removeSynchronizationObserver:chunk:direction:]
+___73+[SBSMMessageSynchronizer removeSynchronizationObserver:chunk:direction:]_block_invoke
+-[SBSMMessageSynchronizer removeSynchronizerSetWithChunk:direction:]
+___68-[SBSMMessageSynchronizer removeSynchronizerSetWithChunk:direction:]_block_invoke
+___68-[SBSMMessageSynchronizer removeSynchronizerSetWithChunk:direction:]_block_invoke_2
+-[SBSMMessageSynchronizer popSynchronizerSetWithChunk:direction:completionHandler:]
+___83-[SBSMMessageSynchronizer popSynchronizerSetWithChunk:direction:completionHandler:]_block_invoke
+___83-[SBSMMessageSynchronizer popSynchronizerSetWithChunk:direction:completionHandler:]_block_invoke_2
+___83-[SBSMMessageSynchronizer popSynchronizerSetWithChunk:direction:completionHandler:]_block_invoke_3
++[SBSMMessageSynchronizer resume]
++[SBSMMessageSynchronizer pause]
++[SBSMMessageSynchronizer setDelegate:]
++[SBSMMessageSynchronizer isRefreshingChangeLogWithChannelUrl:]
+___63+[SBSMMessageSynchronizer isRefreshingChangeLogWithChannelUrl:]_block_invoke
++[SBSMMessageSynchronizer addRefreshingChangelogWithChannelUrl:]
+___64+[SBSMMessageSynchronizer addRefreshingChangelogWithChannelUrl:]_block_invoke
++[SBSMMessageSynchronizer removeRefreshingChangelogWithChannelUrl:]
+___67+[SBSMMessageSynchronizer removeRefreshingChangelogWithChannelUrl:]_block_invoke
++[SBSMMessageSynchronizer refreshChangeLogWithChannels:]
++[SBSMMessageSynchronizer refreshChangeLogWithChannel:]
+___55+[SBSMMessageSynchronizer refreshChangeLogWithChannel:]_block_invoke
+___55+[SBSMMessageSynchronizer refreshChangeLogWithChannel:]_block_invoke_2
+___55+[SBSMMessageSynchronizer refreshChangeLogWithChannel:]_block_invoke.202
++[SBSMMessageSynchronizer requestRefreshMessageChangeLogsOfChannel:since:completionHandler:]
+___92+[SBSMMessageSynchronizer requestRefreshMessageChangeLogsOfChannel:since:completionHandler:]_block_invoke
++[SBSMMessageSynchronizer requestRefreshMessageChangeLogsOfChannel:token:completionHandler:]
+___92+[SBSMMessageSynchronizer requestRefreshMessageChangeLogsOfChannel:token:completionHandler:]_block_invoke
++[SBSMMessageSynchronizer reflectMessageChangeLogsWithChannel:updatedMessages:deletedMessageIds:token:hasMore:completionHandler:]
+___129+[SBSMMessageSynchronizer reflectMessageChangeLogsWithChannel:updatedMessages:deletedMessageIds:token:hasMore:completionHandler:]_block_invoke
+-[SBSMMessageSynchronizer broadcastSynchronizationOfChunk:direction:]
+___69-[SBSMMessageSynchronizer broadcastSynchronizationOfChunk:direction:]_block_invoke
+___69-[SBSMMessageSynchronizer broadcastSynchronizationOfChunk:direction:]_block_invoke_2
+-[SBSMMessageSynchronizer synchronizerQueue]
+-[SBSMMessageSynchronizer setSynchronizerQueue:]
+-[SBSMMessageSynchronizer previousSyncListQueue]
+-[SBSMMessageSynchronizer setPreviousSyncListQueue:]
+-[SBSMMessageSynchronizer previousSynchronizingList]
+-[SBSMMessageSynchronizer setPreviousSynchronizingList:]
+-[SBSMMessageSynchronizer nextSyncListQueue]
+-[SBSMMessageSynchronizer setNextSyncListQueue:]
+-[SBSMMessageSynchronizer nextSynchronizingList]
+-[SBSMMessageSynchronizer setNextSynchronizingList:]
+-[SBSMMessageSynchronizer centerSyncListQueue]
+-[SBSMMessageSynchronizer setCenterSyncListQueue:]
+-[SBSMMessageSynchronizer centerSynchronizingList]
+-[SBSMMessageSynchronizer setCenterSynchronizingList:]
+-[SBSMMessageSynchronizer delegate]
+-[SBSMMessageSynchronizer setDelegate:]
+-[SBSMMessageSynchronizer changelogQueue]
+-[SBSMMessageSynchronizer setChangelogQueue:]
+-[SBSMMessageSynchronizer refreshingChangelogChannelUrls]
+-[SBSMMessageSynchronizer setRefreshingChangelogChannelUrls:]
+-[SBSMMessageSynchronizer .cxx_destruct]
+___block_descriptor_64_e8_20s36s40s44s48s52s60r_e41_v16?0"NSArray"4"NSArray"8"SBDError"12l
+___block_descriptor_60_e8_20s36s40s44s48s56r_e29_v12?0"NSArray"4"SBDError"8l
+___block_descriptor_60_e8_20s36s40s44s48s56r_e5_v4?0l
+___block_descriptor_48_e4_20s24s28bs32s36r_e41_v16?0"NSArray"4"NSArray"8"SBDError"12l
+___block_descriptor_44_e4_20s24s28bs32r_e29_v12?0"NSArray"4"SBDError"8l
+___block_descriptor_44_e4_20s24s28s32bs36r_e29_v12?0"NSArray"4"SBDError"8l
+___block_descriptor_40_e4_20s24s28bs32r_e5_v4?0l
+___block_descriptor_44_e8_20s36s40r_e5_v4?0l
+___block_descriptor_36_e4_20s24s28s_e5_v4?0l
+_OBJC_CLASSLIST_REFERENCES_$_.156
+_OBJC_SELECTOR_REFERENCES_.158
+_OBJC_SELECTOR_REFERENCES_.160
+___block_descriptor_36_e8_20s_e34_c16?0"SBSMMessageSyncSet"4I8^c12l
+___block_descriptor_44_e8_20s36s_e5_v4?0l
+___block_descriptor_24_e4_20s_e34_c16?0"SBSMMessageSyncSet"4I8^c12l
+_OBJC_SELECTOR_REFERENCES_.168
+_OBJC_CLASSLIST_REFERENCES_$_.191
+___block_descriptor_24_e4_20s_e17_v8?0"SBDError"4l
+_OBJC_CLASSLIST_REFERENCES_$_.197
+_OBJC_SELECTOR_REFERENCES_.199
+___block_descriptor_24_e4_20s_e30_v12?0"NSString"4"SBDError"8l
+___block_descriptor_28_e4_20bs24s_e57_v24?0"NSArray"4"NSArray"8c12"NSString"16"SBDError"20l
+_OBJC_SELECTOR_REFERENCES_.212
+_OBJC_SELECTOR_REFERENCES_.214
+_OBJC_SELECTOR_REFERENCES_.216
+_OBJC_SELECTOR_REFERENCES_.222
+_OBJC_SELECTOR_REFERENCES_.224
+___block_descriptor_37_e4_20bs24s28s_e17_v8?0"SBDError"4l
+_OBJC_SELECTOR_REFERENCES_.228
+_OBJC_SELECTOR_REFERENCES_.230
+___block_descriptor_28_e4_20s_e27_v8?0"SBSMMessageSyncSet"4l
+_OBJC_SELECTOR_REFERENCES_.237
+__OBJC_$_CLASS_METHODS_SBSMMessageSynchronizer
+__OBJC_METACLASS_RO_$_SBSMMessageSynchronizer
+__OBJC_$_INSTANCE_METHODS_SBSMMessageSynchronizer
+_OBJC_IVAR_$_SBSMMessageSynchronizer._synchronizerQueue
+_OBJC_IVAR_$_SBSMMessageSynchronizer._previousSyncListQueue
+_OBJC_IVAR_$_SBSMMessageSynchronizer._previousSynchronizingList
+_OBJC_IVAR_$_SBSMMessageSynchronizer._nextSyncListQueue
+_OBJC_IVAR_$_SBSMMessageSynchronizer._nextSynchronizingList
+_OBJC_IVAR_$_SBSMMessageSynchronizer._centerSyncListQueue
+_OBJC_IVAR_$_SBSMMessageSynchronizer._centerSynchronizingList
+_OBJC_IVAR_$_SBSMMessageSynchronizer._delegate
+_OBJC_IVAR_$_SBSMMessageSynchronizer._changelogQueue
+_OBJC_IVAR_$_SBSMMessageSynchronizer._refreshingChangelogChannelUrls
+__OBJC_$_INSTANCE_VARIABLES_SBSMMessageSynchronizer
+__OBJC_$_PROP_LIST_SBSMMessageSynchronizer
+__OBJC_CLASS_RO_$_SBSMMessageSynchronizer
+/Users/jedgyeong/git/syncmanager-ios/SyncManager/Message/SBSMMessageSynchronizer.m
+SyncManager/Message/SBSMMessageSynchronizer.m
+__69-[SBSMMessageSynchronizer broadcastSynchronizationOfChunk:direction:]_block_invoke_2
+__69-[SBSMMessageSynchronizer broadcastSynchronizationOfChunk:direction:]_block_invoke
+__129+[SBSMMessageSynchronizer reflectMessageChangeLogsWithChannel:updatedMessages:deletedMessageIds:token:hasMore:completionHandler:]_block_invoke
+__92+[SBSMMessageSynchronizer requestRefreshMessageChangeLogsOfChannel:token:completionHandler:]_block_invoke
+__92+[SBSMMessageSynchronizer requestRefreshMessageChangeLogsOfChannel:since:completionHandler:]_block_invoke
+__55+[SBSMMessageSynchronizer refreshChangeLogWithChannel:]_block_invoke.202
+__55+[SBSMMessageSynchronizer refreshChangeLogWithChannel:]_block_invoke_2
+__55+[SBSMMessageSynchronizer refreshChangeLogWithChannel:]_block_invoke
+__67+[SBSMMessageSynchronizer removeRefreshingChangelogWithChannelUrl:]_block_invoke
+__64+[SBSMMessageSynchronizer addRefreshingChangelogWithChannelUrl:]_block_invoke
+__63+[SBSMMessageSynchronizer isRefreshingChangeLogWithChannelUrl:]_block_invoke
+__83-[SBSMMessageSynchronizer popSynchronizerSetWithChunk:direction:completionHandler:]_block_invoke_3
+__83-[SBSMMessageSynchronizer popSynchronizerSetWithChunk:direction:completionHandler:]_block_invoke_2
+__83-[SBSMMessageSynchronizer popSynchronizerSetWithChunk:direction:completionHandler:]_block_invoke
+__68-[SBSMMessageSynchronizer removeSynchronizerSetWithChunk:direction:]_block_invoke_2
+__68-[SBSMMessageSynchronizer removeSynchronizerSetWithChunk:direction:]_block_invoke
+__73+[SBSMMessageSynchronizer removeSynchronizationObserver:chunk:direction:]_block_invoke
+__62+[SBSMMessageSynchronizer removeSynchronizingChunk:direction:]_block_invoke_2
+__62+[SBSMMessageSynchronizer removeSynchronizingChunk:direction:]_block_invoke
+__70+[SBSMMessageSynchronizer removeSynchronizingSetWithFilter:viewpoint:]_block_invoke_2
+__70+[SBSMMessageSynchronizer removeSynchronizingSetWithFilter:viewpoint:]_block_invoke
+__70+[SBSMMessageSynchronizer addSynchronizationObserver:direction:chunk:]_block_invoke
+__55+[SBSMMessageSynchronizer removeCenterSynchronizerSet:]_block_invoke
+__52+[SBSMMessageSynchronizer addCenterSynchronizerSet:]_block_invoke
+__63+[SBSMMessageSynchronizer isSynchronizingWithFilter:viewpoint:]_block_invoke_2
+__63+[SBSMMessageSynchronizer isSynchronizingWithFilter:viewpoint:]_block_invoke.141
+__copy_helper_block_e8_20s36s40r
+__63+[SBSMMessageSynchronizer isSynchronizingWithFilter:viewpoint:]_block_invoke
+__copy_helper_block_e4_20s24s28s32b36r
+__destroy_helper_block_e4_20s24s28s32s36r
+__copy_helper_block_e4_20s24s28b32s36r
+__67-[SBSMMessageSynchronizer extendChunk:direction:completionHandler:]_block_invoke_4
+__67-[SBSMMessageSynchronizer extendChunk:direction:completionHandler:]_block_invoke_3
+__67-[SBSMMessageSynchronizer extendChunk:direction:completionHandler:]_block_invoke_2
+__67-[SBSMMessageSynchronizer extendChunk:direction:completionHandler:]_block_invoke
+__destroy_helper_block_e8_20s36s40s44s48s56r
+__copy_helper_block_e8_20s36s40s44s48s56r
+__destroy_helper_block_e8_20s36s40s44s48s52s60r
+__copy_helper_block_e8_20s36s40s44s48s52s60r
+__84+[SBSMMessageSynchronizer startSynchronizingWithChannel:options:viewpoint:observer:]_block_invoke_3
+__84+[SBSMMessageSynchronizer startSynchronizingWithChannel:options:viewpoint:observer:]_block_invoke_2
+__84+[SBSMMessageSynchronizer startSynchronizingWithChannel:options:viewpoint:observer:]_block_invoke
+__41+[SBSMMessageSynchronizer sharedInstance]_block_invoke
+-[SBDBaseMessage(SyncManager) isMyMessage]
+-[SBDBaseMessage(SyncManager) requestState]
+-[SBDBaseMessage(SyncManager) canAssumeMyMessage]
+-[SBDBaseMessage(SyncManager) identifier]
+_OBJC_CLASSLIST_REFERENCES_$_.15
+__OBJC_$_CATEGORY_INSTANCE_METHODS_SBDBaseMessage_$_SyncManager
+__OBJC_CATEGORY_PROTOCOLS_$_SBDBaseMessage_$_SyncManager
+__OBJC_$_PROP_LIST_SBDBaseMessage_$_SyncManager
+__OBJC_$_CATEGORY_SBDBaseMessage_$_SyncManager
+/Users/jedgyeong/git/syncmanager-ios/SyncManager/Categories/SBDBaseMessage+SyncManager.m
+SyncManager/Categories/SBDBaseMessage+SyncManager.m
++[SBSMDatabase sharedInsatnce]
+___30+[SBSMDatabase sharedInsatnce]_block_invoke
+-[SBSMDatabase init]
++[SBSMDatabase queue]
++[SBSMDatabase setup]
+___21+[SBSMDatabase setup]_block_invoke
+___21+[SBSMDatabase setup]_block_invoke_2
++[SBSMDatabase createChannels:completionHandler:]
+___49+[SBSMDatabase createChannels:completionHandler:]_block_invoke
+___49+[SBSMDatabase createChannels:completionHandler:]_block_invoke_2
+___49+[SBSMDatabase createChannels:completionHandler:]_block_invoke.34
+___copy_helper_block_e4_20b24s32r
+___destroy_helper_block_e4_20s24s32r
++[SBSMDatabase fetchAllChannelsWithCompletionHandler:]
+___54+[SBSMDatabase fetchAllChannelsWithCompletionHandler:]_block_invoke
+___54+[SBSMDatabase fetchAllChannelsWithCompletionHandler:]_block_invoke_2
+___54+[SBSMDatabase fetchAllChannelsWithCompletionHandler:]_block_invoke.65
+___copy_helper_block_e4_20b28r
++[SBSMDatabase upsertChannels:completionHandler:]
+___49+[SBSMDatabase upsertChannels:completionHandler:]_block_invoke
+___49+[SBSMDatabase upsertChannels:completionHandler:]_block_invoke_2
+___49+[SBSMDatabase upsertChannels:completionHandler:]_block_invoke.79
++[SBSMDatabase deleteChannelUrls:completionHandler:]
+___52+[SBSMDatabase deleteChannelUrls:completionHandler:]_block_invoke
+___52+[SBSMDatabase deleteChannelUrls:completionHandler:]_block_invoke_2
+___52+[SBSMDatabase deleteChannelUrls:completionHandler:]_block_invoke_3
++[SBSMDatabase deleteAllChannelsWithCompletionHandler:]
+___55+[SBSMDatabase deleteAllChannelsWithCompletionHandler:]_block_invoke
+___55+[SBSMDatabase deleteAllChannelsWithCompletionHandler:]_block_invoke_2
+___55+[SBSMDatabase deleteAllChannelsWithCompletionHandler:]_block_invoke_3
++[SBSMDatabase fetchQuery:completionHandler:]
+___45+[SBSMDatabase fetchQuery:completionHandler:]_block_invoke
+___45+[SBSMDatabase fetchQuery:completionHandler:]_block_invoke_2
+___45+[SBSMDatabase fetchQuery:completionHandler:]_block_invoke.127
++[SBSMDatabase upsertQuery:savepoint:completionHandler:]
+___56+[SBSMDatabase upsertQuery:savepoint:completionHandler:]_block_invoke
+___56+[SBSMDatabase upsertQuery:savepoint:completionHandler:]_block_invoke_2
+___56+[SBSMDatabase upsertQuery:savepoint:completionHandler:]_block_invoke_3
+___copy_helper_block_e4_20b24s32s
+___destroy_helper_block_e4_20s24s32s
+___copy_helper_block_e4_20b24s32s36r
+___destroy_helper_block_e4_20s24s32s36r
++[SBSMDatabase deleteAllQueriesWithCompletionHandler:]
+___54+[SBSMDatabase deleteAllQueriesWithCompletionHandler:]_block_invoke
+___54+[SBSMDatabase deleteAllQueriesWithCompletionHandler:]_block_invoke_2
+___54+[SBSMDatabase deleteAllQueriesWithCompletionHandler:]_block_invoke_3
++[SBSMDatabase upsertChannelChangeLogToken:completionHandler:]
+___62+[SBSMDatabase upsertChannelChangeLogToken:completionHandler:]_block_invoke
++[SBSMDatabase fetchChannelChangeLogTokenWithCompletionHandler:]
+___64+[SBSMDatabase fetchChannelChangeLogTokenWithCompletionHandler:]_block_invoke
++[SBSMDatabase deleteChannelChangeLogTokenWithComppletionHandler:]
+___66+[SBSMDatabase deleteChannelChangeLogTokenWithComppletionHandler:]_block_invoke
++[SBSMDatabase upsertSucceededMessages:channelUrl:synchronized:visible:completionHandler:]
+___90+[SBSMDatabase upsertSucceededMessages:channelUrl:synchronized:visible:completionHandler:]_block_invoke
+___90+[SBSMDatabase upsertSucceededMessages:channelUrl:synchronized:visible:completionHandler:]_block_invoke_2
+___90+[SBSMDatabase upsertSucceededMessages:channelUrl:synchronized:visible:completionHandler:]_block_invoke_3
+___copy_helper_block_e4_20b24s28s36r
+___destroy_helper_block_e4_20s24s28s36r
++[SBSMDatabase upsertSynchronizedSucceededMessages:channelUrl:completionHandler:]
++[SBSMDatabase upsertVisibleSucceededMessage:completionHandler:]
++[SBSMDatabase upsertInvisibleSucceededMessages:channelUrl:completionHandler:]
++[SBSMDatabase upsertFailedMessage:automaticResendable:completionHandler:]
+___74+[SBSMDatabase upsertFailedMessage:automaticResendable:completionHandler:]_block_invoke
+___74+[SBSMDatabase upsertFailedMessage:automaticResendable:completionHandler:]_block_invoke_2
+___74+[SBSMDatabase upsertFailedMessage:automaticResendable:completionHandler:]_block_invoke_3
++[SBSMDatabase removeFailedMessagesByMaxCountWithChannelUrl:completionHandler:]
+___79+[SBSMDatabase removeFailedMessagesByMaxCountWithChannelUrl:completionHandler:]_block_invoke
+___79+[SBSMDatabase removeFailedMessagesByMaxCountWithChannelUrl:completionHandler:]_block_invoke_2
+___79+[SBSMDatabase removeFailedMessagesByMaxCountWithChannelUrl:completionHandler:]_block_invoke_3
++[SBSMDatabase removeExpiredFailedMessagesWithCompletionHandler:]
+___65+[SBSMDatabase removeExpiredFailedMessagesWithCompletionHandler:]_block_invoke
+___65+[SBSMDatabase removeExpiredFailedMessagesWithCompletionHandler:]_block_invoke_2
+___65+[SBSMDatabase removeExpiredFailedMessagesWithCompletionHandler:]_block_invoke.276
++[SBSMDatabase fetchSucceededMessagesWithPredicate:completionHandler:]
+___70+[SBSMDatabase fetchSucceededMessagesWithPredicate:completionHandler:]_block_invoke
+___70+[SBSMDatabase fetchSucceededMessagesWithPredicate:completionHandler:]_block_invoke_2
+___70+[SBSMDatabase fetchSucceededMessagesWithPredicate:completionHandler:]_block_invoke_3
++[SBSMDatabase fetchSynchronizedSucceededMessagesWithChannelUrl:createdFrom:createdTo:completionHandler:]
++[SBSMDatabase fetchVisibleSucceededMessagesWithChannelUrl:createdFrom:createdTo:completionHandler:]
++[SBSMDatabase fetchResendableFailedMessagesWithChannelUrl:completionHandler:]
+___78+[SBSMDatabase fetchResendableFailedMessagesWithChannelUrl:completionHandler:]_block_invoke
+___78+[SBSMDatabase fetchResendableFailedMessagesWithChannelUrl:completionHandler:]_block_invoke_2
+___78+[SBSMDatabase fetchResendableFailedMessagesWithChannelUrl:completionHandler:]_block_invoke_3
++[SBSMDatabase fetchFailedMessagesWithChannelUrl:completionHandler:]
+___68+[SBSMDatabase fetchFailedMessagesWithChannelUrl:completionHandler:]_block_invoke
+___68+[SBSMDatabase fetchFailedMessagesWithChannelUrl:completionHandler:]_block_invoke_2
+___68+[SBSMDatabase fetchFailedMessagesWithChannelUrl:completionHandler:]_block_invoke_3
++[SBSMDatabase deleteSucceededMessagesWithMessageIds:channelUrl:completionHandler:]
+___83+[SBSMDatabase deleteSucceededMessagesWithMessageIds:channelUrl:completionHandler:]_block_invoke
+___83+[SBSMDatabase deleteSucceededMessagesWithMessageIds:channelUrl:completionHandler:]_block_invoke_2
+___83+[SBSMDatabase deleteSucceededMessagesWithMessageIds:channelUrl:completionHandler:]_block_invoke_3
++[SBSMDatabase deleteFailedMessagesWithRequestIds:channelUrl:completionHandler:]
+___80+[SBSMDatabase deleteFailedMessagesWithRequestIds:channelUrl:completionHandler:]_block_invoke
+___80+[SBSMDatabase deleteFailedMessagesWithRequestIds:channelUrl:completionHandler:]_block_invoke_2
+___80+[SBSMDatabase deleteFailedMessagesWithRequestIds:channelUrl:completionHandler:]_block_invoke_3
++[SBSMDatabase deleteAllMessagesWithCompletionHandler:]
+___55+[SBSMDatabase deleteAllMessagesWithCompletionHandler:]_block_invoke
+___55+[SBSMDatabase deleteAllMessagesWithCompletionHandler:]_block_invoke_2
+___55+[SBSMDatabase deleteAllMessagesWithCompletionHandler:]_block_invoke_3
++[SBSMDatabase removeMessagesBeforeOffset:channelUrl:completionHandler:]
+___72+[SBSMDatabase removeMessagesBeforeOffset:channelUrl:completionHandler:]_block_invoke
+___72+[SBSMDatabase removeMessagesBeforeOffset:channelUrl:completionHandler:]_block_invoke_2
+___72+[SBSMDatabase removeMessagesBeforeOffset:channelUrl:completionHandler:]_block_invoke_3
+___copy_helper_block_e8_20b36s44r
+___destroy_helper_block_e8_20s36s44r
++[SBSMDatabase setPendingMessagesEndAtToLoginTimeWithChannelUrl:completionHandler:]
+___83+[SBSMDatabase setPendingMessagesEndAtToLoginTimeWithChannelUrl:completionHandler:]_block_invoke
+___83+[SBSMDatabase setPendingMessagesEndAtToLoginTimeWithChannelUrl:completionHandler:]_block_invoke_2
+___83+[SBSMDatabase setPendingMessagesEndAtToLoginTimeWithChannelUrl:completionHandler:]_block_invoke_3
++[SBSMDatabase upsertPendingMessage:startAt:endAt:completionHandler:]
+___69+[SBSMDatabase upsertPendingMessage:startAt:endAt:completionHandler:]_block_invoke
+___69+[SBSMDatabase upsertPendingMessage:startAt:endAt:completionHandler:]_block_invoke_2
+___69+[SBSMDatabase upsertPendingMessage:startAt:endAt:completionHandler:]_block_invoke.335
+___copy_helper_block_e8_20b44s
+___destroy_helper_block_e8_20s44s
+___copy_helper_block_e8_20b44s52r
+___destroy_helper_block_e8_20s44s52r
++[SBSMDatabase fetchPendingMessagesWithChannelUrl:completionHandler:]
+___69+[SBSMDatabase fetchPendingMessagesWithChannelUrl:completionHandler:]_block_invoke
+___69+[SBSMDatabase fetchPendingMessagesWithChannelUrl:completionHandler:]_block_invoke_2
+___69+[SBSMDatabase fetchPendingMessagesWithChannelUrl:completionHandler:]_block_invoke_3
++[SBSMDatabase resolvePendingMessagesWithChunk:syncedMessages:completionHandler:]
+___81+[SBSMDatabase resolvePendingMessagesWithChunk:syncedMessages:completionHandler:]_block_invoke
+___81+[SBSMDatabase resolvePendingMessagesWithChunk:syncedMessages:completionHandler:]_block_invoke_2
+___81+[SBSMDatabase resolvePendingMessagesWithChunk:syncedMessages:completionHandler:]_block_invoke_3
+___81+[SBSMDatabase resolvePendingMessagesWithChunk:syncedMessages:completionHandler:]_block_invoke_4
+___81+[SBSMDatabase resolvePendingMessagesWithChunk:syncedMessages:completionHandler:]_block_invoke_5
++[SBSMDatabase resolvePendingMessagesWithDirection:chunk:completionHandler:]
+___76+[SBSMDatabase resolvePendingMessagesWithDirection:chunk:completionHandler:]_block_invoke
+___76+[SBSMDatabase resolvePendingMessagesWithDirection:chunk:completionHandler:]_block_invoke_2
+___76+[SBSMDatabase resolvePendingMessagesWithDirection:chunk:completionHandler:]_block_invoke_3
++[SBSMDatabase resolveAllPendingMessagesAsFailedMessagesWithChannelUrl:completionHandler:]
+___90+[SBSMDatabase resolveAllPendingMessagesAsFailedMessagesWithChannelUrl:completionHandler:]_block_invoke
+___90+[SBSMDatabase resolveAllPendingMessagesAsFailedMessagesWithChannelUrl:completionHandler:]_block_invoke_2
+___90+[SBSMDatabase resolveAllPendingMessagesAsFailedMessagesWithChannelUrl:completionHandler:]_block_invoke_3
++[SBSMDatabase deletePendingMessageWithChannelUrl:requestId:completionHandler:]
+___79+[SBSMDatabase deletePendingMessageWithChannelUrl:requestId:completionHandler:]_block_invoke
+___79+[SBSMDatabase deletePendingMessageWithChannelUrl:requestId:completionHandler:]_block_invoke_2
+___79+[SBSMDatabase deletePendingMessageWithChannelUrl:requestId:completionHandler:]_block_invoke_3
+___79+[SBSMDatabase deletePendingMessageWithChannelUrl:requestId:completionHandler:]_block_invoke_4
+___copy_helper_block_e4_20s24s32s36b
+___destroy_helper_block_e4_20s24s32s36s
+___copy_helper_block_e4_20s24s32b
++[SBSMDatabase upsertMessageChangeLogToken:channelUrl:completionHandler:]
+___73+[SBSMDatabase upsertMessageChangeLogToken:channelUrl:completionHandler:]_block_invoke
+___73+[SBSMDatabase upsertMessageChangeLogToken:channelUrl:completionHandler:]_block_invoke_2
+___73+[SBSMDatabase upsertMessageChangeLogToken:channelUrl:completionHandler:]_block_invoke_3
++[SBSMDatabase fetchMessageChangeLogTokenWithChannelUrl:completionHandler:]
+___75+[SBSMDatabase fetchMessageChangeLogTokenWithChannelUrl:completionHandler:]_block_invoke
+___75+[SBSMDatabase fetchMessageChangeLogTokenWithChannelUrl:completionHandler:]_block_invoke_2
+___75+[SBSMDatabase fetchMessageChangeLogTokenWithChannelUrl:completionHandler:]_block_invoke.369
++[SBSMDatabase deleteAllMessageChangeLogTokensWithCompletionHandler:]
+___69+[SBSMDatabase deleteAllMessageChangeLogTokensWithCompletionHandler:]_block_invoke
+___69+[SBSMDatabase deleteAllMessageChangeLogTokensWithCompletionHandler:]_block_invoke_2
+___69+[SBSMDatabase deleteAllMessageChangeLogTokensWithCompletionHandler:]_block_invoke_3
++[SBSMDatabase createChunkWithChunkId:channelUrl:startAt:endAt:filter:completionHandler:]
+___89+[SBSMDatabase createChunkWithChunkId:channelUrl:startAt:endAt:filter:completionHandler:]_block_invoke
+___89+[SBSMDatabase createChunkWithChunkId:channelUrl:startAt:endAt:filter:completionHandler:]_block_invoke_2
+___89+[SBSMDatabase createChunkWithChunkId:channelUrl:startAt:endAt:filter:completionHandler:]_block_invoke_3
+___copy_helper_block_e8_20b44s48s52s
+___destroy_helper_block_e8_20s44s48s52s
+___copy_helper_block_e8_20b44s48s52s60r
+___destroy_helper_block_e8_20s44s48s52s60r
++[SBSMDatabase fetchChunksWithChannel:includeTimestamp:completionHandler:]
+___74+[SBSMDatabase fetchChunksWithChannel:includeTimestamp:completionHandler:]_block_invoke
+___74+[SBSMDatabase fetchChunksWithChannel:includeTimestamp:completionHandler:]_block_invoke_2
+___74+[SBSMDatabase fetchChunksWithChannel:includeTimestamp:completionHandler:]_block_invoke_3
++[SBSMDatabase fetchChunksEndAtBeforeOffset:channel:completionHandler:]
+___71+[SBSMDatabase fetchChunksEndAtBeforeOffset:channel:completionHandler:]_block_invoke
+___71+[SBSMDatabase fetchChunksEndAtBeforeOffset:channel:completionHandler:]_block_invoke_2
+___71+[SBSMDatabase fetchChunksEndAtBeforeOffset:channel:completionHandler:]_block_invoke_3
++[SBSMDatabase updateChunk:completionHandler:]
+___46+[SBSMDatabase updateChunk:completionHandler:]_block_invoke
+___46+[SBSMDatabase updateChunk:completionHandler:]_block_invoke_2
+___46+[SBSMDatabase updateChunk:completionHandler:]_block_invoke_3
++[SBSMDatabase deleteChunks:completionHandler:]
+___47+[SBSMDatabase deleteChunks:completionHandler:]_block_invoke
+___47+[SBSMDatabase deleteChunks:completionHandler:]_block_invoke_2
+___47+[SBSMDatabase deleteChunks:completionHandler:]_block_invoke_3
++[SBSMDatabase deleteAllChunksWithCompletionHandler:]
+___53+[SBSMDatabase deleteAllChunksWithCompletionHandler:]_block_invoke
+___53+[SBSMDatabase deleteAllChunksWithCompletionHandler:]_block_invoke_2
+___53+[SBSMDatabase deleteAllChunksWithCompletionHandler:]_block_invoke_3
++[SBSMDatabase saveContext:error:]
+___34+[SBSMDatabase saveContext:error:]_block_invoke
++[SBSMDatabase executeContext:fetchRequest:error:]
+___50+[SBSMDatabase executeContext:fetchRequest:error:]_block_invoke
+___copy_helper_block_e4_20s24s28r32r
+___destroy_helper_block_e4_20s24s28r32r
++[SBSMDatabase deleteContext:fetchRequest:error:]
+___49+[SBSMDatabase deleteContext:fetchRequest:error:]_block_invoke
++[SBSMDatabase channelsWithManagedObjects:]
++[SBSMDatabase messagesWithManagedObjects:]
++[SBSMDatabase messageChunksWithManagedObjects:channel:]
++[SBSMDatabase prepareOwnerWithCompletionHandler:]
+___50+[SBSMDatabase prepareOwnerWithCompletionHandler:]_block_invoke
++[SBSMDatabase prepareControllerWithCompletionHandler:]
+___55+[SBSMDatabase prepareControllerWithCompletionHandler:]_block_invoke
++[SBSMDatabase ownerId]
++[SBSMDatabase predicateForOwner]
++[SBSMDatabase sortDescriptorsOfSucceededMessages]
++[SBSMDatabase sortDescriptorsOfFailedMessages]
+___acsendingOrderedJSONString_block_invoke
++[SBSMDatabase upsertChannelOffset:channelUrl:completionHandler:]
+___65+[SBSMDatabase upsertChannelOffset:channelUrl:completionHandler:]_block_invoke
++[SBSMDatabase fetchChannelMessageOffsetWithChannelUrl:completionHandler:]
+___74+[SBSMDatabase fetchChannelMessageOffsetWithChannelUrl:completionHandler:]_block_invoke
+-[SBSMDatabase queue]
+-[SBSMDatabase setQueue:]
+-[SBSMDatabase .cxx_destruct]
+_sharedInsatnce.instance
+_sharedInsatnce.onceToken
+___block_descriptor_24_e4_20r_e31_v8?0"SBSMDatabaseController"4l
+___block_descriptor_24_e4_20r_e5_v4?0l
+___block_descriptor_32_e4_20bs24s_e17_v8?0"SBDError"4l
+___block_descriptor_36_e4_20bs24s32r_e5_v4?0l
+___block_descriptor_28_e4_20bs_e17_v8?0"SBDError"4l
+___block_descriptor_32_e4_20bs28r_e5_v4?0l
+_OBJC_CLASSLIST_REFERENCES_$_.85
+_OBJC_CLASSLIST_REFERENCES_$_.90
+_OBJC_CLASSLIST_REFERENCES_$_.101
+_OBJC_SELECTOR_REFERENCES_.109
+_OBJC_SELECTOR_REFERENCES_.111
+_OBJC_SELECTOR_REFERENCES_.113
+___block_descriptor_28_e4_20bs24r_e59_v16?0"SBDGroupChannelListQuery"4"NSString"8"SBDError"12l
+_OBJC_CLASSLIST_REFERENCES_$_.144
+_OBJC_CLASSLIST_REFERENCES_$_.149
+___block_descriptor_32_e4_20s24bs_e17_v8?0"SBDError"4l
+_OBJC_CLASSLIST_REFERENCES_$_.154
+_OBJC_CLASSLIST_REFERENCES_$_.155
+___block_descriptor_36_e4_20bs24s32s_e17_v8?0"SBDError"4l
+___block_descriptor_40_e4_20bs24s32s36r_e5_v4?0l
+_OBJC_CLASSLIST_REFERENCES_$_.176
+_OBJC_CLASSLIST_REFERENCES_$_.181
+_OBJC_CLASSLIST_REFERENCES_$_.194
+_OBJC_SELECTOR_REFERENCES_.206
+_OBJC_SELECTOR_REFERENCES_.208
+_OBJC_CLASSLIST_REFERENCES_$_.219
+_OBJC_SELECTOR_REFERENCES_.221
+_OBJC_SELECTOR_REFERENCES_.231
+___block_descriptor_38_e4_20bs24s28s_e17_v8?0"SBDError"4l
+___block_descriptor_42_e4_20bs24s28s36r_e5_v4?0l
+_OBJC_CLASSLIST_REFERENCES_$_.237
+_OBJC_SELECTOR_REFERENCES_.239
+_OBJC_SELECTOR_REFERENCES_.241
+_OBJC_SELECTOR_REFERENCES_.243
+_OBJC_SELECTOR_REFERENCES_.245
+_OBJC_CLASSLIST_REFERENCES_$_.248
+_OBJC_CLASSLIST_REFERENCES_$_.255
+___block_descriptor_33_e4_20bs24s_e17_v8?0"SBDError"4l
+___block_descriptor_37_e4_20bs24s32r_e5_v4?0l
+_OBJC_CLASSLIST_REFERENCES_$_.257
+_OBJC_SELECTOR_REFERENCES_.259
+_OBJC_SELECTOR_REFERENCES_.261
+_OBJC_CLASSLIST_REFERENCES_$_.262
+_OBJC_SELECTOR_REFERENCES_.270
+_OBJC_SELECTOR_REFERENCES_.272
+_OBJC_SELECTOR_REFERENCES_.274
+___block_descriptor_28_e4_20bs24r_e32_v20?0"NSArray"4q8"SBDError"16l
+_OBJC_SELECTOR_REFERENCES_.280
+_OBJC_SELECTOR_REFERENCES_.282
+_OBJC_SELECTOR_REFERENCES_.284
+_OBJC_CLASSLIST_REFERENCES_$_.285
+_OBJC_SELECTOR_REFERENCES_.287
+_OBJC_CLASSLIST_REFERENCES_$_.308
+_OBJC_SELECTOR_REFERENCES_.310
+_OBJC_SELECTOR_REFERENCES_.314
+_OBJC_SELECTOR_REFERENCES_.316
+___block_descriptor_36_e4_20bs24s28s_e17_v8?0"SBDError"4l
+___block_descriptor_40_e4_20bs24s28s36r_e5_v4?0l
+_OBJC_CLASSLIST_REFERENCES_$_.318
+_OBJC_SELECTOR_REFERENCES_.320
+___block_descriptor_44_e8_20bs36s_e17_v8?0"SBDError"4l
+___block_descriptor_48_e8_20bs36s44r_e5_v4?0l
+_OBJC_CLASSLIST_REFERENCES_$_.329
+___block_descriptor_28_e4_20bs24r_e36_v12?0"SBDBaseMessage"4"SBDError"8l
+___block_descriptor_52_e8_20bs44s_e17_v8?0"SBDError"4l
+___block_descriptor_56_e8_20bs44s52r_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.349
+___block_descriptor_20_e10_i12?048l
+___block_literal_global.355
+___block_literal_global.356
+___block_descriptor_36_e4_20bs24s_e17_v8?0"SBDError"4l
+___block_descriptor_40_e4_20bs24s32r_e5_v4?0l
+___block_descriptor_40_e4_20s24s32s36bs_e17_v8?0"SBDError"4l
+___block_descriptor_36_e4_20s24s32bs_e17_v8?0"SBDError"4l
+___block_descriptor_28_e4_20bs24r_e30_v12?0"NSString"4"SBDError"8l
+___block_descriptor_60_e8_20bs44s48s52s_e17_v8?0"SBDError"4l
+___block_descriptor_64_e8_20bs44s48s52s60r_e5_v4?0l
+___block_descriptor_36_e4_20bs24s32r_e17_v8?0"SBDError"4l
+_OBJC_SELECTOR_REFERENCES_.398
+_OBJC_SELECTOR_REFERENCES_.400
+_OBJC_SELECTOR_REFERENCES_.404
+___block_descriptor_36_e4_20s24s28r32r_e5_v4?0l
+_OBJC_CLASSLIST_REFERENCES_$_.405
+_OBJC_CLASSLIST_REFERENCES_$_.408
+_OBJC_CLASSLIST_REFERENCES_$_.409
+_OBJC_CLASSLIST_REFERENCES_$_.416
+___block_descriptor_20_e30_i12?0"NSString"4"NSString"8l
+___block_literal_global.424
+_OBJC_CLASSLIST_REFERENCES_$_.429
+_OBJC_SELECTOR_REFERENCES_.431
+_OBJC_SELECTOR_REFERENCES_.433
+_OBJC_SELECTOR_REFERENCES_.435
+__OBJC_$_CLASS_METHODS_SBSMDatabase
+__OBJC_METACLASS_RO_$_SBSMDatabase
+__OBJC_$_INSTANCE_METHODS_SBSMDatabase
+_OBJC_IVAR_$_SBSMDatabase._queue
+__OBJC_$_INSTANCE_VARIABLES_SBSMDatabase
+__OBJC_$_PROP_LIST_SBSMDatabase
+__OBJC_CLASS_RO_$_SBSMDatabase
+/Users/jedgyeong/git/syncmanager-ios/SyncManager/DataProvider/SBSMDatabase.m
+SyncManager/DataProvider/SBSMDatabase.m
+__74+[SBSMDatabase fetchChannelMessageOffsetWithChannelUrl:completionHandler:]_block_invoke
+__65+[SBSMDatabase upsertChannelOffset:channelUrl:completionHandler:]_block_invoke
+__acsendingOrderedJSONString_block_invoke
+__55+[SBSMDatabase prepareControllerWithCompletionHandler:]_block_invoke
+__50+[SBSMDatabase prepareOwnerWithCompletionHandler:]_block_invoke
+__49+[SBSMDatabase deleteContext:fetchRequest:error:]_block_invoke
+__destroy_helper_block_e4_20s24s28r32r
+__copy_helper_block_e4_20s24s28r32r
+__50+[SBSMDatabase executeContext:fetchRequest:error:]_block_invoke
+__34+[SBSMDatabase saveContext:error:]_block_invoke
+__53+[SBSMDatabase deleteAllChunksWithCompletionHandler:]_block_invoke_3
+__53+[SBSMDatabase deleteAllChunksWithCompletionHandler:]_block_invoke_2
+__53+[SBSMDatabase deleteAllChunksWithCompletionHandler:]_block_invoke
+__47+[SBSMDatabase deleteChunks:completionHandler:]_block_invoke_3
+__47+[SBSMDatabase deleteChunks:completionHandler:]_block_invoke_2
+__47+[SBSMDatabase deleteChunks:completionHandler:]_block_invoke
+__46+[SBSMDatabase updateChunk:completionHandler:]_block_invoke_3
+__46+[SBSMDatabase updateChunk:completionHandler:]_block_invoke_2
+__46+[SBSMDatabase updateChunk:completionHandler:]_block_invoke
+__71+[SBSMDatabase fetchChunksEndAtBeforeOffset:channel:completionHandler:]_block_invoke_3
+__71+[SBSMDatabase fetchChunksEndAtBeforeOffset:channel:completionHandler:]_block_invoke_2
+__71+[SBSMDatabase fetchChunksEndAtBeforeOffset:channel:completionHandler:]_block_invoke
+__74+[SBSMDatabase fetchChunksWithChannel:includeTimestamp:completionHandler:]_block_invoke_3
+__74+[SBSMDatabase fetchChunksWithChannel:includeTimestamp:completionHandler:]_block_invoke_2
+__74+[SBSMDatabase fetchChunksWithChannel:includeTimestamp:completionHandler:]_block_invoke
+__destroy_helper_block_e8_20s44s48s52s60r
+__copy_helper_block_e8_20b44s48s52s60r
+__destroy_helper_block_e8_20s44s48s52s
+__copy_helper_block_e8_20b44s48s52s
+__89+[SBSMDatabase createChunkWithChunkId:channelUrl:startAt:endAt:filter:completionHandler:]_block_invoke_3
+__89+[SBSMDatabase createChunkWithChunkId:channelUrl:startAt:endAt:filter:completionHandler:]_block_invoke_2
+__89+[SBSMDatabase createChunkWithChunkId:channelUrl:startAt:endAt:filter:completionHandler:]_block_invoke
+__69+[SBSMDatabase deleteAllMessageChangeLogTokensWithCompletionHandler:]_block_invoke_3
+__69+[SBSMDatabase deleteAllMessageChangeLogTokensWithCompletionHandler:]_block_invoke_2
+__69+[SBSMDatabase deleteAllMessageChangeLogTokensWithCompletionHandler:]_block_invoke
+__75+[SBSMDatabase fetchMessageChangeLogTokenWithChannelUrl:completionHandler:]_block_invoke.369
+__75+[SBSMDatabase fetchMessageChangeLogTokenWithChannelUrl:completionHandler:]_block_invoke_2
+__75+[SBSMDatabase fetchMessageChangeLogTokenWithChannelUrl:completionHandler:]_block_invoke
+__73+[SBSMDatabase upsertMessageChangeLogToken:channelUrl:completionHandler:]_block_invoke_3
+__73+[SBSMDatabase upsertMessageChangeLogToken:channelUrl:completionHandler:]_block_invoke_2
+__73+[SBSMDatabase upsertMessageChangeLogToken:channelUrl:completionHandler:]_block_invoke
+__copy_helper_block_e4_20s24s32b
+__destroy_helper_block_e4_20s24s32s36s
+__copy_helper_block_e4_20s24s32s36b
+__79+[SBSMDatabase deletePendingMessageWithChannelUrl:requestId:completionHandler:]_block_invoke_4
+__79+[SBSMDatabase deletePendingMessageWithChannelUrl:requestId:completionHandler:]_block_invoke_3
+__79+[SBSMDatabase deletePendingMessageWithChannelUrl:requestId:completionHandler:]_block_invoke_2
+__79+[SBSMDatabase deletePendingMessageWithChannelUrl:requestId:completionHandler:]_block_invoke
+__90+[SBSMDatabase resolveAllPendingMessagesAsFailedMessagesWithChannelUrl:completionHandler:]_block_invoke_3
+__90+[SBSMDatabase resolveAllPendingMessagesAsFailedMessagesWithChannelUrl:completionHandler:]_block_invoke_2
+__90+[SBSMDatabase resolveAllPendingMessagesAsFailedMessagesWithChannelUrl:completionHandler:]_block_invoke
+__76+[SBSMDatabase resolvePendingMessagesWithDirection:chunk:completionHandler:]_block_invoke_3
+__76+[SBSMDatabase resolvePendingMessagesWithDirection:chunk:completionHandler:]_block_invoke_2
+__76+[SBSMDatabase resolvePendingMessagesWithDirection:chunk:completionHandler:]_block_invoke
+__81+[SBSMDatabase resolvePendingMessagesWithChunk:syncedMessages:completionHandler:]_block_invoke_5
+__81+[SBSMDatabase resolvePendingMessagesWithChunk:syncedMessages:completionHandler:]_block_invoke_4
+__81+[SBSMDatabase resolvePendingMessagesWithChunk:syncedMessages:completionHandler:]_block_invoke_3
+__81+[SBSMDatabase resolvePendingMessagesWithChunk:syncedMessages:completionHandler:]_block_invoke_2
+__81+[SBSMDatabase resolvePendingMessagesWithChunk:syncedMessages:completionHandler:]_block_invoke
+__69+[SBSMDatabase fetchPendingMessagesWithChannelUrl:completionHandler:]_block_invoke_3
+__69+[SBSMDatabase fetchPendingMessagesWithChannelUrl:completionHandler:]_block_invoke_2
+__69+[SBSMDatabase fetchPendingMessagesWithChannelUrl:completionHandler:]_block_invoke
+__destroy_helper_block_e8_20s44s52r
+__copy_helper_block_e8_20b44s52r
+__destroy_helper_block_e8_20s44s
+__copy_helper_block_e8_20b44s
+__69+[SBSMDatabase upsertPendingMessage:startAt:endAt:completionHandler:]_block_invoke.335
+__69+[SBSMDatabase upsertPendingMessage:startAt:endAt:completionHandler:]_block_invoke_2
+__69+[SBSMDatabase upsertPendingMessage:startAt:endAt:completionHandler:]_block_invoke
+__83+[SBSMDatabase setPendingMessagesEndAtToLoginTimeWithChannelUrl:completionHandler:]_block_invoke_3
+__83+[SBSMDatabase setPendingMessagesEndAtToLoginTimeWithChannelUrl:completionHandler:]_block_invoke_2
+__83+[SBSMDatabase setPendingMessagesEndAtToLoginTimeWithChannelUrl:completionHandler:]_block_invoke
+__destroy_helper_block_e8_20s36s44r
+__copy_helper_block_e8_20b36s44r
+__72+[SBSMDatabase removeMessagesBeforeOffset:channelUrl:completionHandler:]_block_invoke_3
+__72+[SBSMDatabase removeMessagesBeforeOffset:channelUrl:completionHandler:]_block_invoke_2
+__72+[SBSMDatabase removeMessagesBeforeOffset:channelUrl:completionHandler:]_block_invoke
+__55+[SBSMDatabase deleteAllMessagesWithCompletionHandler:]_block_invoke_3
+__55+[SBSMDatabase deleteAllMessagesWithCompletionHandler:]_block_invoke_2
+__55+[SBSMDatabase deleteAllMessagesWithCompletionHandler:]_block_invoke
+__80+[SBSMDatabase deleteFailedMessagesWithRequestIds:channelUrl:completionHandler:]_block_invoke_3
+__80+[SBSMDatabase deleteFailedMessagesWithRequestIds:channelUrl:completionHandler:]_block_invoke_2
+__80+[SBSMDatabase deleteFailedMessagesWithRequestIds:channelUrl:completionHandler:]_block_invoke
+__83+[SBSMDatabase deleteSucceededMessagesWithMessageIds:channelUrl:completionHandler:]_block_invoke_3
+__83+[SBSMDatabase deleteSucceededMessagesWithMessageIds:channelUrl:completionHandler:]_block_invoke_2
+__83+[SBSMDatabase deleteSucceededMessagesWithMessageIds:channelUrl:completionHandler:]_block_invoke
+__68+[SBSMDatabase fetchFailedMessagesWithChannelUrl:completionHandler:]_block_invoke_3
+__68+[SBSMDatabase fetchFailedMessagesWithChannelUrl:completionHandler:]_block_invoke_2
+__68+[SBSMDatabase fetchFailedMessagesWithChannelUrl:completionHandler:]_block_invoke
+__78+[SBSMDatabase fetchResendableFailedMessagesWithChannelUrl:completionHandler:]_block_invoke_3
+__78+[SBSMDatabase fetchResendableFailedMessagesWithChannelUrl:completionHandler:]_block_invoke_2
+__78+[SBSMDatabase fetchResendableFailedMessagesWithChannelUrl:completionHandler:]_block_invoke
+__70+[SBSMDatabase fetchSucceededMessagesWithPredicate:completionHandler:]_block_invoke_3
+__70+[SBSMDatabase fetchSucceededMessagesWithPredicate:completionHandler:]_block_invoke_2
+__70+[SBSMDatabase fetchSucceededMessagesWithPredicate:completionHandler:]_block_invoke
+__65+[SBSMDatabase removeExpiredFailedMessagesWithCompletionHandler:]_block_invoke.276
+__65+[SBSMDatabase removeExpiredFailedMessagesWithCompletionHandler:]_block_invoke_2
+__65+[SBSMDatabase removeExpiredFailedMessagesWithCompletionHandler:]_block_invoke
+__79+[SBSMDatabase removeFailedMessagesByMaxCountWithChannelUrl:completionHandler:]_block_invoke_3
+__79+[SBSMDatabase removeFailedMessagesByMaxCountWithChannelUrl:completionHandler:]_block_invoke_2
+__79+[SBSMDatabase removeFailedMessagesByMaxCountWithChannelUrl:completionHandler:]_block_invoke
+__74+[SBSMDatabase upsertFailedMessage:automaticResendable:completionHandler:]_block_invoke_3
+__74+[SBSMDatabase upsertFailedMessage:automaticResendable:completionHandler:]_block_invoke_2
+__74+[SBSMDatabase upsertFailedMessage:automaticResendable:completionHandler:]_block_invoke
+__destroy_helper_block_e4_20s24s28s36r
+__copy_helper_block_e4_20b24s28s36r
+__90+[SBSMDatabase upsertSucceededMessages:channelUrl:synchronized:visible:completionHandler:]_block_invoke_3
+__90+[SBSMDatabase upsertSucceededMessages:channelUrl:synchronized:visible:completionHandler:]_block_invoke_2
+__90+[SBSMDatabase upsertSucceededMessages:channelUrl:synchronized:visible:completionHandler:]_block_invoke
+__66+[SBSMDatabase deleteChannelChangeLogTokenWithComppletionHandler:]_block_invoke
+__64+[SBSMDatabase fetchChannelChangeLogTokenWithCompletionHandler:]_block_invoke
+__62+[SBSMDatabase upsertChannelChangeLogToken:completionHandler:]_block_invoke
+__54+[SBSMDatabase deleteAllQueriesWithCompletionHandler:]_block_invoke_3
+__54+[SBSMDatabase deleteAllQueriesWithCompletionHandler:]_block_invoke_2
+__54+[SBSMDatabase deleteAllQueriesWithCompletionHandler:]_block_invoke
+__destroy_helper_block_e4_20s24s32s36r
+__copy_helper_block_e4_20b24s32s36r
+__destroy_helper_block_e4_20s24s32s
+__copy_helper_block_e4_20b24s32s
+__56+[SBSMDatabase upsertQuery:savepoint:completionHandler:]_block_invoke_3
+__56+[SBSMDatabase upsertQuery:savepoint:completionHandler:]_block_invoke_2
+__56+[SBSMDatabase upsertQuery:savepoint:completionHandler:]_block_invoke
+acsendingOrderedJSONString
+__45+[SBSMDatabase fetchQuery:completionHandler:]_block_invoke.127
+__45+[SBSMDatabase fetchQuery:completionHandler:]_block_invoke_2
+__45+[SBSMDatabase fetchQuery:completionHandler:]_block_invoke
+__55+[SBSMDatabase deleteAllChannelsWithCompletionHandler:]_block_invoke_3
+__55+[SBSMDatabase deleteAllChannelsWithCompletionHandler:]_block_invoke_2
+__55+[SBSMDatabase deleteAllChannelsWithCompletionHandler:]_block_invoke
+__52+[SBSMDatabase deleteChannelUrls:completionHandler:]_block_invoke_3
+__52+[SBSMDatabase deleteChannelUrls:completionHandler:]_block_invoke_2
+__52+[SBSMDatabase deleteChannelUrls:completionHandler:]_block_invoke
+__49+[SBSMDatabase upsertChannels:completionHandler:]_block_invoke.79
+__49+[SBSMDatabase upsertChannels:completionHandler:]_block_invoke_2
+__49+[SBSMDatabase upsertChannels:completionHandler:]_block_invoke
+__copy_helper_block_e4_20b28r
+__54+[SBSMDatabase fetchAllChannelsWithCompletionHandler:]_block_invoke.65
+__54+[SBSMDatabase fetchAllChannelsWithCompletionHandler:]_block_invoke_2
+__54+[SBSMDatabase fetchAllChannelsWithCompletionHandler:]_block_invoke
+__destroy_helper_block_e4_20s24s32r
+__copy_helper_block_e4_20b24s32r
+__49+[SBSMDatabase createChannels:completionHandler:]_block_invoke.34
+__49+[SBSMDatabase createChannels:completionHandler:]_block_invoke_2
+__49+[SBSMDatabase createChannels:completionHandler:]_block_invoke
+__21+[SBSMDatabase setup]_block_invoke_2
+__21+[SBSMDatabase setup]_block_invoke
+__30+[SBSMDatabase sharedInsatnce]_block_invoke
+-[SBSMMessageContainer fetchSucceededMessagesFrom:direction:limit:filter:completionHandler:]
+-[SBSMMessageContainer fetchSucceededMessagesFrom:to:direction:limit:filter:completionHandler:]
+___95-[SBSMMessageContainer fetchSucceededMessagesFrom:to:direction:limit:filter:completionHandler:]_block_invoke
+-[SBSMMessageContainer subMessagesOfMessages:limit:inDirection:]
+-[SBSMMessageContainer subMessagesOfMessages:chunk:limit:inDirection:]
+___70-[SBSMMessageContainer subMessagesOfMessages:chunk:limit:inDirection:]_block_invoke
+___70-[SBSMMessageContainer subMessagesOfMessages:chunk:limit:inDirection:]_block_invoke.22
+-[SBSMMessageContainer fetchVisibleSucceededMessagesWithOffset:chunk:direction:fetchLimit:completionHandler:]
+___109-[SBSMMessageContainer fetchVisibleSucceededMessagesWithOffset:chunk:direction:fetchLimit:completionHandler:]_block_invoke
+___109-[SBSMMessageContainer fetchVisibleSucceededMessagesWithOffset:chunk:direction:fetchLimit:completionHandler:]_block_invoke_2
+___109-[SBSMMessageContainer fetchVisibleSucceededMessagesWithOffset:chunk:direction:fetchLimit:completionHandler:]_block_invoke_3
+-[SBSMMessageContainer upsertSynchronizedSucceededMessages:completionHandler:]
+-[SBSMMessageContainer upsertEventMessage:completionHandler:]
+-[SBSMMessageContainer removeEventMessageWithMessageId:channelUrl:completionHandler:]
+-[SBSMMessageContainer updateChangeLogsMessagesWithChannelUrl:updatedMessages:deletedMessageIds:completionHandler:]
+___115-[SBSMMessageContainer updateChangeLogsMessagesWithChannelUrl:updatedMessages:deletedMessageIds:completionHandler:]_block_invoke
+___115-[SBSMMessageContainer updateChangeLogsMessagesWithChannelUrl:updatedMessages:deletedMessageIds:completionHandler:]_block_invoke_2
+-[SBSMMessageContainer removeAllMessages]
+-[SBSMMessageContainer fetchFailedMessagesWithChannelUrl:completionHandler:]
+-[SBSMMessageContainer fetchResendableFailedMessagesWithChannelUrl:completionHandler:]
+-[SBSMMessageContainer upsertFailedMessage:automaticResendable:completionHandler:]
+-[SBSMMessageContainer removeFailedMessagesByMaxCountWithChannelUrl:completionHandler:]
+-[SBSMMessageContainer removeExpiredFailedMessagesWithCompletionHandler:]
+-[SBSMMessageContainer removeFailedMessagesRequestIds:channelUrl:completionHandler:]
+-[SBSMMessageContainer removeMessagesBeforeOffset:channelUrl:completionHandler:]
+-[SBSMMessageContainer setPendingMessagesEndAtToLoginTimeWithChannelUrl:completionHandler:]
+-[SBSMMessageContainer upsertPendingMessage:startAt:endAt:completionHandler:]
+-[SBSMMessageContainer fetchPendingMessagesWithChannelUrl:completionHandler:]
+-[SBSMMessageContainer resolvePendingMessagesWithChunk:syncedMessages:completionHandler:]
+-[SBSMMessageContainer resolvePendingMessagesWithDirection:chunk:completionHandler:]
+-[SBSMMessageContainer resolveAllPendingMessagesAsFailedMessagesWithChannelUrl:completionHandler:]
+-[SBSMMessageContainer deletePendingMessageWithChannelUrl:requestId:completionHandler:]
+_OBJC_CLASSLIST_REFERENCES_$_.5
+___block_descriptor_36_e4_20bs24s_e29_v12?0"NSArray"4"SBDError"8l
+___block_descriptor_28_e4_20s24r_e30_v16?0"SBDBaseMessage"4I8^c12l
+___block_descriptor_40_e4_20bs24s28s_e29_v12?0"NSArray"4"SBDError"8l
+___block_descriptor_36_e4_20s24s28bs32r_e41_v16?0"NSArray"4"NSArray"8"SBDError"12l
+__OBJC_METACLASS_RO_$_SBSMMessageContainer
+__OBJC_$_INSTANCE_METHODS_SBSMMessageContainer
+__OBJC_CLASS_RO_$_SBSMMessageContainer
+/Users/jedgyeong/git/syncmanager-ios/SyncManager/Message/SBSMMessageContainer.m
+SyncManager/Message/SBSMMessageContainer.m
+__115-[SBSMMessageContainer updateChangeLogsMessagesWithChannelUrl:updatedMessages:deletedMessageIds:completionHandler:]_block_invoke_2
+__115-[SBSMMessageContainer updateChangeLogsMessagesWithChannelUrl:updatedMessages:deletedMessageIds:completionHandler:]_block_invoke
+__109-[SBSMMessageContainer fetchVisibleSucceededMessagesWithOffset:chunk:direction:fetchLimit:completionHandler:]_block_invoke_3
+__109-[SBSMMessageContainer fetchVisibleSucceededMessagesWithOffset:chunk:direction:fetchLimit:completionHandler:]_block_invoke_2
+__109-[SBSMMessageContainer fetchVisibleSucceededMessagesWithOffset:chunk:direction:fetchLimit:completionHandler:]_block_invoke
+__70-[SBSMMessageContainer subMessagesOfMessages:chunk:limit:inDirection:]_block_invoke.22
+__70-[SBSMMessageContainer subMessagesOfMessages:chunk:limit:inDirection:]_block_invoke
+__95-[SBSMMessageContainer fetchSucceededMessagesFrom:to:direction:limit:filter:completionHandler:]_block_invoke
+__OBJC_METACLASS_RO_$_SBSMUtils
+__OBJC_CLASS_RO_$_SBSMUtils
+/Users/jedgyeong/git/syncmanager-ios/SyncManager/Utils/SBSMUtils.m
+/Users/jedgyeong/Library/Developer/Xcode/DerivedData/SendBirdSyncManager-ekvtjsxqhssoucgflwqhscpuwooi/Build/Intermediates.noindex/ArchiveIntermediates/SendBirdSyncManager/IntermediateBuildFilesPath/SendBirdSyncManager.build/Release-iphoneos/SendBirdSyncManager.build/DerivedSources/SendBirdSyncManager_vers.c
