@@ -1,5 +1,8 @@
 # Change Log
 
+### v1.1.42 (Dec 22, 2021)
+* Supports the latest version of Sendbird Chat.
+
 ### v1.1.41 (Nov 5, 2021)
 * Fixed a bug when the channel is hidden.
 
