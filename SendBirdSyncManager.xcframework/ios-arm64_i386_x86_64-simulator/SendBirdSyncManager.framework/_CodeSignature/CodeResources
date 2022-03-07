@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/SBDBaseMessage+SyncManager.h</key>
 		<data>
-		iAk1H43pyiAmHIUTCU7M9wKsgKM=
+		aQGPq8okkJKugandbWooW0wwZgM=
 		</data>
 		<key>Headers/SBDGroupChannel+SyncManager.h</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		WIqoQduU9S+fFg6qeA6z5CJ2sAc=
+		vv6KYo3FPoF5Drbg86mAA9gr8t8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -110,11 +110,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iAk1H43pyiAmHIUTCU7M9wKsgKM=
+			aQGPq8okkJKugandbWooW0wwZgM=
 			</data>
 			<key>hash2</key>
 			<data>
-			pe5qP96mtywDcoeJyCvo3eixR8wcbIpKVeA3k0oatng=
+			4uChfvlpsdI7A1F9QUZex6Xqejqu7OrqObrIkjAbrRw=
 			</data>
 		</dict>
 		<key>Headers/SBDGroupChannel+SyncManager.h</key>

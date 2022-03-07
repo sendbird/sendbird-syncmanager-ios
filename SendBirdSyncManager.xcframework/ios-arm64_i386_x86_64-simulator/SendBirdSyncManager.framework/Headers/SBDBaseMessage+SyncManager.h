@@ -12,6 +12,7 @@
 @interface SBDBaseMessage (SyncManager) <SBSMObject>
 
 - (BOOL)isMyMessage;
-- (SBDMessageRequestState)requestState;
+- (SBDMessageRequestState)requestState
+DEPRECATED_ATTRIBUTE;
 
 @end
