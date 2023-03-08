@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Syncmanager for iOS Public
+  description: Public repo used for releasing Syncmanager for iOS
+  annotations:
+    github.com/project-slug: sendbird/sendbird-syncmanager-ios
+spec:
+  type: library
+  lifecycle: production
+  owner: dep-client-platform
+  system: sendbird-chat
